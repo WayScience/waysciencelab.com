@@ -6,7 +6,7 @@ description: We are compassionate biologists using biomedical data science, mach
 logo: images/logo.svg
 header: images/background.jpg
 footer: images/background.jpg
-baseurl: waysciencelab.com
+baseurl: ""
 
 # site social media and other links
 links:
