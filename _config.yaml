@@ -1,8 +1,8 @@
 ### basic settings
 
 # site properties and page defaults
-title: Lab Website Template
-description: An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.
+title: Welcome to the Way Lab
+description: We are compassionate biologists using biomedical data science, machine learning, and software engineering to reduce human suffering.
 logo: images/logo.svg
 header: images/background.jpg
 footer: images/background.jpg
@@ -10,12 +10,11 @@ baseurl: /lab-website-template
 
 # site social media and other links
 links:
-  email: jane.smith@your-lab.com
-  google-scholar: Jane Smith
-  github: your-lab
-  twitter: YourLabHandle
-  instagram: YourLabHandle
-  youtube: YourLabChannel
+  email: gregory.way@gmail.com
+  google-scholar: Gregory P. Way
+  github: https://github.com/WayScience
+  twitter: @gwayscience
+  linkedin: https://www.linkedin.com/in/gregorypway/
 
 # automatic citations
 auto-cite:
