@@ -12,9 +12,9 @@ baseurl: /lab-website-template
 links:
   email: gregory.way@gmail.com
   google-scholar: Gregory P. Way
-  github: https://github.com/WayScience
-  twitter: @gwayscience
-  linkedin: https://www.linkedin.com/in/gregorypway/
+  github: WayScience
+  twitter: gwayscience
+  linkedin: gregorypway
 
 # automatic citations
 auto-cite:
