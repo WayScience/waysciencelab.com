@@ -1,7 +1,6 @@
 ---
 name: Gregory Way
 image: images/team/greg_way.png
-description: Principal Investigator
 role: pi
 aliases:
   - Gregory P. Way
