@@ -20,7 +20,7 @@ Click around to learn more about the lab's research vision and focus!
   include link.html
   type="github"
   icon=""
-  text="Website created by"
+  text="Website template"
   link="wayscience/lab-website-template"
   style="button"
 %}
