@@ -53,8 +53,10 @@ We focus on extracting value from biomedical image data, and are currently build
 %}
 
 {% capture text %}
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+We also release data and software to enable reproducible computational biology analyses and workflows.
+Data are important resources that scientists can use to answer multiple questions.
+All of our software is open source, and we encourage active learning through meaningful code contributions.
+Please cite any data or software you use!
 
 [See our resources &nbsp;→](resources)
 {:.center}
@@ -69,7 +71,8 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 %}
 
 {% capture text %}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We are recruiting!
+To see your face in this page, dare to reach out!
 
 [Meet our team &nbsp;→](team)
 {:.center}
