@@ -37,7 +37,7 @@ Click around to learn more about the lab's vision and focus!
 
 {% capture text %}
 We use biomedical data science, software, and machine learning to enhance biological discovery and to improve the human condition.
-We develop data-driven approaches to understand disease mechanisms, to personalize treatment strategies, and to reduce human suffering.
+We develop data-driven methods and approaches to understand disease mechanisms, to personalize treatment strategies, and to reduce human suffering.
 We focus on extracting value from biomedical image data, and are currently building the infrastructure required to establish morphology as a systems biology measurement.
 
 [See what we've published &nbsp;→](research)
