@@ -30,4 +30,5 @@ jobs:
         with:
           file_pattern: "_data/citations.yaml"
           commit_message: "Generate citations"
+          branch: ${{ github.head_ref }}
           push_options: --force
