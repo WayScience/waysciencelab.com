@@ -30,7 +30,7 @@ He is an optimist who believes that the next generation of biological discoverie
 
 Before founding the Way Lab in 2021, Greg earned a B.S. in Biology and Environmental Studies from [The College of New Jersey](https://tcnj.edu/) in 2011, and an M.S. in Biology from [Saint Joseph's University](https://www.sju.edu/) in 2014.
 In 2018, he earned his Ph.D. in [Genomics and Computational Biology](https://www.med.upenn.edu/gcb/) from [The University of Pennsylvania](https://www.upenn.edu/) for his research studying applied machine learning to genomic and transcriptomic data.
-He later moved to the [Broad Institute of Harvard and MIT](https://www.broadinstitute.org/) where he worked as a postdoc in the [Imaging Platform](https://www.broadinstitute.org/imaging) from 2018-2021 studying image-based profiling, high-throughput assay development, software engineering, and drug discovery.
+He later moved to the [Broad Institute of MIT and Harvard](https://www.broadinstitute.org/) where he worked as a postdoc in the [Imaging Platform](https://www.broadinstitute.org/imaging) from 2018-2021 studying image-based profiling, high-throughput assay development, software engineering, and drug discovery.
 Greg's overarching mission is to reduce human suffering through biomedical data science methods and applications.
 
 When not in the lab, he is probably either hanging out with family and friends, playing with his two cats, hiking in the woods, watching the Mets lose, or sipping an IPA.
