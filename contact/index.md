@@ -2,23 +2,22 @@
 title: Contact
 nav:
   order: 5
-  tooltip: Email, address, and location
+  tooltip: How to get in touch with us
 ---
 
 # <i class="fas fa-envelope"></i>Contact
-
-Our lab is part of the [Department of Metaphor](), at the school of [Whimsy and Caprice]().
-We are located on the 13th floor of the [Center for Wit and Sagacity]().
+Our lab is part of the [Department of [Biochemistry and Molecular Genetics](https://medschool.cuanschutz.edu/biochemistry) within the [Center for Health AI](https://medschool.cuanschutz.edu/ai) in the [School of Medicine at University of Colorado Anschutz](https://medschool.cuanschutz.edu/).
 
 {%
   include link.html
   type="email"
   icon=""
-  text="scrooge@mcduck.com"
+  text="gregory.way@gmail.com"
   tooltip=""
-  link="scrooge@mcduck.com"
+  link="gregory.way@gmail.com"
   style="button"
 %}
+<!---
 {%
   include link.html
   type="phone"
@@ -28,13 +27,14 @@ We are located on the 13th floor of the [Center for Wit and Sagacity]().
   link="+1-555-867-5309"
   style="button"
 %}
+-->
 {%
   include link.html
   type="address"
   icon=""
   text="Google Maps"
   tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps/place/That+St+%26+The+Other+St,+Porters+Lake,+NS+B3E+1H3,+Canada/@44.7389237,-63.3033296,20.78z/data=!4m5!3m4!1s0x4b5a31023bb02565:0xb9505694e83a53d7!8m2!3d44.7389353!4d-63.3030828"
+  link="https://www.google.com/maps/place/Fitzsimons+Building+-+CU+Anschutz+Medical+Campus/@39.7451809,-104.8399027,17z/data=!3m1!4b1!4m5!3m4!1s0x876c634e5898792f:0xa7ca71d89232e343!8m2!3d39.7451768!4d-104.8377087"
   style="button"
 %}
 {:.center}
@@ -43,6 +43,7 @@ We are located on the 13th floor of the [Center for Wit and Sagacity]().
 
 ### <i class="fas fa-mail-bulk"></i>Mailing Address
 
+<!---
 That St & The Other St  
 Porters Lake, NS B3E 1H3  
 Canada
@@ -63,3 +64,4 @@ Canada
 %}
 {% endcapture %}
 {% include two-col.html col1=col1 col2=col2 %}
+-->
