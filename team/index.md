@@ -11,7 +11,7 @@ We welcome, embrace, and are strengthened by diverse views and experiences of al
 Our lab is comprised of compassionate scientists who foster a welcoming, inclusive, and healthy environment.
 We define success individually for each team member, and we challenge each other to develop and pursue individual passions.
 
-We are currently hiring several positions!
+We are currently hiring several positions.
 
 {% include section.html %}
 

@@ -5,9 +5,8 @@ title: Home
 # Biomedical data science goes "Boink"!
 
 Welcome to the Way Lab at [The University of Colorado Anschutz](https://www.cuanschutz.edu/).
-Take your shoes off if you'd like and come on in!
 We are currently hiring curious, compassionate, daring, and meticulous scientists to lead the next generation of biomedical research.
-Click around to learn more about the lab's vision and focus!
+Click around to learn more about the lab's research vision and focus!
 
 {%
   include link.html
