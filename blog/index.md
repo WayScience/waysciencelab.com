@@ -2,11 +2,12 @@
 title: Blog
 nav:
   order: 4
-  tooltip: Musings and miscellany
+  tooltip: Coming soon
 ---
 
-# <i class="fas fa-feather-alt"></i>Blog
+# <i class="fas fa-feather-alt"></i>Blog [Coming soon]
 
+<!---
 {% include section.html %}
 
 {% include search-info.html %}
@@ -14,6 +15,7 @@ nav:
 {% include list.html data="posts" component="post-excerpt" %}
 
 {% include section.html %}
+-->
 
 ## News
 
