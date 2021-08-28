@@ -2,25 +2,27 @@
 title: Home
 ---
 
-# Your Lab Slogan
+# Biomedical data science goes boink!
 
-[Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/), with automatic citations, GitHub tag imports, pre-built components, and more.
-Spend less time reinventing the wheel, and more time running your lab.
-  
+Welcome to the Way Lab at [The University of Colorado Anschutz](https://www.cuanschutz.edu/).
+Come on in!
+We are currently hiring curious, compassionate, daring, and meticulous scientists to lead the next generation of biomedical research.
+Click around to learn more about the lab's focus!
+
 {%
   include link.html
   type="github"
   icon=""
-  text="See the template on GitHub"
-  link="greenelab/lab-website-template"
+  text="See our open science projects"
+  link="wayscience/lab-website-template"
   style="button"
 %}
 {%
   include link.html
-  type="docs"
+  type="github"
   icon=""
-  text="See the documentation"
-  link="https://github.com/greenelab/lab-website-template/wiki"
+  text="Website created by"
+  link="wayscience"
   style="button"
 %}
 {:.center}
