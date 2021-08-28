@@ -2,19 +2,19 @@
 title: Home
 ---
 
-# Biomedical data science goes boink!
+# Biomedical data science goes "Boink"!
 
 Welcome to the Way Lab at [The University of Colorado Anschutz](https://www.cuanschutz.edu/).
-Come on in!
+Take your shoes off if you'd like and come on in!
 We are currently hiring curious, compassionate, daring, and meticulous scientists to lead the next generation of biomedical research.
-Click around to learn more about the lab's focus!
+Click around to learn more about the lab's vision and focus!
 
 {%
   include link.html
   type="github"
   icon=""
   text="See our open science projects"
-  link="wayscience/lab-website-template"
+  link="wayscience"
   style="button"
 %}
 {%
@@ -22,7 +22,7 @@ Click around to learn more about the lab's focus!
   type="github"
   icon=""
   text="Website created by"
-  link="wayscience"
+  link="wayscience/lab-website-template"
   style="button"
 %}
 {:.center}
@@ -36,8 +36,9 @@ Click around to learn more about the lab's focus!
 # Highlights
 
 {% capture text %}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We use biomedical data science, software, and machine learning to enhance biological discovery and to improve the human condition.
+We develop data-driven approaches to understand disease mechanisms, to personalize treatment strategies, and to reduce human suffering.
+We focus on extracting value from biomedical image data, and are currently building the infrastructure required to establish morphology as a systems biology measurement.
 
 [See what we've published &nbsp;→](research)
 {:.center}
