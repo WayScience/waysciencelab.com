@@ -31,7 +31,6 @@ jobs:
           file_pattern: "_data/citations.yaml"
           commit_message: "Generate citations"
           ref: ${{ github.head_ref }}
-          repository: ${{ github.event.pull_request.base.repo.full_name }}
           branch: ${{ github.head_ref }}
           push_options: --force
       - name: "Run if changes have been detected (bool)"
