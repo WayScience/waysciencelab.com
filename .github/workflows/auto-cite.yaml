@@ -34,10 +34,10 @@ jobs:
           repository: ${{ github.event.pull_request.base.repo.full_name }}
           branch: ${{ github.head_ref }}
           push_options: --force
-        - name: "Run if changes have been detected (bool)"
+      - name: "Run if changes have been detected (bool)"
         if: ${{ steps.commit.outputs.changes_detected }} == 1
         run: echo "Changes!"
 
-        - name: "Run if no changes have been detected (bool)"
+      - name: "Run if no changes have been detected (bool)"
         if: ${{ steps.commit.outputs.changes_detected }} == 0
         run: echo "No Changes!"
