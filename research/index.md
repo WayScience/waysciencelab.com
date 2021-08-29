@@ -15,6 +15,7 @@ We submit preprints of our work and subsequently publish in peer-reviewed journa
 For each project, we also share project-specific github repositories (representing a lab notebook) to facilitate computational reproducibility.
 Biology is messy, but computational biology need not be!
 
+See below for a selection of our recent papers.
 
 {% include section.html %}
 
