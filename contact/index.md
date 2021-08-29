@@ -41,9 +41,9 @@ Our lab is part of the [Department of Biochemistry and Molecular Genetics](https
 
 {% include section.html %}
 
+<!---
 ### <i class="fas fa-mail-bulk"></i>Mailing Address
 
-<!---
 That St & The Other St  
 Porters Lake, NS B3E 1H3  
 Canada
