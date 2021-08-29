@@ -30,13 +30,5 @@ jobs:
         with:
           file_pattern: "_data/citations.yaml"
           commit_message: "Generate citations"
-          ref: ${{ github.head_ref }}
           branch: ${{ github.head_ref }}
           push_options: --force
-      - name: "Run if changes have been detected (bool)"
-        if: ${{ steps.commit.outputs.changes_detected }} == 1
-        run: echo "Changes!"
-
-      - name: "Run if no changes have been detected (bool)"
-        if: ${{ steps.commit.outputs.changes_detected }} == 0
-        run: echo "No Changes!"
