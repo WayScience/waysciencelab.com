@@ -18,14 +18,6 @@ Click around to learn more about the lab's research vision and focus!
   link="wayscience"
   style="button"
 %}
-{%
-  include link.html
-  type="github"
-  icon=""
-  text="Website template"
-  link="wayscience/lab-website-template"
-  style="button"
-%}
 {:.center}
 
 {% include section.html full=true %}
@@ -86,3 +78,13 @@ To see your face in this page, please reach out!
   headline="Our Team"
   text=text
 %}
+
+{%
+  include link.html
+  type="github"
+  icon=""
+  text="Website template"
+  link="wayscience/lab-website-template"
+  style="button"
+%}
+{:.center}
