@@ -1,11 +1,11 @@
 ---
-title: Tools
+title: Resources
 nav:
   order: 2
   tooltip: Coming soon
 ---
 
-# <i class="fas fa-tools"></i>Tools [Coming soon]
+# <i class="fas fa-tools"></i>Resources [Coming soon]
 
 <!---
 {% include search-info.html %}
