@@ -1,34 +1,20 @@
-- name: Cool Dataset
+- name: Pycytominer
   group: featured
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  link: https://github.com/cytomining/pycytominer
+  description: Python package to process image-based profiling readouts
+  repo: cytomining/pycytominer
 
-- name: Cool Package
+- name: BioBombe
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  image: https://raw.githubusercontent.com/greenelab/BioBombe/master/docs/favicon-192x192.png
+  link: https://github.com/greenelab/biobombe
+  description: Maximize biological representations with unsupervised ensembles across different latent space dimensionalities
+  repo: greenelab/biobombe
 
-- name: Cool Tutorial
+- name: LINCS Cell Painting
   group: more
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-
-- name: Cool Web App
-  group: more
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-
-- name: Cool Web Server
-  group: more
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  image: https://raw.githubusercontent.com/broadinstitute/lincs-cell-painting/master/profiles/media/cytominer_workflow.png
+  link: https://github.com/broadinstitute/lincs-cell-painting
+  description: Version-controlled Cell Painting profile data from >10,000 compound perturbations
+  repo: broadinstitute/lincs-cell-painting

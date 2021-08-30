@@ -2,12 +2,11 @@
 title: Resources
 nav:
   order: 2
-  tooltip: Coming soon
+  tooltip: Software and data
 ---
 
-# <i class="fas fa-tools"></i>Resources [Coming soon]
+# <i class="fas fa-tools"></i>Resources
 
-<!---
 {% include search-info.html %}
 
 {% include section.html %}
@@ -21,4 +20,3 @@ nav:
 ## More
 
 {% include list.html component="card" data="tools" filters="group: more" style="small" %}
--->
