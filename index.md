@@ -18,7 +18,6 @@ Click around to learn more about the lab's research vision and focus!
   link="wayscience"
   style="button"
 %}
-{:.center}
 
 {%
   include link.html
