@@ -87,7 +87,7 @@ To see your face in this page, please reach out!
   include feature.html
   image="images/team.jpeg"
   link="team"
-  headline="Meet our team"
+  headline="Our lab team"
   text=text
 %}
 
