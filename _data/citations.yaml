@@ -18,24 +18,24 @@
 - id: arxiv:2104.11364v1
   title: A field guide to cultivating computational biology
   authors:
-  - ' '
-  - ' '
-  - ' '
-  - ' '
-  - ' '
-  - ' '
-  - ' '
-  - ' '
-  - ' '
-  - ' '
-  - ' '
-  - ' '
-  - ' '
-  - ' '
+  - Anne E Carpenter
+  - Casey S Greene
+  - Piero Carnici
+  - Benilton S Carvalho
+  - Michiel de Hoon
+  - Stacey Finley
+  - Kim-Anh Le Cao
+  - Jerry SH Lee
+  - Luigi Marchionni
+  - Suzanne Sindi
+  - Fabian J Theis
+  - Gregory P Way
+  - Jean YH Yang
+  - Elana J Fertig
   publisher: arXiv
   date: '2021-04-23'
   link: https://arxiv.org/abs/2104.11364v1
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Fish_farming_Martinniemi_Oulu_20200713_01.jpg/1599px-Fish_farming_Martinniemi_Oulu_20200713_01.jpg
   tags:
   - open science
 - id: doi:10.1091/mbc.E20-12-0784
@@ -79,7 +79,7 @@
   publisher: Genome Biology
   date: '2020-05-11'
   link: https://doi.org/gg2mjh
-  image: https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs13059-020-02021-3/MediaObjects/13059_2020_2021_Fig6_HTML.png?as=webp
+  image: https://raw.githubusercontent.com/greenelab/BioBombe/master/docs/favicon-192x192.png
   repo: greenelab/biobombe
   extra-links:
   - type: preprint
@@ -93,5 +93,4 @@
   tags:
   - biological representations
   - unsupervised learning
-  - autoencoder
   - cancer
