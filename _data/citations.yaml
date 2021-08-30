@@ -38,6 +38,8 @@
   image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Fish_farming_Martinniemi_Oulu_20200713_01.jpg/1599px-Fish_farming_Martinniemi_Oulu_20200713_01.jpg
   tags:
   - open science
+  - essay
+  - call to action
 - id: doi:10.1091/mbc.E20-12-0784
   title: Predicting cell health phenotypes using image-based morphology profiling
   authors:
@@ -94,3 +96,2744 @@
   - biological representations
   - unsupervised learning
   - cancer
+- id: 10.1101/2021.07.17.452050
+  title: Discovering cellular programs of intrinsic and extrinsic drivers of metabolic
+    traits using LipocyteProfiler
+  authors:
+  - Samantha Laber
+  - Sophie Strobel
+  - Josep-Maria Mercader
+  - Hesam Dashti
+  - Alina Ainbinder
+  - Julius Honecker
+  - Garrett Garborcauskas
+  - David R. Stirling
+  - Aaron Leong
+  - Katherine Figueroa
+  - Nasa Sinnott-Armstrong
+  - Maria Kost-Alimova
+  - Giacomo Deodato
+  - Alycen Harney
+  - Gregory P. Way
+  - Alham Saadat
+  - Sierra Harken
+  - Saskia Reibe-Pal
+  - Hannah Ebert
+  - Yixin Zhang
+  - Virtu Calabuig-Navarro
+  - Elizabeth McGonagle
+  - Adam Stefek
+  - "Jos\xE9e Dupuis"
+  - Beth A. Cimini
+  - Hans Hauner
+  - Miriam S. Udler
+  - Anne E. Carpenter
+  - Jose C. Florez
+  - Cecilia M. Lindgren
+  - Suzanne B. R. Jacobs
+  - Melina Claussnitzer
+  publisher: Cold Spring Harbor Laboratory
+  date: '2021-07-19'
+  link: https://doi.org/gmndmk
+  image: https://www.biorxiv.org/content/biorxiv/early/2021/07/19/2021.07.17.452050/F1.large.jpg
+  tags:
+  - image-based profiling
+  - metabolism
+- id: 10.1038/s41597-020-0458-y
+  title: Epigenomic profiling of neuroblastoma cell lines
+  authors:
+  - Kristen Upton
+  - Apexa Modi
+  - Khushbu Patel
+  - Nathan M. Kendsersky
+  - Karina L. Conkrite
+  - Robyn T. Sussman
+  - Gregory P. Way
+  - Rebecca N. Adams
+  - Gregory I. Sacks
+  - Paolo Fortina
+  - Sharon J. Diskin
+  - John M. Maris
+  - Jo Lynne Rokita
+  publisher: Scientific Data
+  date: '2020-04-14'
+  link: https://doi.org/gmndmm
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41597-020-0458-y/MediaObjects/41597_2020_458_Fig1_HTML.png?as=webp
+  tags:
+  - gene regulation
+  - pediatric cancer
+- id: 10.1186/s40478-019-0803-6
+  title: Immune landscapes associated with different glioblastoma molecular subtypes
+  authors:
+  - Maria Martinez-Lage
+  - Timothy M. Lynch
+  - Yingtao Bi
+  - Carolina Cocito
+  - Gregory P. Way
+  - Sharmistha Pal
+  - Josephine Haller
+  - Rachel E. Yan
+  - Amy Ziober
+  - Aivi Nguyen
+  - Manoj Kandpal
+  - "Donald M. O\u2019Rourke"
+  - Jeffrey P. Greenfield
+  - Casey S. Greene
+  - Ramana V. Davuluri
+  - Nadia Dahmane
+  publisher: Acta Neuropathologica Communications
+  date: '2019-11-29'
+  link: https://doi.org/gg7qrr
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs40478-019-0803-6/MediaObjects/40478_2019_803_Fig1_HTML.png?as=webp
+  repo: greenelab/gbm_immune_validation
+  extra-links:
+  - type: data
+    link: https://doi.org/10.5281/zenodo.195238
+    text: Zenodo archive
+  tags:
+  - gene expression deconvolution
+  - cancer
+  - glioblastoma
+- id: 10.1182/bloodadvances.2019000303
+  title: Integrated phosphoproteomics and transcriptional classifiers reveal hidden
+    RAS signaling dynamics in multiple myeloma
+  authors:
+  - Yu-Hsiu T. Lin
+  - Gregory P. Way
+  - Benjamin G. Barwick
+  - Margarette C. Mariano
+  - Makeba Marcoulis
+  - Ian D. Ferguson
+  - Christoph Driessen
+  - Lawrence H. Boise
+  - Casey S. Greene
+  - Arun P. Wiita
+  publisher: Blood Advances
+  date: '2019-11-12'
+  link: https://doi.org/gg7m56
+  image: https://ash.silverchair-cdn.com/ash/content_public/journal/bloodadvances/3/21/10.1182_bloodadvances.2019000303/6/advancesadv2019000303absf1.png?Expires=1632888317&Signature=gyxBCxLAJuFoJyUnY-Re3Tx7FjQJW3eGp8O5R58Nf9ivPWiKomDxz198mYlFFrCs6t-gu0ROAi9Ka4pdaBM5iltSUr~Ert9N85mYKB3NdQ9VHUXLAb-~4igHfF~azabT~UGLx2g44C3qP3RGw1X45kCm-wcOkGLwppiFdBeO-kB-llMFDPHIUtWz4KCeWPqUyDKKtCyr8A~Ke3pIxXQOMcUNhsBemAiGkbrfaRV2U08OjswvQYVkzacGGVAr7uNwBBiiaTD3EXLYw4JijMZi3bkYcNe5e9zFW2aPQifNun-76wWa4cDmI4XUqi1VOFPATlMdNXbI5JNMkRwyAESfqA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
+  repo: greenelab/multiple-myeloma-classifier
+  extra-links:
+  - type: data
+    link: https://doi.org/10.5281/zenodo.2566059
+    text: Zenodo arhive
+  tags:
+  - NF1
+  - RAS pathway
+  - cancer
+  - multiple myeloma
+- id: 10.1016/j.celrep.2019.09.071
+  title: Genomic Profiling of Childhood Tumor Patient-Derived Xenograft Models to
+    Enable Rational Clinical Trial Design
+  authors:
+  - Jo Lynne Rokita
+  - Komal S. Rathi
+  - Maria F. Cardenas
+  - Kristen A. Upton
+  - Joy Jayaseelan
+  - Katherine L. Cross
+  - Jacob Pfeil
+  - Laura E. Egolf
+  - Gregory P. Way
+  - Alvin Farrel
+  - Nathan M. Kendsersky
+  - Khushbu Patel
+  - Krutika S. Gaonkar
+  - Apexa Modi
+  - Esther R. Berko
+  - Gonzalo Lopez
+  - Zalman Vaksman
+  - Chelsea Mayoh
+  - Jonas Nance
+  - Kristyn McCoy
+  - Michelle Haber
+  - Kathryn Evans
+  - Hannah McCalmont
+  - Katerina Bendak
+  - "Julia W. B\xF6hm"
+  - Glenn M. Marshall
+  - Vanessa Tyrrell
+  - Karthik Kalletla
+  - Frank K. Braun
+  - Lin Qi
+  - Yunchen Du
+  - Huiyuan Zhang
+  - Holly B. Lindsay
+  - Sibo Zhao
+  - Jack Shu
+  - Patricia Baxter
+  - Christopher Morton
+  - Dias Kurmashev
+  - Siyuan Zheng
+  - Yidong Chen
+  - Jay Bowen
+  - Anthony C. Bryan
+  - Kristen M. Leraas
+  - Sara E. Coppens
+  - HarshaVardhan Doddapaneni
+  - Zeineen Momin
+  - Wendong Zhang
+  - Gregory I. Sacks
+  - Lori S. Hart
+  - Kateryna Krytska
+  - Yael P. Mosse
+  - Gregory J. Gatto
+  - Yolanda Sanchez
+  - Casey S. Greene
+  - Sharon J. Diskin
+  - Olena Morozova Vaske
+  - David Haussler
+  - Julie M. Gastier-Foster
+  - E. Anders Kolb
+  - Richard Gorlick
+  - Xiao-Nan Li
+  - C. Patrick Reynolds
+  - Raushan T. Kurmasheva
+  - Peter J. Houghton
+  - Malcolm A. Smith
+  - Richard B. Lock
+  - Pichai Raman
+  - David A. Wheeler
+  - John M. Maris
+  publisher: Cell Reports
+  date: '2019-11-01'
+  link: https://doi.org/gg596n
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2211124719312689-gr1.jpg
+  repo: marislab/pdx-classification
+  extra-links:
+  - type: data
+    link: https://doi.org/10.5281/Zenodo.1475249
+    text: Zenodo archive
+  tags:
+  - pediatric cancer
+- id: 10.1146/annurev-biodatasci-072018-021348
+  title: Discovering Pathway and Cell Type Signatures in Transcriptomic Compendia
+    with Machine Learning
+  authors:
+  - Gregory P. Way
+  - Casey S. Greene
+  publisher: Annual Review of Biomedical Data Science
+  date: '2019-07-20'
+  link: https://doi.org/ggns8p
+  image: https://d3i71xaburhd42.cloudfront.net/1faf6f4ced4693d61acbbdc592d349eb09dbe32c/19-Figure1.1-1.png
+  extra-links:
+  - type: preprint
+    link: https://doi.org/10.7287/peerj.preprints.27229v1
+    text: preprint
+  tags:
+  - review
+- id: 10.1038/s41592-018-0230-9
+  title: Bayesian deep learning for single-cell analysis
+  authors:
+  - Gregory P. Way
+  - Casey S. Greene
+  publisher: Nature Methods
+  date: '2018-11-30'
+  link: https://doi.org/ggjn34
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-018-0230-9/MediaObjects/41592_2018_230_Fig1_HTML.png
+  tags:
+  - news and views
+- id: 10.1016/j.cell.2018.03.035
+  title: Oncogenic Signaling Pathways in The Cancer Genome Atlas
+  authors:
+  - Francisco Sanchez-Vega
+  - Marco Mina
+  - Joshua Armenia
+  - Walid K. Chatila
+  - Augustin Luna
+  - Konnor C. La
+  - Sofia Dimitriadoy
+  - David L. Liu
+  - Havish S. Kantheti
+  - Sadegh Saghafinia
+  - Debyani Chakravarty
+  - Foysal Daian
+  - Qingsong Gao
+  - Matthew H. Bailey
+  - Wen-Wei Liang
+  - Steven M. Foltz
+  - Ilya Shmulevich
+  - Li Ding
+  - Zachary Heins
+  - Angelica Ochoa
+  - Benjamin Gross
+  - Jianjiong Gao
+  - Hongxin Zhang
+  - Ritika Kundra
+  - Cyriac Kandoth
+  - Istemi Bahceci
+  - Leonard Dervishi
+  - Ugur Dogrusoz
+  - Wanding Zhou
+  - Hui Shen
+  - Peter W. Laird
+  - Gregory P. Way
+  - Casey S. Greene
+  - Han Liang
+  - Yonghong Xiao
+  - Chen Wang
+  - Antonio Iavarone
+  - Alice H. Berger
+  - Trever G. Bivona
+  - Alexander J. Lazar
+  - Gary D. Hammer
+  - Thomas Giordano
+  - Lawrence N. Kwong
+  - Grant McArthur
+  - Chenfei Huang
+  - Aaron D. Tward
+  - Mitchell J. Frederick
+  - Frank McCormick
+  - Matthew Meyerson
+  - Eliezer M. Van Allen
+  - Andrew D. Cherniack
+  - Giovanni Ciriello
+  - Chris Sander
+  - Nikolaus Schultz
+  - Samantha J. Caesar-Johnson
+  - John A. Demchok
+  - Ina Felau
+  - Melpomeni Kasapi
+  - Martin L. Ferguson
+  - Carolyn M. Hutter
+  - Heidi J. Sofia
+  - Roy Tarnuzzer
+  - Zhining Wang
+  - Liming Yang
+  - Jean C. Zenklusen
+  - Jiashan (Julia) Zhang
+  - Sudha Chudamani
+  - Jia Liu
+  - Laxmi Lolla
+  - Rashi Naresh
+  - Todd Pihl
+  - Qiang Sun
+  - Yunhu Wan
+  - Ye Wu
+  - Juok Cho
+  - Timothy DeFreitas
+  - Scott Frazer
+  - Nils Gehlenborg
+  - Gad Getz
+  - David I. Heiman
+  - Jaegil Kim
+  - Michael S. Lawrence
+  - Pei Lin
+  - Sam Meier
+  - Michael S. Noble
+  - Gordon Saksena
+  - Doug Voet
+  - Hailei Zhang
+  - Brady Bernard
+  - Nyasha Chambwe
+  - Varsha Dhankani
+  - Theo Knijnenburg
+  - Roger Kramer
+  - Kalle Leinonen
+  - Yuexin Liu
+  - Michael Miller
+  - Sheila Reynolds
+  - Ilya Shmulevich
+  - Vesteinn Thorsson
+  - Wei Zhang
+  - Rehan Akbani
+  - Bradley M. Broom
+  - Apurva M. Hegde
+  - Zhenlin Ju
+  - Rupa S. Kanchi
+  - Anil Korkut
+  - Jun Li
+  - Han Liang
+  - Shiyun Ling
+  - Wenbin Liu
+  - Yiling Lu
+  - Gordon B. Mills
+  - Kwok-Shing Ng
+  - Arvind Rao
+  - Michael Ryan
+  - Jing Wang
+  - John N. Weinstein
+  - Jiexin Zhang
+  - Adam Abeshouse
+  - Joshua Armenia
+  - Debyani Chakravarty
+  - Walid K. Chatila
+  - Ino de Bruijn
+  - Jianjiong Gao
+  - Benjamin E. Gross
+  - Zachary J. Heins
+  - Ritika Kundra
+  - Konnor La
+  - Marc Ladanyi
+  - Augustin Luna
+  - Moriah G. Nissan
+  - Angelica Ochoa
+  - Sarah M. Phillips
+  - Ed Reznik
+  - Francisco Sanchez-Vega
+  - Chris Sander
+  - Nikolaus Schultz
+  - Robert Sheridan
+  - S. Onur Sumer
+  - Yichao Sun
+  - Barry S. Taylor
+  - Jioajiao Wang
+  - Hongxin Zhang
+  - Pavana Anur
+  - Myron Peto
+  - Paul Spellman
+  - Christopher Benz
+  - Joshua M. Stuart
+  - Christopher K. Wong
+  - Christina Yau
+  - D. Neil Hayes
+  - Joel S. Parker
+  - Matthew D. Wilkerson
+  - Adrian Ally
+  - Miruna Balasundaram
+  - Reanne Bowlby
+  - Denise Brooks
+  - Rebecca Carlsen
+  - Eric Chuah
+  - Noreen Dhalla
+  - Robert Holt
+  - Steven J.M. Jones
+  - Katayoon Kasaian
+  - Darlene Lee
+  - Yussanne Ma
+  - Marco A. Marra
+  - Michael Mayo
+  - Richard A. Moore
+  - Andrew J. Mungall
+  - Karen Mungall
+  - A. Gordon Robertson
+  - Sara Sadeghi
+  - Jacqueline E. Schein
+  - Payal Sipahimalani
+  - Angela Tam
+  - Nina Thiessen
+  - Kane Tse
+  - Tina Wong
+  - Ashton C. Berger
+  - Rameen Beroukhim
+  - Andrew D. Cherniack
+  - Carrie Cibulskis
+  - Stacey B. Gabriel
+  - Galen F. Gao
+  - Gavin Ha
+  - Matthew Meyerson
+  - Steven E. Schumacher
+  - Juliann Shih
+  - Melanie H. Kucherlapati
+  - Raju S. Kucherlapati
+  - Stephen Baylin
+  - Leslie Cope
+  - Ludmila Danilova
+  - Moiz S. Bootwalla
+  - Phillip H. Lai
+  - Dennis T. Maglinte
+  - David J. Van Den Berg
+  - Daniel J. Weisenberger
+  - J. Todd Auman
+  - Saianand Balu
+  - Tom Bodenheimer
+  - Cheng Fan
+  - Katherine A. Hoadley
+  - Alan P. Hoyle
+  - Stuart R. Jefferys
+  - Corbin D. Jones
+  - Shaowu Meng
+  - Piotr A. Mieczkowski
+  - Lisle E. Mose
+  - Amy H. Perou
+  - Charles M. Perou
+  - Jeffrey Roach
+  - Yan Shi
+  - Janae V. Simons
+  - Tara Skelly
+  - Matthew G. Soloway
+  - Donghui Tan
+  - Umadevi Veluvolu
+  - Huihui Fan
+  - Toshinori Hinoue
+  - Peter W. Laird
+  - Hui Shen
+  - Wanding Zhou
+  - Michelle Bellair
+  - Kyle Chang
+  - Kyle Covington
+  - Chad J. Creighton
+  - Huyen Dinh
+  - HarshaVardhan Doddapaneni
+  - Lawrence A. Donehower
+  - Jennifer Drummond
+  - Richard A. Gibbs
+  - Robert Glenn
+  - Walker Hale
+  - Yi Han
+  - Jianhong Hu
+  - Viktoriya Korchina
+  - Sandra Lee
+  - Lora Lewis
+  - Wei Li
+  - Xiuping Liu
+  - Margaret Morgan
+  - Donna Morton
+  - Donna Muzny
+  - Jireh Santibanez
+  - Margi Sheth
+  - Eve Shinbrot
+  - Linghua Wang
+  - Min Wang
+  - David A. Wheeler
+  - Liu Xi
+  - Fengmei Zhao
+  - Julian Hess
+  - Elizabeth L. Appelbaum
+  - Matthew Bailey
+  - Matthew G. Cordes
+  - Li Ding
+  - Catrina C. Fronick
+  - Lucinda A. Fulton
+  - Robert S. Fulton
+  - Cyriac Kandoth
+  - Elaine R. Mardis
+  - Michael D. McLellan
+  - Christopher A. Miller
+  - Heather K. Schmidt
+  - Richard K. Wilson
+  - Daniel Crain
+  - Erin Curley
+  - Johanna Gardner
+  - Kevin Lau
+  - David Mallery
+  - Scott Morris
+  - Joseph Paulauskis
+  - Robert Penny
+  - Candace Shelton
+  - Troy Shelton
+  - Mark Sherman
+  - Eric Thompson
+  - Peggy Yena
+  - Jay Bowen
+  - Julie M. Gastier-Foster
+  - Mark Gerken
+  - Kristen M. Leraas
+  - Tara M. Lichtenberg
+  - Nilsa C. Ramirez
+  - Lisa Wise
+  - Erik Zmuda
+  - Niall Corcoran
+  - Tony Costello
+  - Christopher Hovens
+  - Andre L. Carvalho
+  - Ana C. de Carvalho
+  - "Jos\xE9 H. Fregnani"
+  - Adhemar Longatto-Filho
+  - Rui M. Reis
+  - Cristovam Scapulatempo-Neto
+  - Henrique C.S. Silveira
+  - Daniel O. Vidal
+  - Andrew Burnette
+  - Jennifer Eschbacher
+  - Beth Hermes
+  - Ardene Noss
+  - Rosy Singh
+  - Matthew L. Anderson
+  - Patricia D. Castro
+  - Michael Ittmann
+  - David Huntsman
+  - Bernard Kohl
+  - Xuan Le
+  - Richard Thorp
+  - Chris Andry
+  - Elizabeth R. Duffy
+  - Vladimir Lyadov
+  - Oxana Paklina
+  - Galiya Setdikova
+  - Alexey Shabunin
+  - Mikhail Tavobilov
+  - Christopher McPherson
+  - Ronald Warnick
+  - Ross Berkowitz
+  - Daniel Cramer
+  - Colleen Feltmate
+  - Neil Horowitz
+  - Adam Kibel
+  - Michael Muto
+  - Chandrajit P. Raut
+  - Andrei Malykh
+  - Jill S. Barnholtz-Sloan
+  - Wendi Barrett
+  - Karen Devine
+  - Jordonna Fulop
+  - Quinn T. Ostrom
+  - Kristen Shimmel
+  - Yingli Wolinsky
+  - Andrew E. Sloan
+  - Agostino De Rose
+  - Felice Giuliante
+  - Marc Goodman
+  - Beth Y. Karlan
+  - Curt H. Hagedorn
+  - John Eckman
+  - Jodi Harr
+  - Jerome Myers
+  - Kelinda Tucker
+  - Leigh Anne Zach
+  - Brenda Deyarmin
+  - Hai Hu
+  - Leonid Kvecher
+  - Caroline Larson
+  - Richard J. Mural
+  - Stella Somiari
+  - Ales Vicha
+  - Tomas Zelinka
+  - Joseph Bennett
+  - Mary Iacocca
+  - Brenda Rabeno
+  - Patricia Swanson
+  - Mathieu Latour
+  - Louis Lacombe
+  - "Bernard T\xEAtu"
+  - Alain Bergeron
+  - Mary McGraw
+  - Susan M. Staugaitis
+  - John Chabot
+  - Hanina Hibshoosh
+  - Antonia Sepulveda
+  - Tao Su
+  - Timothy Wang
+  - Olga Potapova
+  - Olga Voronina
+  - Laurence Desjardins
+  - Odette Mariani
+  - Sergio Roman-Roman
+  - Xavier Sastre
+  - Marc-Henri Stern
+  - Feixiong Cheng
+  - Sabina Signoretti
+  - Andrew Berchuck
+  - Darell Bigner
+  - Eric Lipp
+  - Jeffrey Marks
+  - Shannon McCall
+  - Roger McLendon
+  - Angeles Secord
+  - Alexis Sharp
+  - Madhusmita Behera
+  - Daniel J. Brat
+  - Amy Chen
+  - Keith Delman
+  - Seth Force
+  - Fadlo Khuri
+  - Kelly Magliocca
+  - Shishir Maithel
+  - Jeffrey J. Olson
+  - Taofeek Owonikoko
+  - Alan Pickens
+  - Suresh Ramalingam
+  - Dong M. Shin
+  - Gabriel Sica
+  - Erwin G. Van Meir
+  - Hongzheng Zhang
+  - Wil Eijckenboom
+  - Ad Gillis
+  - Esther Korpershoek
+  - Leendert Looijenga
+  - Wolter Oosterhuis
+  - Hans Stoop
+  - Kim E. van Kessel
+  - Ellen C. Zwarthoff
+  - Chiara Calatozzolo
+  - Lucia Cuppini
+  - Stefania Cuzzubbo
+  - Francesco DiMeco
+  - Gaetano Finocchiaro
+  - Luca Mattei
+  - Alessandro Perin
+  - Bianca Pollo
+  - Chu Chen
+  - John Houck
+  - Pawadee Lohavanichbutr
+  - Arndt Hartmann
+  - Christine Stoehr
+  - Robert Stoehr
+  - Helge Taubert
+  - Sven Wach
+  - Bernd Wullich
+  - Witold Kycler
+  - Dawid Murawa
+  - Maciej Wiznerowicz
+  - Ki Chung
+  - W. Jeffrey Edenfield
+  - Julie Martin
+  - Eric Baudin
+  - Glenn Bubley
+  - Raphael Bueno
+  - Assunta De Rienzo
+  - William G. Richards
+  - Steven Kalkanis
+  - Tom Mikkelsen
+  - Houtan Noushmehr
+  - Lisa Scarpace
+  - Nicolas Girard
+  - Marta Aymerich
+  - Elias Campo
+  - "Eva Gin\xE9"
+  - "Armando L\xF3pez Guillermo"
+  - Nguyen Van Bang
+  - Phan Thi Hanh
+  - Bui Duc Phu
+  - Yufang Tang
+  - Howard Colman
+  - Kimberley Evason
+  - Peter R. Dottino
+  - John A. Martignetti
+  - Hani Gabra
+  - Hartmut Juhl
+  - Teniola Akeredolu
+  - Serghei Stepa
+  - Dave Hoon
+  - Keunsoo Ahn
+  - Koo Jeong Kang
+  - Felix Beuschlein
+  - Anne Breggia
+  - Michael Birrer
+  - Debra Bell
+  - Mitesh Borad
+  - Alan H. Bryce
+  - Erik Castle
+  - Vishal Chandan
+  - John Cheville
+  - John A. Copland
+  - Michael Farnell
+  - Thomas Flotte
+  - Nasra Giama
+  - Thai Ho
+  - Michael Kendrick
+  - Jean-Pierre Kocher
+  - Karla Kopp
+  - Catherine Moser
+  - David Nagorney
+  - "Daniel O\u2019Brien"
+  - "Brian Patrick O\u2019Neill"
+  - Tushar Patel
+  - Gloria Petersen
+  - Florencia Que
+  - Michael Rivera
+  - Lewis Roberts
+  - Robert Smallridge
+  - Thomas Smyrk
+  - Melissa Stanton
+  - R. Houston Thompson
+  - Michael Torbenson
+  - Ju Dong Yang
+  - Lizhi Zhang
+  - Fadi Brimo
+  - Jaffer A. Ajani
+  - Ana Maria Angulo Gonzalez
+  - Carmen Behrens
+  - Jolanta Bondaruk
+  - Russell Broaddus
+  - Bogdan Czerniak
+  - Bita Esmaeli
+  - Junya Fujimoto
+  - Jeffrey Gershenwald
+  - Charles Guo
+  - Alexander J. Lazar
+  - Christopher Logothetis
+  - Funda Meric-Bernstam
+  - Cesar Moran
+  - Lois Ramondetta
+  - David Rice
+  - Anil Sood
+  - Pheroze Tamboli
+  - Timothy Thompson
+  - Patricia Troncoso
+  - Anne Tsao
+  - Ignacio Wistuba
+  - Candace Carter
+  - Lauren Haydu
+  - Peter Hersey
+  - Valerie Jakrot
+  - Hojabr Kakavand
+  - Richard Kefford
+  - Kenneth Lee
+  - Georgina Long
+  - Graham Mann
+  - Michael Quinn
+  - Robyn Saw
+  - Richard Scolyer
+  - Kerwin Shannon
+  - Andrew Spillane
+  - Jonathan Stretch
+  - Maria Synott
+  - John Thompson
+  - James Wilmott
+  - Hikmat Al-Ahmadie
+  - Timothy A. Chan
+  - Ronald Ghossein
+  - Anuradha Gopalan
+  - Douglas A. Levine
+  - Victor Reuter
+  - Samuel Singer
+  - Bhuvanesh Singh
+  - Nguyen Viet Tien
+  - Thomas Broudy
+  - Cyrus Mirsaidi
+  - Praveen Nair
+  - Paul Drwiega
+  - Judy Miller
+  - Jennifer Smith
+  - Howard Zaren
+  - Joong-Won Park
+  - Nguyen Phi Hung
+  - Electron Kebebew
+  - W. Marston Linehan
+  - Adam R. Metwalli
+  - Karel Pacak
+  - Peter A. Pinto
+  - Mark Schiffman
+  - Laura S. Schmidt
+  - Cathy D. Vocke
+  - Nicolas Wentzensen
+  - Robert Worrell
+  - Hannah Yang
+  - Marc Moncrieff
+  - Chandra Goparaju
+  - Jonathan Melamed
+  - Harvey Pass
+  - Natalia Botnariuc
+  - Irina Caraman
+  - Mircea Cernat
+  - Inga Chemencedji
+  - Adrian Clipca
+  - Serghei Doruc
+  - Ghenadie Gorincioi
+  - Sergiu Mura
+  - Maria Pirtac
+  - Irina Stancul
+  - Diana Tcaciuc
+  - Monique Albert
+  - Iakovina Alexopoulou
+  - Angel Arnaout
+  - John Bartlett
+  - Jay Engel
+  - Sebastien Gilbert
+  - Jeremy Parfitt
+  - Harman Sekhon
+  - George Thomas
+  - Doris M. Rassl
+  - Robert C. Rintoul
+  - Carlo Bifulco
+  - Raina Tamakawa
+  - Walter Urba
+  - Nicholas Hayward
+  - Henri Timmers
+  - Anna Antenucci
+  - Francesco Facciolo
+  - Gianluca Grazi
+  - Mirella Marino
+  - Roberta Merola
+  - Ronald de Krijger
+  - Anne-Paule Gimenez-Roqueplo
+  - "Alain Pich\xE9"
+  - Simone Chevalier
+  - Ginette McKercher
+  - Kivanc Birsoy
+  - Gene Barnett
+  - Cathy Brewer
+  - Carol Farver
+  - Theresa Naska
+  - Nathan A. Pennell
+  - Daniel Raymond
+  - Cathy Schilero
+  - Kathy Smolenski
+  - Felicia Williams
+  - Carl Morrison
+  - Jeffrey A. Borgia
+  - Michael J. Liptay
+  - Mark Pool
+  - Christopher W. Seder
+  - Kerstin Junker
+  - Larsson Omberg
+  - Mikhail Dinkin
+  - George Manikhas
+  - Domenico Alvaro
+  - Maria Consiglia Bragazzi
+  - Vincenzo Cardinale
+  - Guido Carpino
+  - Eugenio Gaudio
+  - David Chesla
+  - Sandra Cottingham
+  - Michael Dubina
+  - Fedor Moiseenko
+  - Renumathy Dhanasekaran
+  - Karl-Friedrich Becker
+  - Klaus-Peter Janssen
+  - Julia Slotta-Huspenina
+  - Mohamed H. Abdel-Rahman
+  - Dina Aziz
+  - Sue Bell
+  - Colleen M. Cebulla
+  - Amy Davis
+  - Rebecca Duell
+  - J. Bradley Elder
+  - Joe Hilty
+  - Bahavna Kumar
+  - James Lang
+  - Norman L. Lehman
+  - Randy Mandt
+  - Phuong Nguyen
+  - Robert Pilarski
+  - Karan Rai
+  - Lynn Schoenfield
+  - Kelly Senecal
+  - Paul Wakely
+  - Paul Hansen
+  - Ronald Lechan
+  - James Powers
+  - Arthur Tischler
+  - William E. Grizzle
+  - Katherine C. Sexton
+  - Alison Kastl
+  - Joel Henderson
+  - Sima Porten
+  - Jens Waldmann
+  - Martin Fassnacht
+  - Sylvia L. Asa
+  - Dirk Schadendorf
+  - Marta Couce
+  - Markus Graefen
+  - Hartwig Huland
+  - Guido Sauter
+  - Thorsten Schlomm
+  - Ronald Simon
+  - Pierre Tennstedt
+  - Oluwole Olabode
+  - Mark Nelson
+  - Oliver Bathe
+  - Peter R. Carroll
+  - June M. Chan
+  - Philip Disaia
+  - Pat Glenn
+  - Robin K. Kelley
+  - Charles N. Landen
+  - Joanna Phillips
+  - Michael Prados
+  - Jeffry Simko
+  - Karen Smith-McCune
+  - Scott VandenBerg
+  - Kevin Roggin
+  - Ashley Fehrenbach
+  - Ady Kendler
+  - Suzanne Sifri
+  - Ruth Steele
+  - Antonio Jimeno
+  - Francis Carey
+  - Ian Forgie
+  - Massimo Mannelli
+  - Michael Carney
+  - Brenda Hernandez
+  - Benito Campos
+  - Christel Herold-Mende
+  - Christin Jungk
+  - Andreas Unterberg
+  - Andreas von Deimling
+  - Aaron Bossler
+  - Joseph Galbraith
+  - Laura Jacobus
+  - Michael Knudson
+  - Tina Knutson
+  - Deqin Ma
+  - Mohammed Milhem
+  - Rita Sigmund
+  - Andrew K. Godwin
+  - Rashna Madan
+  - Howard G. Rosenthal
+  - Clement Adebamowo
+  - Sally N. Adebamowo
+  - Alex Boussioutas
+  - David Beer
+  - Thomas Giordano
+  - Anne-Marie Mes-Masson
+  - Fred Saad
+  - Therese Bocklage
+  - Lisa Landrum
+  - Robert Mannel
+  - Kathleen Moore
+  - Katherine Moxley
+  - Russel Postier
+  - Joan Walker
+  - Rosemary Zuna
+  - Michael Feldman
+  - Federico Valdivieso
+  - Rajiv Dhir
+  - James Luketich
+  - Edna M. Mora Pinero
+  - Mario Quintero-Aguilo
+  - Carlos Gilberto Carlotti
+  - "Jose Sebasti\xE3o Dos Santos"
+  - Rafael Kemp
+  - Ajith Sankarankuty
+  - Daniela Tirapelli
+  - James Catto
+  - Kathy Agnew
+  - Elizabeth Swisher
+  - Jenette Creaney
+  - Bruce Robinson
+  - Carl Simon Shelley
+  - Eryn M. Godwin
+  - Sara Kendall
+  - Cassaundra Shipman
+  - Carol Bradford
+  - Thomas Carey
+  - Andrea Haddad
+  - Jeffey Moyer
+  - Lisa Peterson
+  - Mark Prince
+  - Laura Rozek
+  - Gregory Wolf
+  - Rayleen Bowman
+  - Kwun M. Fong
+  - Ian Yang
+  - Robert Korst
+  - W. Kimryn Rathmell
+  - J. Leigh Fantacone-Campbell
+  - Jeffrey A. Hooke
+  - Albert J. Kovatich
+  - Craig D. Shriver
+  - John DiPersio
+  - Bettina Drake
+  - Ramaswamy Govindan
+  - Sharon Heath
+  - Timothy Ley
+  - Brian Van Tine
+  - Peter Westervelt
+  - Mark A. Rubin
+  - Jung Il Lee
+  - "Nat\xE1lia D. Aredes"
+  - Armaz Mariamidze
+  publisher: Cell
+  date: '2018-04-01'
+  link: https://doi.org/gc7r9b
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S0092867418303593-fx1_lrg.jpg
+- id: 10.1098/rsif.2017.0387
+  title: Opportunities and obstacles for deep learning in biology and medicine
+  authors:
+  - Travers Ching
+  - Daniel S. Himmelstein
+  - Brett K. Beaulieu-Jones
+  - Alexandr A. Kalinin
+  - Brian T. Do
+  - Gregory P. Way
+  - Enrico Ferrero
+  - Paul-Michael Agapow
+  - Michael Zietz
+  - Michael M. Hoffman
+  - Wei Xie
+  - Gail L. Rosen
+  - Benjamin J. Lengerich
+  - Johnny Israeli
+  - Jack Lanchantin
+  - Stephen Woloszynek
+  - Anne E. Carpenter
+  - Avanti Shrikumar
+  - Jinbo Xu
+  - Evan M. Cofer
+  - Christopher A. Lavender
+  - Srinivas C. Turaga
+  - Amr M. Alexandari
+  - Zhiyong Lu
+  - David J. Harris
+  - Dave DeCaprio
+  - Yanjun Qi
+  - Anshul Kundaje
+  - Yifan Peng
+  - Laura K. Wiley
+  - Marwin H. S. Segler
+  - Simina M. Boca
+  - S. Joshua Swamidass
+  - Austin Huang
+  - Anthony Gitter
+  - Casey S. Greene
+  publisher: Journal of The Royal Society Interface
+  date: '2018-04-04'
+  link: https://doi.org/gddkhn
+  image: https://royalsocietypublishing.org/cms/asset/1aee5837-745c-40ad-a398-00dc5655466c/rsif20170387f01.jpg
+  repo: greenelab/deep-review
+  tags:
+  - review
+- id: 10.1016/j.celrep.2018.03.076
+  title: Genomic and Molecular Landscape of DNA Damage Repair Deficiency across The
+    Cancer Genome Atlas
+  authors:
+  - Theo A. Knijnenburg
+  - Linghua Wang
+  - Michael T. Zimmermann
+  - Nyasha Chambwe
+  - Galen F. Gao
+  - Andrew D. Cherniack
+  - Huihui Fan
+  - Hui Shen
+  - Gregory P. Way
+  - Casey S. Greene
+  - Yuexin Liu
+  - Rehan Akbani
+  - Bin Feng
+  - Lawrence A. Donehower
+  - Chase Miller
+  - Yang Shen
+  - Mostafa Karimi
+  - Haoran Chen
+  - Pora Kim
+  - Peilin Jia
+  - Eve Shinbrot
+  - Shaojun Zhang
+  - Jianfang Liu
+  - Hai Hu
+  - Matthew H. Bailey
+  - Christina Yau
+  - Denise Wolf
+  - Zhongming Zhao
+  - John N. Weinstein
+  - Lei Li
+  - Li Ding
+  - Gordon B. Mills
+  - Peter W. Laird
+  - David A. Wheeler
+  - Ilya Shmulevich
+  - Raymond J. Monnat
+  - Yonghong Xiao
+  - Chen Wang
+  - Samantha J. Caesar-Johnson
+  - John A. Demchok
+  - Ina Felau
+  - Melpomeni Kasapi
+  - Martin L. Ferguson
+  - Carolyn M. Hutter
+  - Heidi J. Sofia
+  - Roy Tarnuzzer
+  - Zhining Wang
+  - Liming Yang
+  - Jean C. Zenklusen
+  - Jiashan (Julia) Zhang
+  - Sudha Chudamani
+  - Jia Liu
+  - Laxmi Lolla
+  - Rashi Naresh
+  - Todd Pihl
+  - Qiang Sun
+  - Yunhu Wan
+  - Ye Wu
+  - Juok Cho
+  - Timothy DeFreitas
+  - Scott Frazer
+  - Nils Gehlenborg
+  - Gad Getz
+  - David I. Heiman
+  - Jaegil Kim
+  - Michael S. Lawrence
+  - Pei Lin
+  - Sam Meier
+  - Michael S. Noble
+  - Gordon Saksena
+  - Doug Voet
+  - Hailei Zhang
+  - Brady Bernard
+  - Nyasha Chambwe
+  - Varsha Dhankani
+  - Theo Knijnenburg
+  - Roger Kramer
+  - Kalle Leinonen
+  - Yuexin Liu
+  - Michael Miller
+  - Sheila Reynolds
+  - Ilya Shmulevich
+  - Vesteinn Thorsson
+  - Wei Zhang
+  - Rehan Akbani
+  - Bradley M. Broom
+  - Apurva M. Hegde
+  - Zhenlin Ju
+  - Rupa S. Kanchi
+  - Anil Korkut
+  - Jun Li
+  - Han Liang
+  - Shiyun Ling
+  - Wenbin Liu
+  - Yiling Lu
+  - Gordon B. Mills
+  - Kwok-Shing Ng
+  - Arvind Rao
+  - Michael Ryan
+  - Jing Wang
+  - John N. Weinstein
+  - Jiexin Zhang
+  - Adam Abeshouse
+  - Joshua Armenia
+  - Debyani Chakravarty
+  - Walid K. Chatila
+  - Ino de Bruijn
+  - Jianjiong Gao
+  - Benjamin E. Gross
+  - Zachary J. Heins
+  - Ritika Kundra
+  - Konnor La
+  - Marc Ladanyi
+  - Augustin Luna
+  - Moriah G. Nissan
+  - Angelica Ochoa
+  - Sarah M. Phillips
+  - Ed Reznik
+  - Francisco Sanchez-Vega
+  - Chris Sander
+  - Nikolaus Schultz
+  - Robert Sheridan
+  - S. Onur Sumer
+  - Yichao Sun
+  - Barry S. Taylor
+  - Jioajiao Wang
+  - Hongxin Zhang
+  - Pavana Anur
+  - Myron Peto
+  - Paul Spellman
+  - Christopher Benz
+  - Joshua M. Stuart
+  - Christopher K. Wong
+  - Christina Yau
+  - D. Neil Hayes
+  - Joel S. Parker
+  - Matthew D. Wilkerson
+  - Adrian Ally
+  - Miruna Balasundaram
+  - Reanne Bowlby
+  - Denise Brooks
+  - Rebecca Carlsen
+  - Eric Chuah
+  - Noreen Dhalla
+  - Robert Holt
+  - Steven J.M. Jones
+  - Katayoon Kasaian
+  - Darlene Lee
+  - Yussanne Ma
+  - Marco A. Marra
+  - Michael Mayo
+  - Richard A. Moore
+  - Andrew J. Mungall
+  - Karen Mungall
+  - A. Gordon Robertson
+  - Sara Sadeghi
+  - Jacqueline E. Schein
+  - Payal Sipahimalani
+  - Angela Tam
+  - Nina Thiessen
+  - Kane Tse
+  - Tina Wong
+  - Ashton C. Berger
+  - Rameen Beroukhim
+  - Andrew D. Cherniack
+  - Carrie Cibulskis
+  - Stacey B. Gabriel
+  - Galen F. Gao
+  - Gavin Ha
+  - Matthew Meyerson
+  - Steven E. Schumacher
+  - Juliann Shih
+  - Melanie H. Kucherlapati
+  - Raju S. Kucherlapati
+  - Stephen Baylin
+  - Leslie Cope
+  - Ludmila Danilova
+  - Moiz S. Bootwalla
+  - Phillip H. Lai
+  - Dennis T. Maglinte
+  - David J. Van Den Berg
+  - Daniel J. Weisenberger
+  - J. Todd Auman
+  - Saianand Balu
+  - Tom Bodenheimer
+  - Cheng Fan
+  - Katherine A. Hoadley
+  - Alan P. Hoyle
+  - Stuart R. Jefferys
+  - Corbin D. Jones
+  - Shaowu Meng
+  - Piotr A. Mieczkowski
+  - Lisle E. Mose
+  - Amy H. Perou
+  - Charles M. Perou
+  - Jeffrey Roach
+  - Yan Shi
+  - Janae V. Simons
+  - Tara Skelly
+  - Matthew G. Soloway
+  - Donghui Tan
+  - Umadevi Veluvolu
+  - Huihui Fan
+  - Toshinori Hinoue
+  - Peter W. Laird
+  - Hui Shen
+  - Wanding Zhou
+  - Michelle Bellair
+  - Kyle Chang
+  - Kyle Covington
+  - Chad J. Creighton
+  - Huyen Dinh
+  - HarshaVardhan Doddapaneni
+  - Lawrence A. Donehower
+  - Jennifer Drummond
+  - Richard A. Gibbs
+  - Robert Glenn
+  - Walker Hale
+  - Yi Han
+  - Jianhong Hu
+  - Viktoriya Korchina
+  - Sandra Lee
+  - Lora Lewis
+  - Wei Li
+  - Xiuping Liu
+  - Margaret Morgan
+  - Donna Morton
+  - Donna Muzny
+  - Jireh Santibanez
+  - Margi Sheth
+  - Eve Shinbrot
+  - Linghua Wang
+  - Min Wang
+  - David A. Wheeler
+  - Liu Xi
+  - Fengmei Zhao
+  - Julian Hess
+  - Elizabeth L. Appelbaum
+  - Matthew Bailey
+  - Matthew G. Cordes
+  - Li Ding
+  - Catrina C. Fronick
+  - Lucinda A. Fulton
+  - Robert S. Fulton
+  - Cyriac Kandoth
+  - Elaine R. Mardis
+  - Michael D. McLellan
+  - Christopher A. Miller
+  - Heather K. Schmidt
+  - Richard K. Wilson
+  - Daniel Crain
+  - Erin Curley
+  - Johanna Gardner
+  - Kevin Lau
+  - David Mallery
+  - Scott Morris
+  - Joseph Paulauskis
+  - Robert Penny
+  - Candace Shelton
+  - Troy Shelton
+  - Mark Sherman
+  - Eric Thompson
+  - Peggy Yena
+  - Jay Bowen
+  - Julie M. Gastier-Foster
+  - Mark Gerken
+  - Kristen M. Leraas
+  - Tara M. Lichtenberg
+  - Nilsa C. Ramirez
+  - Lisa Wise
+  - Erik Zmuda
+  - Niall Corcoran
+  - Tony Costello
+  - Christopher Hovens
+  - Andre L. Carvalho
+  - Ana C. de Carvalho
+  - "Jos\xE9 H. Fregnani"
+  - Adhemar Longatto-Filho
+  - Rui M. Reis
+  - Cristovam Scapulatempo-Neto
+  - Henrique C.S. Silveira
+  - Daniel O. Vidal
+  - Andrew Burnette
+  - Jennifer Eschbacher
+  - Beth Hermes
+  - Ardene Noss
+  - Rosy Singh
+  - Matthew L. Anderson
+  - Patricia D. Castro
+  - Michael Ittmann
+  - David Huntsman
+  - Bernard Kohl
+  - Xuan Le
+  - Richard Thorp
+  - Chris Andry
+  - Elizabeth R. Duffy
+  - Vladimir Lyadov
+  - Oxana Paklina
+  - Galiya Setdikova
+  - Alexey Shabunin
+  - Mikhail Tavobilov
+  - Christopher McPherson
+  - Ronald Warnick
+  - Ross Berkowitz
+  - Daniel Cramer
+  - Colleen Feltmate
+  - Neil Horowitz
+  - Adam Kibel
+  - Michael Muto
+  - Chandrajit P. Raut
+  - Andrei Malykh
+  - Jill S. Barnholtz-Sloan
+  - Wendi Barrett
+  - Karen Devine
+  - Jordonna Fulop
+  - Quinn T. Ostrom
+  - Kristen Shimmel
+  - Yingli Wolinsky
+  - Andrew E. Sloan
+  - Agostino De Rose
+  - Felice Giuliante
+  - Marc Goodman
+  - Beth Y. Karlan
+  - Curt H. Hagedorn
+  - John Eckman
+  - Jodi Harr
+  - Jerome Myers
+  - Kelinda Tucker
+  - Leigh Anne Zach
+  - Brenda Deyarmin
+  - Hai Hu
+  - Leonid Kvecher
+  - Caroline Larson
+  - Richard J. Mural
+  - Stella Somiari
+  - Ales Vicha
+  - Tomas Zelinka
+  - Joseph Bennett
+  - Mary Iacocca
+  - Brenda Rabeno
+  - Patricia Swanson
+  - Mathieu Latour
+  - Louis Lacombe
+  - "Bernard T\xEAtu"
+  - Alain Bergeron
+  - Mary McGraw
+  - Susan M. Staugaitis
+  - John Chabot
+  - Hanina Hibshoosh
+  - Antonia Sepulveda
+  - Tao Su
+  - Timothy Wang
+  - Olga Potapova
+  - Olga Voronina
+  - Laurence Desjardins
+  - Odette Mariani
+  - Sergio Roman-Roman
+  - Xavier Sastre
+  - Marc-Henri Stern
+  - Feixiong Cheng
+  - Sabina Signoretti
+  - Andrew Berchuck
+  - Darell Bigner
+  - Eric Lipp
+  - Jeffrey Marks
+  - Shannon McCall
+  - Roger McLendon
+  - Angeles Secord
+  - Alexis Sharp
+  - Madhusmita Behera
+  - Daniel J. Brat
+  - Amy Chen
+  - Keith Delman
+  - Seth Force
+  - Fadlo Khuri
+  - Kelly Magliocca
+  - Shishir Maithel
+  - Jeffrey J. Olson
+  - Taofeek Owonikoko
+  - Alan Pickens
+  - Suresh Ramalingam
+  - Dong M. Shin
+  - Gabriel Sica
+  - Erwin G. Van Meir
+  - Hongzheng Zhang
+  - Wil Eijckenboom
+  - Ad Gillis
+  - Esther Korpershoek
+  - Leendert Looijenga
+  - Wolter Oosterhuis
+  - Hans Stoop
+  - Kim E. van Kessel
+  - Ellen C. Zwarthoff
+  - Chiara Calatozzolo
+  - Lucia Cuppini
+  - Stefania Cuzzubbo
+  - Francesco DiMeco
+  - Gaetano Finocchiaro
+  - Luca Mattei
+  - Alessandro Perin
+  - Bianca Pollo
+  - Chu Chen
+  - John Houck
+  - Pawadee Lohavanichbutr
+  - Arndt Hartmann
+  - Christine Stoehr
+  - Robert Stoehr
+  - Helge Taubert
+  - Sven Wach
+  - Bernd Wullich
+  - Witold Kycler
+  - Dawid Murawa
+  - Maciej Wiznerowicz
+  - Ki Chung
+  - W. Jeffrey Edenfield
+  - Julie Martin
+  - Eric Baudin
+  - Glenn Bubley
+  - Raphael Bueno
+  - Assunta De Rienzo
+  - William G. Richards
+  - Steven Kalkanis
+  - Tom Mikkelsen
+  - Houtan Noushmehr
+  - Lisa Scarpace
+  - Nicolas Girard
+  - Marta Aymerich
+  - Elias Campo
+  - "Eva Gin\xE9"
+  - "Armando L\xF3pez Guillermo"
+  - Nguyen Van Bang
+  - Phan Thi Hanh
+  - Bui Duc Phu
+  - Yufang Tang
+  - Howard Colman
+  - Kimberley Evason
+  - Peter R. Dottino
+  - John A. Martignetti
+  - Hani Gabra
+  - Hartmut Juhl
+  - Teniola Akeredolu
+  - Serghei Stepa
+  - Dave Hoon
+  - Keunsoo Ahn
+  - Koo Jeong Kang
+  - Felix Beuschlein
+  - Anne Breggia
+  - Michael Birrer
+  - Debra Bell
+  - Mitesh Borad
+  - Alan H. Bryce
+  - Erik Castle
+  - Vishal Chandan
+  - John Cheville
+  - John A. Copland
+  - Michael Farnell
+  - Thomas Flotte
+  - Nasra Giama
+  - Thai Ho
+  - Michael Kendrick
+  - Jean-Pierre Kocher
+  - Karla Kopp
+  - Catherine Moser
+  - David Nagorney
+  - "Daniel O\u2019Brien"
+  - "Brian Patrick O\u2019Neill"
+  - Tushar Patel
+  - Gloria Petersen
+  - Florencia Que
+  - Michael Rivera
+  - Lewis Roberts
+  - Robert Smallridge
+  - Thomas Smyrk
+  - Melissa Stanton
+  - R. Houston Thompson
+  - Michael Torbenson
+  - Ju Dong Yang
+  - Lizhi Zhang
+  - Fadi Brimo
+  - Jaffer A. Ajani
+  - Ana Maria Angulo Gonzalez
+  - Carmen Behrens
+  - Jolanta Bondaruk
+  - Russell Broaddus
+  - Bogdan Czerniak
+  - Bita Esmaeli
+  - Junya Fujimoto
+  - Jeffrey Gershenwald
+  - Charles Guo
+  - Alexander J. Lazar
+  - Christopher Logothetis
+  - Funda Meric-Bernstam
+  - Cesar Moran
+  - Lois Ramondetta
+  - David Rice
+  - Anil Sood
+  - Pheroze Tamboli
+  - Timothy Thompson
+  - Patricia Troncoso
+  - Anne Tsao
+  - Ignacio Wistuba
+  - Candace Carter
+  - Lauren Haydu
+  - Peter Hersey
+  - Valerie Jakrot
+  - Hojabr Kakavand
+  - Richard Kefford
+  - Kenneth Lee
+  - Georgina Long
+  - Graham Mann
+  - Michael Quinn
+  - Robyn Saw
+  - Richard Scolyer
+  - Kerwin Shannon
+  - Andrew Spillane
+  - Jonathan Stretch
+  - Maria Synott
+  - John Thompson
+  - James Wilmott
+  - Hikmat Al-Ahmadie
+  - Timothy A. Chan
+  - Ronald Ghossein
+  - Anuradha Gopalan
+  - Douglas A. Levine
+  - Victor Reuter
+  - Samuel Singer
+  - Bhuvanesh Singh
+  - Nguyen Viet Tien
+  - Thomas Broudy
+  - Cyrus Mirsaidi
+  - Praveen Nair
+  - Paul Drwiega
+  - Judy Miller
+  - Jennifer Smith
+  - Howard Zaren
+  - Joong-Won Park
+  - Nguyen Phi Hung
+  - Electron Kebebew
+  - W. Marston Linehan
+  - Adam R. Metwalli
+  - Karel Pacak
+  - Peter A. Pinto
+  - Mark Schiffman
+  - Laura S. Schmidt
+  - Cathy D. Vocke
+  - Nicolas Wentzensen
+  - Robert Worrell
+  - Hannah Yang
+  - Marc Moncrieff
+  - Chandra Goparaju
+  - Jonathan Melamed
+  - Harvey Pass
+  - Natalia Botnariuc
+  - Irina Caraman
+  - Mircea Cernat
+  - Inga Chemencedji
+  - Adrian Clipca
+  - Serghei Doruc
+  - Ghenadie Gorincioi
+  - Sergiu Mura
+  - Maria Pirtac
+  - Irina Stancul
+  - Diana Tcaciuc
+  - Monique Albert
+  - Iakovina Alexopoulou
+  - Angel Arnaout
+  - John Bartlett
+  - Jay Engel
+  - Sebastien Gilbert
+  - Jeremy Parfitt
+  - Harman Sekhon
+  - George Thomas
+  - Doris M. Rassl
+  - Robert C. Rintoul
+  - Carlo Bifulco
+  - Raina Tamakawa
+  - Walter Urba
+  - Nicholas Hayward
+  - Henri Timmers
+  - Anna Antenucci
+  - Francesco Facciolo
+  - Gianluca Grazi
+  - Mirella Marino
+  - Roberta Merola
+  - Ronald de Krijger
+  - Anne-Paule Gimenez-Roqueplo
+  - "Alain Pich\xE9"
+  - Simone Chevalier
+  - Ginette McKercher
+  - Kivanc Birsoy
+  - Gene Barnett
+  - Cathy Brewer
+  - Carol Farver
+  - Theresa Naska
+  - Nathan A. Pennell
+  - Daniel Raymond
+  - Cathy Schilero
+  - Kathy Smolenski
+  - Felicia Williams
+  - Carl Morrison
+  - Jeffrey A. Borgia
+  - Michael J. Liptay
+  - Mark Pool
+  - Christopher W. Seder
+  - Kerstin Junker
+  - Larsson Omberg
+  - Mikhail Dinkin
+  - George Manikhas
+  - Domenico Alvaro
+  - Maria Consiglia Bragazzi
+  - Vincenzo Cardinale
+  - Guido Carpino
+  - Eugenio Gaudio
+  - David Chesla
+  - Sandra Cottingham
+  - Michael Dubina
+  - Fedor Moiseenko
+  - Renumathy Dhanasekaran
+  - Karl-Friedrich Becker
+  - Klaus-Peter Janssen
+  - Julia Slotta-Huspenina
+  - Mohamed H. Abdel-Rahman
+  - Dina Aziz
+  - Sue Bell
+  - Colleen M. Cebulla
+  - Amy Davis
+  - Rebecca Duell
+  - J. Bradley Elder
+  - Joe Hilty
+  - Bahavna Kumar
+  - James Lang
+  - Norman L. Lehman
+  - Randy Mandt
+  - Phuong Nguyen
+  - Robert Pilarski
+  - Karan Rai
+  - Lynn Schoenfield
+  - Kelly Senecal
+  - Paul Wakely
+  - Paul Hansen
+  - Ronald Lechan
+  - James Powers
+  - Arthur Tischler
+  - William E. Grizzle
+  - Katherine C. Sexton
+  - Alison Kastl
+  - Joel Henderson
+  - Sima Porten
+  - Jens Waldmann
+  - Martin Fassnacht
+  - Sylvia L. Asa
+  - Dirk Schadendorf
+  - Marta Couce
+  - Markus Graefen
+  - Hartwig Huland
+  - Guido Sauter
+  - Thorsten Schlomm
+  - Ronald Simon
+  - Pierre Tennstedt
+  - Oluwole Olabode
+  - Mark Nelson
+  - Oliver Bathe
+  - Peter R. Carroll
+  - June M. Chan
+  - Philip Disaia
+  - Pat Glenn
+  - Robin K. Kelley
+  - Charles N. Landen
+  - Joanna Phillips
+  - Michael Prados
+  - Jeffry Simko
+  - Karen Smith-McCune
+  - Scott VandenBerg
+  - Kevin Roggin
+  - Ashley Fehrenbach
+  - Ady Kendler
+  - Suzanne Sifri
+  - Ruth Steele
+  - Antonio Jimeno
+  - Francis Carey
+  - Ian Forgie
+  - Massimo Mannelli
+  - Michael Carney
+  - Brenda Hernandez
+  - Benito Campos
+  - Christel Herold-Mende
+  - Christin Jungk
+  - Andreas Unterberg
+  - Andreas von Deimling
+  - Aaron Bossler
+  - Joseph Galbraith
+  - Laura Jacobus
+  - Michael Knudson
+  - Tina Knutson
+  - Deqin Ma
+  - Mohammed Milhem
+  - Rita Sigmund
+  - Andrew K. Godwin
+  - Rashna Madan
+  - Howard G. Rosenthal
+  - Clement Adebamowo
+  - Sally N. Adebamowo
+  - Alex Boussioutas
+  - David Beer
+  - Thomas Giordano
+  - Anne-Marie Mes-Masson
+  - Fred Saad
+  - Therese Bocklage
+  - Lisa Landrum
+  - Robert Mannel
+  - Kathleen Moore
+  - Katherine Moxley
+  - Russel Postier
+  - Joan Walker
+  - Rosemary Zuna
+  - Michael Feldman
+  - Federico Valdivieso
+  - Rajiv Dhir
+  - James Luketich
+  - Edna M. Mora Pinero
+  - Mario Quintero-Aguilo
+  - Carlos Gilberto Carlotti
+  - "Jose Sebasti\xE3o Dos Santos"
+  - Rafael Kemp
+  - Ajith Sankarankuty
+  - Daniela Tirapelli
+  - James Catto
+  - Kathy Agnew
+  - Elizabeth Swisher
+  - Jenette Creaney
+  - Bruce Robinson
+  - Carl Simon Shelley
+  - Eryn M. Godwin
+  - Sara Kendall
+  - Cassaundra Shipman
+  - Carol Bradford
+  - Thomas Carey
+  - Andrea Haddad
+  - Jeffey Moyer
+  - Lisa Peterson
+  - Mark Prince
+  - Laura Rozek
+  - Gregory Wolf
+  - Rayleen Bowman
+  - Kwun M. Fong
+  - Ian Yang
+  - Robert Korst
+  - W. Kimryn Rathmell
+  - J. Leigh Fantacone-Campbell
+  - Jeffrey A. Hooke
+  - Albert J. Kovatich
+  - Craig D. Shriver
+  - John DiPersio
+  - Bettina Drake
+  - Ramaswamy Govindan
+  - Sharon Heath
+  - Timothy Ley
+  - Brian Van Tine
+  - Peter Westervelt
+  - Mark A. Rubin
+  - Jung Il Lee
+  - "Nat\xE1lia D. Aredes"
+  - Armaz Mariamidze
+  publisher: Cell Reports
+  date: '2018-04-01'
+  link: https://doi.org/gfspsc
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2211124718304376-fx1_lrg.jpg
+  repo: greenelab/pancancer
+- id: 10.1142/9789813235533_0008
+  title: Extracting a biologically relevant latent space from cancer transcriptomes
+    with variational autoencoders
+  authors:
+  - Gregory P. Way
+  - Casey S. Greene
+  publisher: World Scientific Pub Co Pte Lt
+  date: '2018-01-01'
+  link: https://doi.org/gfspsd
+  image: https://hpc.nih.gov/apps/tybalt/tsne_adage.png
+  repo: greenelab/tybalt
+  extra-links:
+  - type: preprint
+    link: https://doi.org/10.1101/174474
+    text: preprint
+  - type: source
+    link: https://github.com/greenelab/tybalt
+    text: Analysis
+- id: 10.1016/j.celrep.2018.03.046
+  title: Machine Learning Detects Pan-cancer Ras Pathway Activation in The Cancer
+    Genome Atlas
+  authors:
+  - Gregory P. Way
+  - Francisco Sanchez-Vega
+  - Konnor La
+  - Joshua Armenia
+  - Walid K. Chatila
+  - Augustin Luna
+  - Chris Sander
+  - Andrew D. Cherniack
+  - Marco Mina
+  - Giovanni Ciriello
+  - Nikolaus Schultz
+  - Yolanda Sanchez
+  - Casey S. Greene
+  - Samantha J. Caesar-Johnson
+  - John A. Demchok
+  - Ina Felau
+  - Melpomeni Kasapi
+  - Martin L. Ferguson
+  - Carolyn M. Hutter
+  - Heidi J. Sofia
+  - Roy Tarnuzzer
+  - Zhining Wang
+  - Liming Yang
+  - Jean C. Zenklusen
+  - Jiashan (Julia) Zhang
+  - Sudha Chudamani
+  - Jia Liu
+  - Laxmi Lolla
+  - Rashi Naresh
+  - Todd Pihl
+  - Qiang Sun
+  - Yunhu Wan
+  - Ye Wu
+  - Juok Cho
+  - Timothy DeFreitas
+  - Scott Frazer
+  - Nils Gehlenborg
+  - Gad Getz
+  - David I. Heiman
+  - Jaegil Kim
+  - Michael S. Lawrence
+  - Pei Lin
+  - Sam Meier
+  - Michael S. Noble
+  - Gordon Saksena
+  - Doug Voet
+  - Hailei Zhang
+  - Brady Bernard
+  - Nyasha Chambwe
+  - Varsha Dhankani
+  - Theo Knijnenburg
+  - Roger Kramer
+  - Kalle Leinonen
+  - Yuexin Liu
+  - Michael Miller
+  - Sheila Reynolds
+  - Ilya Shmulevich
+  - Vesteinn Thorsson
+  - Wei Zhang
+  - Rehan Akbani
+  - Bradley M. Broom
+  - Apurva M. Hegde
+  - Zhenlin Ju
+  - Rupa S. Kanchi
+  - Anil Korkut
+  - Jun Li
+  - Han Liang
+  - Shiyun Ling
+  - Wenbin Liu
+  - Yiling Lu
+  - Gordon B. Mills
+  - Kwok-Shing Ng
+  - Arvind Rao
+  - Michael Ryan
+  - Jing Wang
+  - John N. Weinstein
+  - Jiexin Zhang
+  - Adam Abeshouse
+  - Joshua Armenia
+  - Debyani Chakravarty
+  - Walid K. Chatila
+  - Ino de Bruijn
+  - Jianjiong Gao
+  - Benjamin E. Gross
+  - Zachary J. Heins
+  - Ritika Kundra
+  - Konnor La
+  - Marc Ladanyi
+  - Augustin Luna
+  - Moriah G. Nissan
+  - Angelica Ochoa
+  - Sarah M. Phillips
+  - Ed Reznik
+  - Francisco Sanchez-Vega
+  - Chris Sander
+  - Nikolaus Schultz
+  - Robert Sheridan
+  - S. Onur Sumer
+  - Yichao Sun
+  - Barry S. Taylor
+  - Jioajiao Wang
+  - Hongxin Zhang
+  - Pavana Anur
+  - Myron Peto
+  - Paul Spellman
+  - Christopher Benz
+  - Joshua M. Stuart
+  - Christopher K. Wong
+  - Christina Yau
+  - D. Neil Hayes
+  - Joel S. Parker
+  - Matthew D. Wilkerson
+  - Adrian Ally
+  - Miruna Balasundaram
+  - Reanne Bowlby
+  - Denise Brooks
+  - Rebecca Carlsen
+  - Eric Chuah
+  - Noreen Dhalla
+  - Robert Holt
+  - Steven J.M. Jones
+  - Katayoon Kasaian
+  - Darlene Lee
+  - Yussanne Ma
+  - Marco A. Marra
+  - Michael Mayo
+  - Richard A. Moore
+  - Andrew J. Mungall
+  - Karen Mungall
+  - A. Gordon Robertson
+  - Sara Sadeghi
+  - Jacqueline E. Schein
+  - Payal Sipahimalani
+  - Angela Tam
+  - Nina Thiessen
+  - Kane Tse
+  - Tina Wong
+  - Ashton C. Berger
+  - Rameen Beroukhim
+  - Andrew D. Cherniack
+  - Carrie Cibulskis
+  - Stacey B. Gabriel
+  - Galen F. Gao
+  - Gavin Ha
+  - Matthew Meyerson
+  - Steven E. Schumacher
+  - Juliann Shih
+  - Melanie H. Kucherlapati
+  - Raju S. Kucherlapati
+  - Stephen Baylin
+  - Leslie Cope
+  - Ludmila Danilova
+  - Moiz S. Bootwalla
+  - Phillip H. Lai
+  - Dennis T. Maglinte
+  - David J. Van Den Berg
+  - Daniel J. Weisenberger
+  - J. Todd Auman
+  - Saianand Balu
+  - Tom Bodenheimer
+  - Cheng Fan
+  - Katherine A. Hoadley
+  - Alan P. Hoyle
+  - Stuart R. Jefferys
+  - Corbin D. Jones
+  - Shaowu Meng
+  - Piotr A. Mieczkowski
+  - Lisle E. Mose
+  - Amy H. Perou
+  - Charles M. Perou
+  - Jeffrey Roach
+  - Yan Shi
+  - Janae V. Simons
+  - Tara Skelly
+  - Matthew G. Soloway
+  - Donghui Tan
+  - Umadevi Veluvolu
+  - Huihui Fan
+  - Toshinori Hinoue
+  - Peter W. Laird
+  - Hui Shen
+  - Wanding Zhou
+  - Michelle Bellair
+  - Kyle Chang
+  - Kyle Covington
+  - Chad J. Creighton
+  - Huyen Dinh
+  - HarshaVardhan Doddapaneni
+  - Lawrence A. Donehower
+  - Jennifer Drummond
+  - Richard A. Gibbs
+  - Robert Glenn
+  - Walker Hale
+  - Yi Han
+  - Jianhong Hu
+  - Viktoriya Korchina
+  - Sandra Lee
+  - Lora Lewis
+  - Wei Li
+  - Xiuping Liu
+  - Margaret Morgan
+  - Donna Morton
+  - Donna Muzny
+  - Jireh Santibanez
+  - Margi Sheth
+  - Eve Shinbrot
+  - Linghua Wang
+  - Min Wang
+  - David A. Wheeler
+  - Liu Xi
+  - Fengmei Zhao
+  - Julian Hess
+  - Elizabeth L. Appelbaum
+  - Matthew Bailey
+  - Matthew G. Cordes
+  - Li Ding
+  - Catrina C. Fronick
+  - Lucinda A. Fulton
+  - Robert S. Fulton
+  - Cyriac Kandoth
+  - Elaine R. Mardis
+  - Michael D. McLellan
+  - Christopher A. Miller
+  - Heather K. Schmidt
+  - Richard K. Wilson
+  - Daniel Crain
+  - Erin Curley
+  - Johanna Gardner
+  - Kevin Lau
+  - David Mallery
+  - Scott Morris
+  - Joseph Paulauskis
+  - Robert Penny
+  - Candace Shelton
+  - Troy Shelton
+  - Mark Sherman
+  - Eric Thompson
+  - Peggy Yena
+  - Jay Bowen
+  - Julie M. Gastier-Foster
+  - Mark Gerken
+  - Kristen M. Leraas
+  - Tara M. Lichtenberg
+  - Nilsa C. Ramirez
+  - Lisa Wise
+  - Erik Zmuda
+  - Niall Corcoran
+  - Tony Costello
+  - Christopher Hovens
+  - Andre L. Carvalho
+  - Ana C. de Carvalho
+  - "Jos\xE9 H. Fregnani"
+  - Adhemar Longatto-Filho
+  - Rui M. Reis
+  - Cristovam Scapulatempo-Neto
+  - Henrique C.S. Silveira
+  - Daniel O. Vidal
+  - Andrew Burnette
+  - Jennifer Eschbacher
+  - Beth Hermes
+  - Ardene Noss
+  - Rosy Singh
+  - Matthew L. Anderson
+  - Patricia D. Castro
+  - Michael Ittmann
+  - David Huntsman
+  - Bernard Kohl
+  - Xuan Le
+  - Richard Thorp
+  - Chris Andry
+  - Elizabeth R. Duffy
+  - Vladimir Lyadov
+  - Oxana Paklina
+  - Galiya Setdikova
+  - Alexey Shabunin
+  - Mikhail Tavobilov
+  - Christopher McPherson
+  - Ronald Warnick
+  - Ross Berkowitz
+  - Daniel Cramer
+  - Colleen Feltmate
+  - Neil Horowitz
+  - Adam Kibel
+  - Michael Muto
+  - Chandrajit P. Raut
+  - Andrei Malykh
+  - Jill S. Barnholtz-Sloan
+  - Wendi Barrett
+  - Karen Devine
+  - Jordonna Fulop
+  - Quinn T. Ostrom
+  - Kristen Shimmel
+  - Yingli Wolinsky
+  - Andrew E. Sloan
+  - Agostino De Rose
+  - Felice Giuliante
+  - Marc Goodman
+  - Beth Y. Karlan
+  - Curt H. Hagedorn
+  - John Eckman
+  - Jodi Harr
+  - Jerome Myers
+  - Kelinda Tucker
+  - Leigh Anne Zach
+  - Brenda Deyarmin
+  - Hai Hu
+  - Leonid Kvecher
+  - Caroline Larson
+  - Richard J. Mural
+  - Stella Somiari
+  - Ales Vicha
+  - Tomas Zelinka
+  - Joseph Bennett
+  - Mary Iacocca
+  - Brenda Rabeno
+  - Patricia Swanson
+  - Mathieu Latour
+  - Louis Lacombe
+  - "Bernard T\xEAtu"
+  - Alain Bergeron
+  - Mary McGraw
+  - Susan M. Staugaitis
+  - John Chabot
+  - Hanina Hibshoosh
+  - Antonia Sepulveda
+  - Tao Su
+  - Timothy Wang
+  - Olga Potapova
+  - Olga Voronina
+  - Laurence Desjardins
+  - Odette Mariani
+  - Sergio Roman-Roman
+  - Xavier Sastre
+  - Marc-Henri Stern
+  - Feixiong Cheng
+  - Sabina Signoretti
+  - Andrew Berchuck
+  - Darell Bigner
+  - Eric Lipp
+  - Jeffrey Marks
+  - Shannon McCall
+  - Roger McLendon
+  - Angeles Secord
+  - Alexis Sharp
+  - Madhusmita Behera
+  - Daniel J. Brat
+  - Amy Chen
+  - Keith Delman
+  - Seth Force
+  - Fadlo Khuri
+  - Kelly Magliocca
+  - Shishir Maithel
+  - Jeffrey J. Olson
+  - Taofeek Owonikoko
+  - Alan Pickens
+  - Suresh Ramalingam
+  - Dong M. Shin
+  - Gabriel Sica
+  - Erwin G. Van Meir
+  - Hongzheng Zhang
+  - Wil Eijckenboom
+  - Ad Gillis
+  - Esther Korpershoek
+  - Leendert Looijenga
+  - Wolter Oosterhuis
+  - Hans Stoop
+  - Kim E. van Kessel
+  - Ellen C. Zwarthoff
+  - Chiara Calatozzolo
+  - Lucia Cuppini
+  - Stefania Cuzzubbo
+  - Francesco DiMeco
+  - Gaetano Finocchiaro
+  - Luca Mattei
+  - Alessandro Perin
+  - Bianca Pollo
+  - Chu Chen
+  - John Houck
+  - Pawadee Lohavanichbutr
+  - Arndt Hartmann
+  - Christine Stoehr
+  - Robert Stoehr
+  - Helge Taubert
+  - Sven Wach
+  - Bernd Wullich
+  - Witold Kycler
+  - Dawid Murawa
+  - Maciej Wiznerowicz
+  - Ki Chung
+  - W. Jeffrey Edenfield
+  - Julie Martin
+  - Eric Baudin
+  - Glenn Bubley
+  - Raphael Bueno
+  - Assunta De Rienzo
+  - William G. Richards
+  - Steven Kalkanis
+  - Tom Mikkelsen
+  - Houtan Noushmehr
+  - Lisa Scarpace
+  - Nicolas Girard
+  - Marta Aymerich
+  - Elias Campo
+  - "Eva Gin\xE9"
+  - "Armando L\xF3pez Guillermo"
+  - Nguyen Van Bang
+  - Phan Thi Hanh
+  - Bui Duc Phu
+  - Yufang Tang
+  - Howard Colman
+  - Kimberley Evason
+  - Peter R. Dottino
+  - John A. Martignetti
+  - Hani Gabra
+  - Hartmut Juhl
+  - Teniola Akeredolu
+  - Serghei Stepa
+  - Dave Hoon
+  - Keunsoo Ahn
+  - Koo Jeong Kang
+  - Felix Beuschlein
+  - Anne Breggia
+  - Michael Birrer
+  - Debra Bell
+  - Mitesh Borad
+  - Alan H. Bryce
+  - Erik Castle
+  - Vishal Chandan
+  - John Cheville
+  - John A. Copland
+  - Michael Farnell
+  - Thomas Flotte
+  - Nasra Giama
+  - Thai Ho
+  - Michael Kendrick
+  - Jean-Pierre Kocher
+  - Karla Kopp
+  - Catherine Moser
+  - David Nagorney
+  - "Daniel O\u2019Brien"
+  - "Brian Patrick O\u2019Neill"
+  - Tushar Patel
+  - Gloria Petersen
+  - Florencia Que
+  - Michael Rivera
+  - Lewis Roberts
+  - Robert Smallridge
+  - Thomas Smyrk
+  - Melissa Stanton
+  - R. Houston Thompson
+  - Michael Torbenson
+  - Ju Dong Yang
+  - Lizhi Zhang
+  - Fadi Brimo
+  - Jaffer A. Ajani
+  - Ana Maria Angulo Gonzalez
+  - Carmen Behrens
+  - Jolanta Bondaruk
+  - Russell Broaddus
+  - Bogdan Czerniak
+  - Bita Esmaeli
+  - Junya Fujimoto
+  - Jeffrey Gershenwald
+  - Charles Guo
+  - Alexander J. Lazar
+  - Christopher Logothetis
+  - Funda Meric-Bernstam
+  - Cesar Moran
+  - Lois Ramondetta
+  - David Rice
+  - Anil Sood
+  - Pheroze Tamboli
+  - Timothy Thompson
+  - Patricia Troncoso
+  - Anne Tsao
+  - Ignacio Wistuba
+  - Candace Carter
+  - Lauren Haydu
+  - Peter Hersey
+  - Valerie Jakrot
+  - Hojabr Kakavand
+  - Richard Kefford
+  - Kenneth Lee
+  - Georgina Long
+  - Graham Mann
+  - Michael Quinn
+  - Robyn Saw
+  - Richard Scolyer
+  - Kerwin Shannon
+  - Andrew Spillane
+  - Jonathan Stretch
+  - Maria Synott
+  - John Thompson
+  - James Wilmott
+  - Hikmat Al-Ahmadie
+  - Timothy A. Chan
+  - Ronald Ghossein
+  - Anuradha Gopalan
+  - Douglas A. Levine
+  - Victor Reuter
+  - Samuel Singer
+  - Bhuvanesh Singh
+  - Nguyen Viet Tien
+  - Thomas Broudy
+  - Cyrus Mirsaidi
+  - Praveen Nair
+  - Paul Drwiega
+  - Judy Miller
+  - Jennifer Smith
+  - Howard Zaren
+  - Joong-Won Park
+  - Nguyen Phi Hung
+  - Electron Kebebew
+  - W. Marston Linehan
+  - Adam R. Metwalli
+  - Karel Pacak
+  - Peter A. Pinto
+  - Mark Schiffman
+  - Laura S. Schmidt
+  - Cathy D. Vocke
+  - Nicolas Wentzensen
+  - Robert Worrell
+  - Hannah Yang
+  - Marc Moncrieff
+  - Chandra Goparaju
+  - Jonathan Melamed
+  - Harvey Pass
+  - Natalia Botnariuc
+  - Irina Caraman
+  - Mircea Cernat
+  - Inga Chemencedji
+  - Adrian Clipca
+  - Serghei Doruc
+  - Ghenadie Gorincioi
+  - Sergiu Mura
+  - Maria Pirtac
+  - Irina Stancul
+  - Diana Tcaciuc
+  - Monique Albert
+  - Iakovina Alexopoulou
+  - Angel Arnaout
+  - John Bartlett
+  - Jay Engel
+  - Sebastien Gilbert
+  - Jeremy Parfitt
+  - Harman Sekhon
+  - George Thomas
+  - Doris M. Rassl
+  - Robert C. Rintoul
+  - Carlo Bifulco
+  - Raina Tamakawa
+  - Walter Urba
+  - Nicholas Hayward
+  - Henri Timmers
+  - Anna Antenucci
+  - Francesco Facciolo
+  - Gianluca Grazi
+  - Mirella Marino
+  - Roberta Merola
+  - Ronald de Krijger
+  - Anne-Paule Gimenez-Roqueplo
+  - "Alain Pich\xE9"
+  - Simone Chevalier
+  - Ginette McKercher
+  - Kivanc Birsoy
+  - Gene Barnett
+  - Cathy Brewer
+  - Carol Farver
+  - Theresa Naska
+  - Nathan A. Pennell
+  - Daniel Raymond
+  - Cathy Schilero
+  - Kathy Smolenski
+  - Felicia Williams
+  - Carl Morrison
+  - Jeffrey A. Borgia
+  - Michael J. Liptay
+  - Mark Pool
+  - Christopher W. Seder
+  - Kerstin Junker
+  - Larsson Omberg
+  - Mikhail Dinkin
+  - George Manikhas
+  - Domenico Alvaro
+  - Maria Consiglia Bragazzi
+  - Vincenzo Cardinale
+  - Guido Carpino
+  - Eugenio Gaudio
+  - David Chesla
+  - Sandra Cottingham
+  - Michael Dubina
+  - Fedor Moiseenko
+  - Renumathy Dhanasekaran
+  - Karl-Friedrich Becker
+  - Klaus-Peter Janssen
+  - Julia Slotta-Huspenina
+  - Mohamed H. Abdel-Rahman
+  - Dina Aziz
+  - Sue Bell
+  - Colleen M. Cebulla
+  - Amy Davis
+  - Rebecca Duell
+  - J. Bradley Elder
+  - Joe Hilty
+  - Bahavna Kumar
+  - James Lang
+  - Norman L. Lehman
+  - Randy Mandt
+  - Phuong Nguyen
+  - Robert Pilarski
+  - Karan Rai
+  - Lynn Schoenfield
+  - Kelly Senecal
+  - Paul Wakely
+  - Paul Hansen
+  - Ronald Lechan
+  - James Powers
+  - Arthur Tischler
+  - William E. Grizzle
+  - Katherine C. Sexton
+  - Alison Kastl
+  - Joel Henderson
+  - Sima Porten
+  - Jens Waldmann
+  - Martin Fassnacht
+  - Sylvia L. Asa
+  - Dirk Schadendorf
+  - Marta Couce
+  - Markus Graefen
+  - Hartwig Huland
+  - Guido Sauter
+  - Thorsten Schlomm
+  - Ronald Simon
+  - Pierre Tennstedt
+  - Oluwole Olabode
+  - Mark Nelson
+  - Oliver Bathe
+  - Peter R. Carroll
+  - June M. Chan
+  - Philip Disaia
+  - Pat Glenn
+  - Robin K. Kelley
+  - Charles N. Landen
+  - Joanna Phillips
+  - Michael Prados
+  - Jeffry Simko
+  - Karen Smith-McCune
+  - Scott VandenBerg
+  - Kevin Roggin
+  - Ashley Fehrenbach
+  - Ady Kendler
+  - Suzanne Sifri
+  - Ruth Steele
+  - Antonio Jimeno
+  - Francis Carey
+  - Ian Forgie
+  - Massimo Mannelli
+  - Michael Carney
+  - Brenda Hernandez
+  - Benito Campos
+  - Christel Herold-Mende
+  - Christin Jungk
+  - Andreas Unterberg
+  - Andreas von Deimling
+  - Aaron Bossler
+  - Joseph Galbraith
+  - Laura Jacobus
+  - Michael Knudson
+  - Tina Knutson
+  - Deqin Ma
+  - Mohammed Milhem
+  - Rita Sigmund
+  - Andrew K. Godwin
+  - Rashna Madan
+  - Howard G. Rosenthal
+  - Clement Adebamowo
+  - Sally N. Adebamowo
+  - Alex Boussioutas
+  - David Beer
+  - Thomas Giordano
+  - Anne-Marie Mes-Masson
+  - Fred Saad
+  - Therese Bocklage
+  - Lisa Landrum
+  - Robert Mannel
+  - Kathleen Moore
+  - Katherine Moxley
+  - Russel Postier
+  - Joan Walker
+  - Rosemary Zuna
+  - Michael Feldman
+  - Federico Valdivieso
+  - Rajiv Dhir
+  - James Luketich
+  - Edna M. Mora Pinero
+  - Mario Quintero-Aguilo
+  - Carlos Gilberto Carlotti
+  - "Jose Sebasti\xE3o Dos Santos"
+  - Rafael Kemp
+  - Ajith Sankarankuty
+  - Daniela Tirapelli
+  - James Catto
+  - Kathy Agnew
+  - Elizabeth Swisher
+  - Jenette Creaney
+  - Bruce Robinson
+  - Carl Simon Shelley
+  - Eryn M. Godwin
+  - Sara Kendall
+  - Cassaundra Shipman
+  - Carol Bradford
+  - Thomas Carey
+  - Andrea Haddad
+  - Jeffey Moyer
+  - Lisa Peterson
+  - Mark Prince
+  - Laura Rozek
+  - Gregory Wolf
+  - Rayleen Bowman
+  - Kwun M. Fong
+  - Ian Yang
+  - Robert Korst
+  - W. Kimryn Rathmell
+  - J. Leigh Fantacone-Campbell
+  - Jeffrey A. Hooke
+  - Albert J. Kovatich
+  - Craig D. Shriver
+  - John DiPersio
+  - Bettina Drake
+  - Ramaswamy Govindan
+  - Sharon Heath
+  - Timothy Ley
+  - Brian Van Tine
+  - Peter Westervelt
+  - Mark A. Rubin
+  - Jung Il Lee
+  - "Nat\xE1lia D. Aredes"
+  - Armaz Mariamidze
+  publisher: Cell Reports
+  date: '2018-04-01'
+  link: https://doi.org/gfspsb
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2211124718303899-fx1_lrg.jpg
+  repo: greenelab/pancancer
+- id: 10.1186/s12864-017-3519-7
+  title: A machine learning classifier trained on cancer transcriptomes detects NF1
+    inactivation signal in glioblastoma
+  authors:
+  - Gregory P. Way
+  - Robert J. Allaway
+  - Stephanie J. Bouley
+  - Camilo E. Fadul
+  - Yolanda Sanchez
+  - Casey S. Greene
+  publisher: BMC Genomics
+  date: '2017-02-06'
+  link: https://doi.org/gg7qr9
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12864-017-3519-7/MediaObjects/12864_2017_3519_Fig2_HTML.gif?as=webp
+  repo: greenelab/nf1_inactivation
+  extra-links:
+  - type: preprint
+    link: https://www.biorxiv.org/content/10.1101/075382v3
+    text: preprint
+  - type: source
+    link: https://github.com/greenelab/nf1_inactivation
+    text: analysis
+  - type: data
+    link: https://doi.org/10.5281/zenodo.200713
+    text: Zenodo archive
+  - type: data
+    link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE85033
+    text: GEO data
+- id: 10.1038/ejhg.2017.108
+  title: Implicating candidate genes at GWAS signals by leveraging topologically associating
+    domains
+  authors:
+  - Gregory P Way
+  - Daniel W Youngstrom
+  - Kurt D Hankenson
+  - Casey S Greene
+  - Struan FA Grant
+  publisher: European Journal of Human Genetics
+  date: '2017-08-09'
+  link: https://doi.org/gbq2j6
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fejhg.2017.108/MediaObjects/41431_2017_Article_BFejhg2017108_Fig1_HTML.jpg?as=webp
+  extra-links:
+  - type: preprint
+    link: https://doi.org/10.1101/087718
+    text: preprint
+  - type: source
+    link: https://github.com/greenelab/tad_pathways_pipeline
+    text: analysis
+  - type: data
+    link: https://doi.org/10.5281/zenodo.254190
+    text: Zenodo archive
+  - type: data
+    link: https://static-content.springer.com/esm/art%3A10.1038%2Fejhg.2017.108/MediaObjects/41431_2017_BFejhg2017108_MOESM464_ESM.mp4
+    text: download video
+- id: 10.1038/s41598-017-10199-z
+  title: Deconvolution of DNA methylation identifies differentially methylated gene
+    regions on 1p36 across breast cancer subtypes
+  authors:
+  - Alexander J. Titus
+  - Gregory P. Way
+  - Kevin C. Johnson
+  - Brock C. Christensen
+  publisher: Scientific Reports
+  date: '2017-09-14'
+  link: https://doi.org/gbxv64
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-017-10199-z/MediaObjects/41598_2017_10199_Fig2_HTML.jpg?as=webp
+  repo: Christensen-Lab-Dartmouth/brca_lowstage_DMGRs
+  extra-links:
+  - type: source
+    link: https://github.com/Christensen-Lab-Dartmouth/brca_lowstage_DMGRs
+    text: analysis
+- id: 10.1007/s40471-017-0115-y
+  title: Challenges and Opportunities in Studying the Epidemiology of Ovarian Cancer
+    Subtypes
+  authors:
+  - Jennifer Anne Doherty
+  - Lauren Cole Peres
+  - Chen Wang
+  - Gregory P. Way
+  - Casey S. Greene
+  - Joellen M. Schildkraut
+  publisher: Current Epidemiology Reports
+  date: '2017-07-10'
+  link: https://doi.org/gg7qrv
+  image: https://d3i71xaburhd42.cloudfront.net/b177abd3b27ac7d4fe17ced5eae4dd2e902c2f8a/6-Figure1-1.png
+- id: 10.1534/g3.116.033514
+  title: Comprehensive Cross-Population Analysis of High-Grade Serous Ovarian Cancer
+    Supports No More Than Three Subtypes
+  authors:
+  - Gregory P Way
+  - James Rudd
+  - Chen Wang
+  - Habib Hamidi
+  - Brooke L Fridley
+  - Gottfried E Konecny
+  - Ellen L Goode
+  - Casey S Greene
+  - Jennifer A Doherty
+  publisher: G3 Genes|Genomes|Genetics
+  date: '2016-12-01'
+  link: https://doi.org/gg7qsd
+  image: https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/g3journal/6/12/10.1534_g3.116.033514/4/4097f1.gif
+  repo: greenelab/hgsc_subtypes
+  extra-links:
+  - type: source
+    link: https://github.com/greenelab/hgsc_subtypes
+    text: analysis
+  - type: data
+    link: https://doi.org/10.5281/zenodo.61245
+    text: Zenodo archive
+- id: 10.1089/zeb.2014.1025
+  title: A Comparison of Methodologies to Test Aggression in Zebrafish
+  authors:
+  - Gregory P. Way
+  - Nathan Ruhl
+  - Jennifer L. Snekser
+  - Alexis L. Kiesel
+  - Scott P. McRobert
+  publisher: Zebrafish
+  date: '2015-04-01'
+  link: https://doi.org/f65dgg
+  image: https://www.liebertpub.com/cms/10.1089/zeb.2014.1025/asset/images/medium/figure1.gif
+- id: 10.1016/j.beproc.2014.12.014
+  title: Sex differences in a shoaling-boldness behavioral syndrome, but no link with
+    aggression
+  authors:
+  - Gregory P. Way
+  - Alexis L. Kiesel
+  - Nathan Ruhl
+  - Jennifer L. Snekser
+  - Scott P. McRobert
+  publisher: Behavioural Processes
+  date: '2015-04-01'
+  link: https://doi.org/f67cwk
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S0376635714003258-gr1.jpg
