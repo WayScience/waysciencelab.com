@@ -47,7 +47,7 @@ We focus on extracting value from biomedical image data, and are currently build
 
 {%
   include feature.html
-  image="images/cells.jpg"
+  image="images/cells.jpeg"
   link="research"
   headline="Our Research"
   text=text
@@ -81,7 +81,7 @@ To see your face in this page, dare to reach out!
 
 {%
   include feature.html
-  image="images/team.jpg"
+  image="images/team.jpeg"
   link="team"
   headline="Our Team"
   text=text
