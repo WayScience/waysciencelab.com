@@ -71,7 +71,7 @@ Please cite any data or software you use!
   include feature.html
   image="images/network.png"
   link="resources"
-  headline="Our Resources"
+  headline="Software and data"
   text=text
 %}
 
@@ -87,7 +87,7 @@ To see your face in this page, please reach out!
   include feature.html
   image="images/team.jpeg"
   link="team"
-  headline="Our Team"
+  headline="Meet our team"
   text=text
 %}
 
