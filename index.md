@@ -2,25 +2,28 @@
 title: Home
 ---
 
-# Your Lab Slogan
+# Biomedical data science goes "Boink"!
 
-[Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/), with automatic citations, GitHub tag imports, pre-built components, and more.
-Spend less time reinventing the wheel, and more time running your lab.
-  
+Welcome to the Way Lab at [The University of Colorado Anschutz](https://www.cuanschutz.edu/)!
+
+We are currently hiring curious, compassionate, daring, and meticulous scientists to lead the next generation of biomedical research.
+
+Click around to learn more about the lab's research vision and focus!
+
 {%
   include link.html
   type="github"
   icon=""
-  text="See the template on GitHub"
-  link="greenelab/lab-website-template"
+  text="See our open science projects"
+  link="wayscience"
   style="button"
 %}
 {%
   include link.html
-  type="docs"
+  type="github"
   icon=""
-  text="See the documentation"
-  link="https://github.com/greenelab/lab-website-template/wiki"
+  text="Website template"
+  link="wayscience/lab-website-template"
   style="button"
 %}
 {:.center}
@@ -34,8 +37,9 @@ Spend less time reinventing the wheel, and more time running your lab.
 # Highlights
 
 {% capture text %}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We use biomedical data science, software, and machine learning to enhance biological discovery and to improve the human condition.
+We develop data-driven methods and approaches to understand disease mechanisms, to personalize treatment strategies, and to reduce human suffering.
+We focus on extracting value from biomedical image data, and are currently building the infrastructure required to establish morphology as a systems biology measurement.
 
 [See what we've published &nbsp;→](research)
 {:.center}
@@ -43,15 +47,17 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/cells.jpeg"
   link="research"
   headline="Our Research"
   text=text
 %}
 
 {% capture text %}
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+We also release data and software to enable reproducible computational biology analyses and workflows.
+Data are important resources that scientists can use to answer multiple questions.
+All of our software is open source, and we encourage active learning through meaningful code contributions.
+Please cite any data or software you use!
 
 [See our resources &nbsp;→](resources)
 {:.center}
@@ -59,14 +65,15 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/network.png"
   link="resources"
   headline="Our Resources"
   text=text
 %}
 
 {% capture text %}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We are recruiting!
+To see your face in this page, dare to reach out!
 
 [Meet our team &nbsp;→](team)
 {:.center}
@@ -74,7 +81,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/team.jpeg"
   link="team"
   headline="Our Team"
   text=text
