@@ -42,7 +42,7 @@ We encourage all to apply.
 
 {%
   include link.html
-  icon="fas fa-hands-helping"
+  icon="fas fa-users"
   text="Join the Team"
   link="join/"
   style="button"

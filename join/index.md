@@ -3,7 +3,7 @@ title: Join
 description: How to join
 ---
 
-# <i class="fas fa-hands-helping"></i>Join Us!
+# <i class="fas fa-users"></i>Join Us!
 
 {% include search-info.html %}
 
