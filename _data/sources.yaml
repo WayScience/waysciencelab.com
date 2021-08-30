@@ -18,7 +18,25 @@
       link: https://www.biorxiv.org/content/10.1101/2020.07.08.193938v2
     - type: source
       link: https://github.com/broadinstitute/cell-health
-      text: Analysis source
+      text: Analysis
   tags:
     - image-based profiling
     - cell biology
+
+- id: doi:10.1186/s13059-020-02021-3
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs13059-020-02021-3/MediaObjects/13059_2020_2021_Fig6_HTML.png?as=webp
+  repo: greenelab/biobombe
+  extra-links:
+    - type: preprint
+      link: https://doi.org/10.1101/573782
+    - type: source
+      link: https://github.com/greenelab/biobombe
+      text: Analysis
+    - type: data
+      link: https://greenelab.github.io/BioBombe/
+      text: Embeddings
+  tags:
+    - biological representations
+    - unsupervised learning
+    - autoencoder
+    - cancer 
