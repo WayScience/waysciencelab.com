@@ -203,6 +203,10 @@
 
 - id: 10.1089/zeb.2014.1025
   image: https://www.liebertpub.com/cms/10.1089/zeb.2014.1025/asset/images/medium/figure1.gif
+  tags:
+    - zebrafish
 
 - id: 10.1016/j.beproc.2014.12.014
   image: https://ars.els-cdn.com/content/image/1-s2.0-S0376635714003258-gr1.jpg
+  tags:
+    - zebrafish

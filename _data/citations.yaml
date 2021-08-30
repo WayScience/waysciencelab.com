@@ -2824,6 +2824,8 @@
   date: '2015-04-01'
   link: https://doi.org/f65dgg
   image: https://www.liebertpub.com/cms/10.1089/zeb.2014.1025/asset/images/medium/figure1.gif
+  tags:
+  - zebrafish
 - id: 10.1016/j.beproc.2014.12.014
   title: Sex differences in a shoaling-boldness behavioral syndrome, but no link with
     aggression
@@ -2837,3 +2839,5 @@
   date: '2015-04-01'
   link: https://doi.org/f67cwk
   image: https://ars.els-cdn.com/content/image/1-s2.0-S0376635714003258-gr1.jpg
+  tags:
+  - zebrafish

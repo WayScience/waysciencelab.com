@@ -8,7 +8,7 @@
 - name: BioBombe
   group: featured
   image: https://raw.githubusercontent.com/greenelab/BioBombe/master/docs/favicon-192x192.png
-  link: https://github.com/greenelab/biobombe
+  link: https://greenelab.github.io/BioBombe/
   description: Maximize biological representations with unsupervised ensembles across different latent space dimensionalities
   repo: greenelab/biobombe
 
