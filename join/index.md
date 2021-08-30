@@ -1,3 +1,8 @@
+---
+title: Join
+description: Join the Way Lab!
+---
+
 # <i class="fas fa-tools"></i>Resources
 
 {% include search-info.html %}
