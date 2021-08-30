@@ -2,11 +2,16 @@
 title: Home
 ---
 
-# Biomedical data science goes "Boink"!
+# Biomedical data science
 
 Welcome to the Way Lab at [The University of Colorado Anschutz](https://www.cuanschutz.edu/)!
 
 We are currently hiring curious, compassionate, daring, and meticulous scientists to lead the next generation of biomedical research.
+
+The mission of our lab is to integrate high-dimensional biomedical data science into clinical decision making to improve patient outcomes.
+We will develop new methods, approaches, assays, and software for analyzing high-dimensional genomic, molecular, and morphological data.
+Our primary focus will be pediatric and adult cancer research, but we will repurpose our approaches to other disease areas in selective collaborations.
+We will leverage the power of existing data in publicly available resources and practice open science to the fullest extent in all of our projects.
 
 Click around to learn more about the lab's research vision and focus!
 
@@ -20,10 +25,9 @@ Click around to learn more about the lab's research vision and focus!
 %}
 {%
   include link.html
-  type="github"
-  icon=""
-  text="Website template"
-  link="wayscience/lab-website-template"
+  icon="fas fa-users"
+  text="Join the Team"
+  link="join/"
   style="button"
 %}
 {:.center}
@@ -67,13 +71,13 @@ Please cite any data or software you use!
   include feature.html
   image="images/network.png"
   link="resources"
-  headline="Our Resources"
+  headline="Software and data"
   text=text
 %}
 
 {% capture text %}
 We are recruiting!
-To see your face in this page, dare to reach out!
+To see your face in this page, please reach out!
 
 [Meet our team &nbsp;→](team)
 {:.center}
@@ -83,6 +87,16 @@ To see your face in this page, dare to reach out!
   include feature.html
   image="images/team.jpeg"
   link="team"
-  headline="Our Team"
+  headline="Our lab team"
   text=text
 %}
+
+{%
+  include link.html
+  type="github"
+  icon=""
+  text="Website template"
+  link="wayscience/lab-website-template"
+  style="button"
+%}
+{:.center}

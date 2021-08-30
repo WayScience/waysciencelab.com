@@ -24,6 +24,8 @@
   date: 2021-4-23
   tags:
     - open science
+    - essay
+    - call to action
 
 - id: doi:10.1091/mbc.E20-12-0784
   image: https://www.molbiolcell.org/cms/10.1091/mbc.E20-12-0784/asset/images/medium/mbc-32-995-g001.gif
@@ -54,3 +56,157 @@
     - biological representations
     - unsupervised learning
     - cancer
+
+- id: 10.1101/2021.07.17.452050
+  image: https://www.biorxiv.org/content/biorxiv/early/2021/07/19/2021.07.17.452050/F1.large.jpg
+  tags:
+    - image-based profiling
+    - metabolism
+
+- id: 10.1038/s41597-020-0458-y
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41597-020-0458-y/MediaObjects/41597_2020_458_Fig1_HTML.png?as=webp
+  tags:
+    - gene regulation
+    - pediatric cancer
+
+- id: 10.1186/s40478-019-0803-6
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs40478-019-0803-6/MediaObjects/40478_2019_803_Fig1_HTML.png?as=webp
+  repo: greenelab/gbm_immune_validation
+  extra-links:
+    - type: data
+      link: https://doi.org/10.5281/zenodo.195238
+      text: Zenodo archive
+  tags:
+    - gene expression deconvolution
+    - cancer
+    - glioblastoma
+
+- id: 10.1182/bloodadvances.2019000303
+  image: https://ash.silverchair-cdn.com/ash/content_public/journal/bloodadvances/3/21/10.1182_bloodadvances.2019000303/6/advancesadv2019000303absf1.png?Expires=1632888317&Signature=gyxBCxLAJuFoJyUnY-Re3Tx7FjQJW3eGp8O5R58Nf9ivPWiKomDxz198mYlFFrCs6t-gu0ROAi9Ka4pdaBM5iltSUr~Ert9N85mYKB3NdQ9VHUXLAb-~4igHfF~azabT~UGLx2g44C3qP3RGw1X45kCm-wcOkGLwppiFdBeO-kB-llMFDPHIUtWz4KCeWPqUyDKKtCyr8A~Ke3pIxXQOMcUNhsBemAiGkbrfaRV2U08OjswvQYVkzacGGVAr7uNwBBiiaTD3EXLYw4JijMZi3bkYcNe5e9zFW2aPQifNun-76wWa4cDmI4XUqi1VOFPATlMdNXbI5JNMkRwyAESfqA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
+  repo: greenelab/multiple-myeloma-classifier
+  extra-links:
+    - type: data
+      link: https://doi.org/10.5281/zenodo.2566059
+      text: Zenodo archive
+  tags:
+    - NF1
+    - RAS pathway
+    - cancer
+    - multiple myeloma
+
+- id: 10.1016/j.celrep.2019.09.071
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2211124719312689-gr1.jpg
+  repo: marislab/pdx-classification
+  extra-links:
+    - type: data
+      link: https://doi.org/10.5281/Zenodo.1475249
+      text: Zenodo archive
+  tags:
+    - pediatric cancer
+
+- id: 10.1146/annurev-biodatasci-072018-021348
+  image: https://d3i71xaburhd42.cloudfront.net/1faf6f4ced4693d61acbbdc592d349eb09dbe32c/19-Figure1.1-1.png
+  extra-links:
+    - type: preprint
+      link: https://doi.org/10.7287/peerj.preprints.27229v1
+      text: preprint
+  tags:
+    - review
+
+- id: 10.1038/s41592-018-0230-9
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-018-0230-9/MediaObjects/41592_2018_230_Fig1_HTML.png
+  tags:
+    - news and views
+
+- id: 10.1016/j.cell.2018.03.035
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S0092867418303593-fx1_lrg.jpg
+
+- id: 10.1098/rsif.2017.0387
+  image: https://royalsocietypublishing.org/cms/asset/1aee5837-745c-40ad-a398-00dc5655466c/rsif20170387f01.jpg
+  repo: greenelab/deep-review
+  tags:
+    - review
+
+- id: 10.1016/j.celrep.2018.03.076
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2211124718304376-fx1_lrg.jpg
+  repo: greenelab/pancancer
+
+- id: 10.1142/9789813235533_0008
+  image: https://hpc.nih.gov/apps/tybalt/tsne_adage.png
+  repo: greenelab/tybalt
+  extra-links:
+    - type: preprint
+      link: https://doi.org/10.1101/174474
+      text: preprint
+    - type: source
+      link: https://github.com/greenelab/tybalt
+      text: Analysis
+
+- id: 10.1016/j.celrep.2018.03.046
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2211124718303899-fx1_lrg.jpg
+  repo: greenelab/pancancer
+
+- id: 10.1186/s12864-017-3519-7
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12864-017-3519-7/MediaObjects/12864_2017_3519_Fig2_HTML.gif?as=webp
+  repo: greenelab/nf1_inactivation
+  extra-links:
+    - type: preprint
+      link: https://www.biorxiv.org/content/10.1101/075382v3
+      text: preprint
+    - type: source
+      link: https://github.com/greenelab/nf1_inactivation
+      text: analysis
+    - type: data
+      link: https://doi.org/10.5281/zenodo.200713
+      text: Zenodo archive
+    - type: data
+      link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE85033
+      text: GEO data
+
+- id: 10.1038/ejhg.2017.108
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fejhg.2017.108/MediaObjects/41431_2017_Article_BFejhg2017108_Fig1_HTML.jpg?as=webp
+  extra-links:
+    - type: preprint
+      link: https://doi.org/10.1101/087718
+      text: preprint
+    - type: source
+      link: https://github.com/greenelab/tad_pathways_pipeline
+      text: analysis
+    - type: data
+      link: https://doi.org/10.5281/zenodo.254190
+      text: Zenodo archive
+    - type: data
+      link: https://static-content.springer.com/esm/art%3A10.1038%2Fejhg.2017.108/MediaObjects/41431_2017_BFejhg2017108_MOESM464_ESM.mp4
+      text: download video
+
+- id: 10.1038/s41598-017-10199-z
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-017-10199-z/MediaObjects/41598_2017_10199_Fig2_HTML.jpg?as=webp
+  repo: Christensen-Lab-Dartmouth/brca_lowstage_DMGRs
+  extra-links:
+    - type: source
+      link: https://github.com/Christensen-Lab-Dartmouth/brca_lowstage_DMGRs
+      text: analysis
+
+- id: 10.1007/s40471-017-0115-y
+  image: https://d3i71xaburhd42.cloudfront.net/b177abd3b27ac7d4fe17ced5eae4dd2e902c2f8a/6-Figure1-1.png
+
+- id: 10.1534/g3.116.033514
+  image: https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/g3journal/6/12/10.1534_g3.116.033514/4/4097f3.gif?Expires=1633369396&Signature=0EsDFIHM0bshy381PKGunZ9vgQcuMi2YqhUrJe-ldF3c3qPYLQgt9OWnrf1Qr2dTrEfX6smibB7Utg8cGOGgrzYyN9-7~B59JzmUAyeufyyu0PLXF0mkGzy7jW9y4T87swqTT-f1zs2upNFh6kfvMWHTf7kn3q3gizSL49CiexMWB1IACnZc3DKWv6bRguNdbj33spOjzRmRrKTOgiXpWhW9p-29eEszXKycUYLsUNRlo7vhaX3u6U-iUrp48UXftXhjUls0T7sDQSpZTaHsT~gckgmf3ImSHa5VAvbhHWKJJL6yVp2Ov6mkJ760n4xCBspUKiMiYkgNu-N2UiBQ0Q__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
+  repo: greenelab/hgsc_subtypes
+  extra-links:
+    - type: source
+      link: https://github.com/greenelab/hgsc_subtypes
+      text: analysis
+    - type: data
+      link: https://doi.org/10.5281/zenodo.61245
+      text: Zenodo archive
+
+- id: 10.1089/zeb.2014.1025
+  image: https://www.liebertpub.com/cms/10.1089/zeb.2014.1025/asset/images/medium/figure1.gif
+  tags:
+    - zebrafish
+
+- id: 10.1016/j.beproc.2014.12.014
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S0376635714003258-gr1.jpg
+  tags:
+    - zebrafish
