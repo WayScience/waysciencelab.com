@@ -73,7 +73,7 @@ Please cite any data or software you use!
 
 {% capture text %}
 We are recruiting!
-To see your face in this page, dare to reach out!
+To see your face in this page, please reach out!
 
 [Meet our team &nbsp;→](team)
 {:.center}
