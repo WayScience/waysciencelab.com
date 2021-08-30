@@ -20,6 +20,15 @@ Click around to learn more about the lab's research vision and focus!
 %}
 {:.center}
 
+{%
+  include link.html
+  icon="fas fa-users"
+  text="Join the Team"
+  link="join/"
+  style="button"
+%}
+{:.center}
+
 {% include section.html full=true %}
 
 {% include banner.html image="images/banner.jpg" %}
