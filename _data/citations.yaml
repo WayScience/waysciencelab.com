@@ -216,7 +216,7 @@
   extra-links:
   - type: data
     link: https://doi.org/10.5281/zenodo.2566059
-    text: Zenodo arhive
+    text: Zenodo archive
   tags:
   - NF1
   - RAS pathway
@@ -2803,7 +2803,7 @@
   publisher: G3 Genes|Genomes|Genetics
   date: '2016-12-01'
   link: https://doi.org/gg7qsd
-  image: https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/g3journal/6/12/10.1534_g3.116.033514/4/4097f1.gif
+  image: https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/g3journal/6/12/10.1534_g3.116.033514/4/4097f3.gif?Expires=1633369396&Signature=0EsDFIHM0bshy381PKGunZ9vgQcuMi2YqhUrJe-ldF3c3qPYLQgt9OWnrf1Qr2dTrEfX6smibB7Utg8cGOGgrzYyN9-7~B59JzmUAyeufyyu0PLXF0mkGzy7jW9y4T87swqTT-f1zs2upNFh6kfvMWHTf7kn3q3gizSL49CiexMWB1IACnZc3DKWv6bRguNdbj33spOjzRmRrKTOgiXpWhW9p-29eEszXKycUYLsUNRlo7vhaX3u6U-iUrp48UXftXhjUls0T7sDQSpZTaHsT~gckgmf3ImSHa5VAvbhHWKJJL6yVp2Ov6mkJ760n4xCBspUKiMiYkgNu-N2UiBQ0Q__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
   repo: greenelab/hgsc_subtypes
   extra-links:
   - type: source

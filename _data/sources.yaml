@@ -87,7 +87,7 @@
   extra-links:
     - type: data
       link: https://doi.org/10.5281/zenodo.2566059
-      text: Zenodo arhive
+      text: Zenodo archive
   tags:
     - NF1
     - RAS pathway
