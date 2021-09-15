@@ -2,12 +2,11 @@
 title: Blog
 nav:
   order: 4
-  tooltip: Coming soon
+  tooltip: Just some thoughts
 ---
 
 # <i class="fas fa-feather-alt"></i>Blog [Coming soon]
 
-<!---
 {% include section.html %}
 
 {% include search-info.html %}
@@ -15,7 +14,6 @@ nav:
 {% include list.html data="posts" component="post-excerpt" %}
 
 {% include section.html %}
--->
 
 ## News
 
