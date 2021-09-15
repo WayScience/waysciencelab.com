@@ -5,7 +5,7 @@ nav:
   tooltip: Just some thoughts
 ---
 
-# <i class="fas fa-feather-alt"></i>Blog [Coming soon]
+# <i class="fas fa-feather-alt"></i>Blog
 
 {% include section.html %}
 
