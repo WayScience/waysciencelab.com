@@ -1,9 +1,12 @@
-- id: doi:10.1002/1873-3468.14067
-  image: https://febs.onlinelibrary.wiley.com/cms/asset/4a3a1cde-1265-471c-87af-f7556d28db36/feb213824-toc-0001-m.jpg
-  date: 2021-4-11
+- id: doi:10.1101/2021.09.02.458673
+  image: https://docs.google.com/drawings/d/e/2PACX-1vRzFGkZMf9ZfXb_q1rE1D9gAAczySfYZ4zyVl93l-zcRXv7sNtJpZTNp__9fmyaTl5MyccvtHh74i-I/pub?w=345&h=321
+  repo: broadinstitute/cell-painting-vae
   tags:
-    - open science
-    - microscopy data
+    - variational autoencoder
+    - cell painting
+    - drug discovery
+    - drug polypharmacology
+    - latent space arithmetic
 
 - id: doi:10.1371/journal.pbio.3001419
   authors:
@@ -13,6 +16,13 @@
     - open science
     - essay
     - call to action
+
+- id: doi:10.1002/1873-3468.14067
+  image: https://febs.onlinelibrary.wiley.com/cms/asset/4a3a1cde-1265-471c-87af-f7556d28db36/feb213824-toc-0001-m.jpg
+  date: 2021-4-11
+  tags:
+    - open science
+    - microscopy data
 
 - id: doi:10.1091/mbc.E20-12-0784
   image: https://www.molbiolcell.org/cms/10.1091/mbc.E20-12-0784/asset/images/medium/mbc-32-995-g001.gif
