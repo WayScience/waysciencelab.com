@@ -9,11 +9,11 @@ description: How to join
 
 {% include section.html %}
 
-We are currently hiring a postdoc scientist and an image data specialist (instructor)!
+We are currently hiring a Postdoctoral Fellow and an Image Data Specialist to join our team in the Center for Health AI at The University of Colorado Anschutz Medical Campus.
 
-[Click here to learn about the postdoc position](https://cu.taleo.net/careersection/2/jobdetail.ftl?job=23160&lang=en)
+[Click here to learn about the Postdoc position](https://cu.taleo.net/careersection/2/jobdetail.ftl?job=23160&lang=en)
 
-[Click here to learn about the image data specialist position](https://cu.taleo.net/careersection/2/jobdetail.ftl?job=23161&lang=en)
+[Click here to learn about the Image Data Specialist position](https://cu.taleo.net/careersection/2/jobdetail.ftl?job=23161&lang=en)
 
 ## PhD students
 
