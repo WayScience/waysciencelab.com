@@ -24,7 +24,22 @@
     text: Zenodo archive
 - id: doi:10.1371/journal.pbio.3001419
   title: A field guide to cultivating computational biology
-  authors: null
+  authors:
+  - Gregory P Way
+  - Anne E Carpenter
+  - Casey S Greene
+  - Piero Carnici
+  - Benilton S Carvalho
+  - Michiel de Hoon
+  - Stacey Finley
+  - Sara JC Gosline
+  - Kim-Anh Le Cao
+  - Jerry SH Lee
+  - Luigi Marchionni
+  - Suzanne Sindi
+  - Fabian J Theis
+  - Jean YH Yang
+  - Elana J Fertig
   publisher: PLOS Biology
   date: '2021-10-07'
   link: https://doi.org/gm3hdh
