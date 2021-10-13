@@ -38,6 +38,8 @@ events <- tribble(
 )
 
 crs_code <- "+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +units=m +no_defs"
+us_crs_code <- "+proj=laea +lat_0=50 +lon_0=-100 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs"
+aus_crs_code <- "+proj=laea +lat_0=50 +lon_0=-220 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs"
 
 events_transform <- events %>%
   sf::st_as_sf(coords = c("longitude", "latitude"), crs = 4326) %>%
