@@ -10,8 +10,7 @@ We are currently hiring curious, compassionate, daring, and meticulous scientist
 
 The mission of our lab is to integrate high-dimensional biomedical data science into clinical decision making to improve patient outcomes.
 We will develop new methods, approaches, assays, and software for analyzing high-dimensional genomic, molecular, and morphological data.
-Our primary focus will be pediatric and adult cancer research, but we will repurpose our approaches to other disease areas in selective collaborations.
-We will leverage the power of existing data in publicly available resources and practice open science to the fullest extent in all of our projects.
+Our primary focus will be on establishing cell morphology as a reproducible systems biology measurement of cell state.
 
 Click around to learn more about the lab's research vision and focus!
 
