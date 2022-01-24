@@ -50,7 +50,7 @@ We focus on extracting value from biomedical image data, and are currently build
 
 {%
   include feature.html
-  image="images/meowwolfcell.jpeg"
+  image="images/meowwolfcell.jpg"
   link="research"
   headline="Our Research"
   text=text
