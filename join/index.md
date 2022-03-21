@@ -9,7 +9,7 @@ description: How to join
 
 {% include section.html %}
 
-We are currently hiring Professional Research Assistants, Postdoctoral Fellows, and an Image Data Specialist to join our team in the Center for Health AI at The University of Colorado Anschutz Medical Campus.
+We are currently hiring Postdoctoral Fellows, Software Engineers, and Image Data Specialists to join our team in the Center for Health AI at The University of Colorado Anschutz Medical Campus.
 
 All applications must be submitted through the [CU Careers website](https://cu.taleo.net/careersection/2/moresearch.ftl?lang=en&radiusType=K&location=4100103016&searchExpanded=true&radius=1&portal=101430233).
 
