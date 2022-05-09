@@ -24,7 +24,7 @@ Aurora, CO 80045
   include link.html
   type="email"
   icon=""
-  text="gregory.way@gmail.com"
+  text="Email"
   tooltip=""
   link="gregory.way@gmail.com"
   style="button"
