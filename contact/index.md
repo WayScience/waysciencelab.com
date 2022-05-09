@@ -8,6 +8,18 @@ nav:
 # <i class="fas fa-envelope"></i>Contact
 Our lab is part of the [Department of Biochemistry and Molecular Genetics](https://medschool.cuanschutz.edu/biochemistry) within the [Center for Health AI](https://medschool.cuanschutz.edu/ai) in the [School of Medicine at University of Colorado Anschutz](https://medschool.cuanschutz.edu/).
 
+Office P12-6275
+Anschutz Health Sciences Building
+1890 N Revere Ct
+Aurora, CO 80045
+
+{%
+  include figure.html
+  image="images/contact_ahs.jpg"
+  caption="Anschutz Health Sciences Building"
+  width="400px"
+%}
+
 {%
   include link.html
   type="email"
@@ -34,7 +46,7 @@ Our lab is part of the [Department of Biochemistry and Molecular Genetics](https
   icon=""
   text="Google Maps"
   tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps/place/Fitzsimons+Building+-+CU+Anschutz+Medical+Campus/@39.7451809,-104.8399027,17z/data=!3m1!4b1!4m5!3m4!1s0x876c634e5898792f:0xa7ca71d89232e343!8m2!3d39.7451768!4d-104.8377087"
+  link="https://www.google.com/maps/place/1890+N+Revere+Ct,+Aurora,+CO+80045/@39.7454721,-104.8418929,17z/data=!3m1!4b1!4m5!3m4!1s0x876c6362cedefdeb:0x769b2677309cb2d1!8m2!3d39.7454721!4d-104.8418929"
   style="button"
 %}
 {:.center}
