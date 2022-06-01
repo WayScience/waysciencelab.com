@@ -9,43 +9,41 @@ tags:
 
 ## A suitable and flexible data management strategy is essential for effective and trustworthy science.
 
-Our goal is to maximize access, understanding, analysis speed, and provenance while reducing barriers, unnecessary storage bloat, and cost.
+Our goal for data is to maximize access, understanding, analysis speed, and provenance while reducing barriers, unnecessary storage bloat, and cost.
 
 ### Data perspectives
 
 We think about data using three different perspectives:
 
-- Level
-- Origin
-- Flow
+1. Level
+2. Origin
+3. Flow
 
 Each perspective requires us to think through different considerations for storage, access, and provenance management.
-Management practices for microscopy images are related to other data types, with some nuance.
-We've previously written extensively about data sharing practices of many different biological data types (including microscopy images) in [Wilson et al. 2021](https://doi.org/10.1002/1873-3468.14067).
+Managing microscopy data is related to other data types, with some nuance.
+For more details, see our previous article on data sharing practices for many different biological data types (including microscopy images) in [Wilson et al. 2021](https://doi.org/10.1002/1873-3468.14067).
 
-#### Level
+#### 1. Level
 
-Your data level indicates the processing stage.
+The data level indicates amount of bioinformatics processing.
 For example, the lowest data level, or “raw” data, are the images acquired by the microscope.
-Technically, the biological substrate is the “rawest” data, but we consider the digitization of biological data to be the lowest level.
+(Technically, the biological substrate is the “rawest” data, but we consider the digitization of biological data to be the lowest level).
 
-With biological data, there are many different kinds of intermediate data.
-Intermediate data are typically different sizes and thus have different storage requirements.
-Each intermediate data type requires unique considerations for access frequency, dissemination, and versioning.
+With microscopy data, there are many different kinds of intermediate data; each typically of different sizes and thus have different storage and sharing requirements.
+Each intermediate data type has different requirements for storage and sharing.
 
-#### Origin
+#### 2. Origin
 
-Where your data come from also requires unique management policies.
-We use data originating from collaborators (both academic and industry) and data already in the public domain.
-Eventually, we will use data that we ourselves collect, but for the moment, we can ignore this origin category.
+Where data come from also requires unique management policies.
+Data can originate from within (either the lab or collaborators (both academic and industry)) or externally (data already in the public domain).
 
-We need to consider access requirements and restrictions, particularly when using collaborator data.
-When storing restricted data, it is helpful to remember that all data will eventually be in the public domain.
+It is important to consider access requirements and restrictions, particularly when using collaborator data.
+When analyzing restricted data, it is helpful to remember that all data will eventually be in the public domain.
 
-#### Flow
+#### 3.Flow
 
 Besides the most raw form, data are dynamic and pluripotent; always awaiting new and improved processing capabilities.
-To determine short, mid, and long term storage solutions  we need to understand how each specific data level was processed at the specific moment in time (data provenance), and how each data level will ultimately be used.
+To determine short, mid, and long term storage solutions, we need to understand how each specific data level was processed at the specific moment in time (data provenance), and how each data level will ultimately be used.
 
 We also need capabilities to quickly reprocess these data with new approaches.
 Consider each data processing step as a new research project, waiting for improvement.
@@ -76,7 +74,7 @@ We consider three categories of potential storage solutions for microscopy-assoc
 
 Each storage solution has trade-offs in terms of longevity, access, usage speed, version control, size restrictions, and cost (Table 1).
 
-| Solution              | Longevity    | Version Control | Access          | Usage speed | Size limits                       | Cost                                                                |
+| Solution              | Longevity    | Version control | Access          | Usage speed | Size limits                       | Cost                                                                |
 |-----------------------|--------------|-----------------|-----------------|-------------|-----------------------------------|---------------------------------------------------------------------|
 | Internal hard drive   | Intermediate | No              | Private         | Instant     | <= 18TB (Total)                   | ~$15 per TB one time cost                                 |
 | External hard drive   | High         | No              | Private         | Download    | <= 18TB (Total)                   | ~$15 per TB one time cost                                 |
@@ -97,7 +95,7 @@ Each storage solution has trade-offs in terms of longevity, access, usage speed,
 
 ### Microscopy data levels
 
-From the raw microscopy image to the variable intermediate data types including single cell and bulk embeddings, each data level has unique data storage and sharing considerations (Figure 1).
+From the raw microscopy image to intermediate data types including single cell and bulk embeddings, each data level has unique data storage and sharing considerations. We present a typical storage lifespan according to different data levels in Figure 1.
 
 {%
   include figure.html
@@ -107,7 +105,7 @@ From the raw microscopy image to the variable intermediate data types including 
 
 #### Metadata
 
-Metadata for microscopy experiments have been discussed extenstively, and are exceptionally important for data reproducibility and re-use.
+Metadata for microscopy experiments have been discussed extensively, and are exceptionally important for data reproducibility and re-use.
 For example, an entire [Nature methods collection was recently devoted to microscopy metadata](https://www.nature.com/collections/djiciihhjh).
 Most image-related metadata are stored alongside each image in `.tiff` formats, and many publicly available resources contain detailed instructions on how to access metadata.
 This metadata must persist through the different data levels, and most often the metadata are small enough to store easily on github and local machines.
