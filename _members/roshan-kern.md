@@ -1,6 +1,6 @@
 ---
 name: Roshan Kern
-image: images/team/roshan_kern.jpg
+image: images/team/roshan_kern.png
 role: undergrad
 aliases:
   - Roshan Kern
