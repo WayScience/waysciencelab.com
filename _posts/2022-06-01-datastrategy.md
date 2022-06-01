@@ -21,14 +21,14 @@ We think about data using three different perspectives:
 
 Each perspective requires us to think through different considerations for storage, access, and provenance management.
 Managing microscopy data is related to other data types, with some nuance.
-For more details, see our previous article on data sharing practices for many different biological data types (including microscopy images) in [Wilson et al. 2021](https://doi.org/10.1002/1873-3468.14067).
+For more details, see our previous article on data sharing practices for many different biological data types (including microscopy images)([Wilson et al. 2021](https://doi.org/10.1002/1873-3468.14067)).
 
 #### 1. Level
 
 The data level indicates the stage and amount of bioinformatics processing applied.
 For example, the lowest data level, or “raw” data, are the images acquired by the microscope.
 (Technically, the biological substrate is the “rawest” data, but we consider the digitization of biological data to be the lowest level).
-Following the raw form, scientists apply various bioinformatics processing steps to generate various forms of intermediate data.
+Following the raw form, scientists apply various bioinformatics processing steps to generate various forms of intermediate data (see Figure 1).
 
 With microscopy data, there are many different kinds of intermediate data; each typically of different sizes and thus have different storage and sharing requirements.
 Each intermediate data type has different requirements for storage and sharing.
@@ -39,10 +39,10 @@ Where data come from also requires unique management policies.
 Data can originate from within (either the lab or collaborators (both academic and industry)) or externally (data already in the public domain).
 
 It is important to consider access requirements and restrictions, particularly when using collaborator data.
-For example, it is never ok to share identifiable data.
+For example, it is never ok to share identifiable patient data.
 When analyzing private data, we apply the same standards as public data, as it is helpful to remember that most data will eventually be in the public domain.
 
-#### 3.Flow
+#### 3. Flow
 
 Besides the most raw form, data are dynamic and pluripotent; always awaiting new and improved processing capabilities.
 To determine short, mid, and long term storage solutions, we need to understand how each specific data level was processed at the specific moment in time (data provenance), and how each data level will ultimately be used.
