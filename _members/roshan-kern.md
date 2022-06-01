@@ -18,4 +18,5 @@ He is an undergraduate student at [Case Western Reserve University](https://case
 He is currently focused on the analysis of nuclei morphology features for a generalizable cell cycle model.
 He is a major proponent of workflows that are easy to access, interpret, and reproduce.
 
-Roshan is a native of the Denver area and enjoys spending time outside hiking or playing a sport. His other interests include spending time with friends, working out, and watching YouTube.
+Roshan is a native of the Denver area and enjoys spending time outside hiking or playing a sport.
+His other interests include spending time with friends, working out, and watching YouTube.
