@@ -3,7 +3,7 @@ title: "Microscopy data playbook"
 author: Gregory Way
 member: gregory-way
 tags:
-  - administration
+  - microscopy data
   - process
 ---
 
@@ -25,9 +25,10 @@ For more details, see our previous article on data sharing practices for many di
 
 #### 1. Level
 
-The data level indicates amount of bioinformatics processing.
+The data level indicates the stage and amount of bioinformatics processing applied.
 For example, the lowest data level, or “raw” data, are the images acquired by the microscope.
 (Technically, the biological substrate is the “rawest” data, but we consider the digitization of biological data to be the lowest level).
+Following the raw form, scientists apply various bioinformatics processing steps to generate various forms of intermediate data.
 
 With microscopy data, there are many different kinds of intermediate data; each typically of different sizes and thus have different storage and sharing requirements.
 Each intermediate data type has different requirements for storage and sharing.
@@ -38,7 +39,8 @@ Where data come from also requires unique management policies.
 Data can originate from within (either the lab or collaborators (both academic and industry)) or externally (data already in the public domain).
 
 It is important to consider access requirements and restrictions, particularly when using collaborator data.
-When analyzing restricted data, it is helpful to remember that all data will eventually be in the public domain.
+For example, it is never ok to share identifiable data.
+When analyzing private data, we apply the same standards as public data, as it is helpful to remember that most data will eventually be in the public domain.
 
 #### 3.Flow
 
@@ -67,7 +69,7 @@ We consider three categories of potential storage solutions for microscopy-assoc
     - Zenodo
     - Github/Github LFS
     - DVC
-    - Colorado local cluster
+    - Local HPC
     - One Drive/Dropbox/Google drive
 - No storage
      - Immediate deletion
@@ -86,13 +88,13 @@ Each storage solution has trade-offs in terms of longevity, access, usage speed,
 | Github                | High         | Yes             | Public/Private  | Instant     | >= 100MB (Per file) (Details)     | Free                                                                |
 | Github LFS            | Intermediate | Yes             | Public/Private  | Instant     | >= 2GB (up to 5GB for paid plans) | 50GB data pack for $5 per month ([Details](https://docs.github.com/en/billing/managing-billing-for-git-large-file-storage/about-billing-for-git-large-file-storage))                           |
 | DVC                   | High | Yes             | Public/Private  | Download    | None                              | Cost of linked service (AWS/Azure/GC)                               |
-| One drive             | Low          | Yes             | Private         | Instant     | >= 5TB (Total)                    | Free to AMC                                                         |
+| One drive             | Low          | Yes             | Public/Private         | Instant     | >= 5TB (Total)                    | Free to AMC                                                         |
 | Dropbox               | Low          | Yes             | Public/Private  | Instant     | Unlimited (Total)                    | $24 per user / month ([Details](https://www.dropbox.com/plans))                                   |
 | Google drive          | Low          | Yes             | Public/Private  | Instant     | >= 5TB (Total)                    | $25 per month (5 users)([Details](https://one.google.com/about/plans))                                             |
-| Local cluster (RMACC) | Intermediate | No              | Private         | Instant     |                                   |                                                                     |
+| Local cluster | Intermediate | No              | Private         | Instant     |                                   |                                                                     |
 | Immediate deletion    | None         | None            | None            | None        | None                              | None                                                                |
 
-**Table 1**: _Tradeoffs and considerations for data storage solutions._
+**Table 1**: _Tradeoffs and considerations for data storage solutions._ Cost subject to change over time.
 
 ### Microscopy data levels
 
