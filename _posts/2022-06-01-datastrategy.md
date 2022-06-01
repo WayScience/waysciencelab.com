@@ -74,8 +74,8 @@ We consider three categories of potential storage solutions for microscopy-assoc
 
 Each storage solution has trade-offs in terms of longevity, access, usage speed, version control, size restrictions, and cost (Table 1).
 
-| Solution              | Longevity    | Version control | Access          | Usage speed | Size limits                       | Cost                                                                |
-|-----------------------|--------------|-----------------|-----------------|-------------|-----------------------------------|---------------------------------------------------------------------|
+| Solution | Longevity | Version control | Access | Usage speed | Size limits | Cost |
+|----------|-----------|-----------------|--------|-------------|-------------|------|
 | Internal hard drive   | Intermediate | No              | Private         | Instant     | <= 18TB (Total)                   | ~$15 per TB one time cost                                 |
 | External hard drive   | High         | No              | Private         | Download    | <= 18TB (Total)                   | ~$15 per TB one time cost                                 |
 | IDR                   | High         | Yes             | Public          | Download    | >= 2TB (Per dataset)              | Free                                                                |
@@ -91,7 +91,8 @@ Each storage solution has trade-offs in terms of longevity, access, usage speed,
 | Google drive          | Low          | Yes             | Public/Private  | Instant     | >= 5TB (Total)                    | $25 per month (5 users)([Details](https://one.google.com/about/plans))                                             |
 | Local cluster (RMACC) | Intermediate | No              | Private         | Instant     |                                   |                                                                     |
 | Immediate deletion    | None         | None            | None            | None        | None                              | None                                                                |
-*Table 1*: _Tradeoffs and considerations for data storage solutions._
+
+**Table 1**: _Tradeoffs and considerations for data storage solutions._
 
 ### Microscopy data levels
 
