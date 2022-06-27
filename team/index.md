@@ -33,6 +33,12 @@ We are currently hiring several positions.
   component="portrait"
   filters="role: programmer"
 %}
+{%
+  include list.html
+  data="members"
+  component="portrait"
+  filters="role: undergrad"
+%}
 {:.center}
 
 {% include section.html background="images/banner.jpg" dark=true%}
