@@ -18,7 +18,7 @@ links:
 
 Erik Serrano is a Computational Bioscience (CPBS) PhD student at the Univeristy of Colorado, Anschutz Medical Campus (CU-AMC).
 He joined the Way Lab in July 2022, where he is focusing on developing software applications and new methods to analyze cell morphology readouts.
-Before officially joining the Way lab, Erik did conducted his last rotation where he has kick started an application know as [Cytopipe](https://github.com/WayScience/CytoPipe), which possess reproducible analytical pipeline that preprocess high-dimensional cell morphology readouts.
+Before officially joining the Way lab, Erik kick started a software tool called [Cytopipe](https://github.com/WayScience/CytoPipe), which implements reproducible analytical pipelines for processing high-dimensional cell morphology readouts.
 
 Erik obtained his bachelors degree in Molecular Biology with a minor in chemistry at the [California State University, Northirdge (CSUN)](https://www.csun.edu/).
 Throughout his undergraduate degree, his research experience mainly pertained to developing computational methods to elucidate biological insights through the usage of protein dynamic data produced by molecular dynamic simulations.
