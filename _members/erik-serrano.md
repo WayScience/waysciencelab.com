@@ -20,7 +20,7 @@ Erik Serrano is a Computational Bioscience (CPBS) PhD student at the Univeristy 
 He joined the Way Lab in July 2022, where he is focusing on developing software applications and new methods to analyze cell morphology readouts.
 Before officially joining the Way lab, Erik kick started a software tool called [Cytopipe](https://github.com/WayScience/CytoPipe), which implements reproducible analytical pipelines for processing high-dimensional cell morphology readouts.
 
-Erik obtained his bachelors degree in Molecular Biology with a minor in chemistry at the [California State University, Northirdge (CSUN)](https://www.csun.edu/).
+Erik obtained his bachelors degree in Molecular Biology with a minor in chemistry at the [California State University, Northridge (CSUN)](https://www.csun.edu/).
 Throughout his undergraduate degree, he developed computational methods to elucidate biological insights from protein dynamic data produced by molecular dynamic simulations.
 After graduating from CSUN, Erik did his post baccalaureate at [Cedar-Sinai Medical Center](https://www.cedars-sinai.edu/research/departments-institutes/biomedical-sciences.html) where he designed viral based nano-particles through the usage of computational protein modeling.
 In addition, he also developed computational methods using gene expression data to identify potential alternative entry points where the nano-particles can be introduced.
