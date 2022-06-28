@@ -22,7 +22,7 @@ Before officially joining the Way lab, Erik kick started a software tool called 
 
 Erik obtained his bachelors degree in Molecular Biology with a minor in chemistry at the [California State University, Northirdge (CSUN)](https://www.csun.edu/).
 Throughout his undergraduate degree, his research experience mainly pertained to developing computational methods to elucidate biological insights through the usage of protein dynamic data produced by molecular dynamic simulations.
-After graduating from CSUN, Erik did his post baccalaureate at [Cedar-Sinai Medical Center](https://www.cedars-sinai.edu/research/departments-institutes/biomedical-sciences.html) where his main job was designing viral based nano-particles through the usage of computational protein modeling.
+After graduating from CSUN, Erik did his post baccalaureate at [Cedar-Sinai Medical Center](https://www.cedars-sinai.edu/research/departments-institutes/biomedical-sciences.html) where he designed viral based nano-particles through the usage of computational protein modeling.
 In addition, he also developed computational methods using gene expression data to identify potential alternative entry points where the nano-particles can be introduced.
 
 In his free time, Erik likes to learn different romance languages and its origins.
