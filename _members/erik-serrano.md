@@ -26,5 +26,5 @@ After graduating from CSUN, Erik did his post baccalaureate at [Cedar-Sinai Medi
 In addition, he also developed computational methods using gene expression data to identify potential alternative entry points where the nano-particles can be introduced.
 
 In his free time, Erik likes to learn different romance languages and its origins.
-He is fluent in Spanish and is currently learning Brazilian Portuguese to become his third language.
+He is fluent in Spanish and is currently learning Brazilian Portuguese, which will become his third language.
 Aside from learning different languages, Erik also enjoys tech, music, reading, hiking, camping, long boarding, running, weight lifting and dancing.
