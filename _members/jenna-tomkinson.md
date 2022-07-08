@@ -13,7 +13,7 @@ links:
   github: jenna-tomkinson
 ---
 
-Jenna is a Quantitative Call Biologist at the Way Lab.
+Jenna is a Quantitative Cell Biologist at the Way Lab.
 She graduated with her Bachelor of Science in Biology at the [University of Colorado Denver](https://www.ucdenver.edu/) with a minor in Behavorial Cognitive Neuroscience.
 During her undergrad, she worked on a [research project](https://symposium.foragerone.com/2022-racas/presentations/45498) involving the impact of temperature stress on gene expression and how it compares across development in the Drosophila melanogaster or common fruit fly.
 She is excited to learn more about computational biology through this position and contribute to the production of workflows and pipelines for the lab. 
