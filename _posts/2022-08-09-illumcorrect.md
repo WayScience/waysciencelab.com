@@ -46,15 +46,15 @@ There are many ways to correct for illumination in multi-cell images, and not al
 The data I am using to test these methods are fluorescence microscopy images, specifically [Cell Painting](https://www.nature.com/articles/nprot.2016.105). 
 The three methods that I am focusing on are:
 
-1.  **BaSiCPy** (also called PyBaSiC or PB): https://github.com/peng-lab/BaSiCPy
+1.  **BaSiCPy** (also called PyBaSiC or PB): [<u>https://github.com/peng-lab/BaSiCPy</u>](https://github.com/peng-lab/BaSiCPy)
 
 <!-- -->
 
-2.  **CellProfiler** (or CP): https://cellprofiler.org/
+2.  **CellProfiler** (or CP): [<u>https://cellprofiler.org/</u>](https://cellprofiler.org)
 
 <!-- -->
 
-3.  **CIDRE**: https://github.com/smithk/cidre
+3.  **CIDRE**: [<u>https://github.com/smithk/cidre</u>](https://github.com/smithk/cidre)
 
 These methods are all different in their approach and how they are accessed/used. 
 
@@ -66,7 +66,11 @@ This is what makes the retrospective approach much better since you can use it o
 
 In this post, I created the pros and cons based on what I have researched and then my own personal experiences using these methods as seen in Figure 1.
 
-![Pros and Cons](../images/blog/illumcorrect/Pros_and_Cons_Table.png)
+{%
+  include figure.html
+  image="images/blog/illumcorrect/Pros_and_Cons_Table.png"
+  width="100%"
+%}
 
 *Figure 1. Table of Illumination Correction Methods*
 
@@ -103,10 +107,10 @@ PB is a Python package that runs illumination correction on many different image
 The PB GitHub provides three different example pipelines that work with timelapse data, but none for multi-plex. 
 Conveniently, the workflow is the exact same. 
 
-I was able to take from the examples, load in my images, and produce illumination corrected images (see https://github.com/WayScience/NF1_SchwannCell_data/blob/main/1_preprocessing_data/PyBaSiC_Pipelines/Illumination_Correction.ipynb).
+I was able to take from the examples, load in my images, and produce illumination corrected images (see [<u>https://github.com/WayScience/NF1_SchwannCell_data/blob/main/1_preprocessing_data/PyBaSiC_Pipelines/Illumination_Correction.ipynb</u>](https://github.com/WayScience/NF1_SchwannCell_data/blob/main/1_preprocessing_data/PyBaSiC_Pipelines/Illumination_Correction.ipynb)).
 Even though it was so easy, the hardest part was the fact that the package did not have a saving function.
 
-I was able to ask the developers on GitHub (see https://github.com/peng-lab/BaSiCPy/issues/91) what the best form of saving the images was and developers answered within a week, which was great! 
+I was able to ask the developers on GitHub (see [<u>https://github.com/peng-lab/BaSiCPy/issues/91</u>](https://github.com/peng-lab/BaSiCPy/issues/91)) what the best form of saving the images was and developers answered within a week, which was great! 
 This package is very well-maintained and since it is newer, that means that it can only improve. 
 
 I did find however that I struggled with figuring out the format of what my new images were converted into (i.e. 32-bit, 64-bit, etc.), which is important for the next pipeline step (segmentation) (that I will discuss in a future blog post). 
@@ -146,7 +150,7 @@ If I find and investigate any other methods, I will update this blog to provide 
 
 ## Supplementary
 
-To view the progress being made with the NF1 Schwann Cell project, you can go to GitHub repository to view each pipeline and rationale (see https://github.com/WayScience/NF1_SchwannCell_data).
+To view the progress being made with the NF1 Schwann Cell project, you can go to the [GitHub repository](https://github.com/WayScience/NF1_SchwannCell_data) to view each pipeline and rationale.
 
 For the CellProfiler pipelines, I tested various manual parameters on the dataset and compared how these illumination correction functions compared to each other using an image that contained a large artifact.
 See the [CellProfiler Prototyping repository](https://github.com/WayScience/CellProfiler_Prototyping) on GitHub for more information.
