@@ -47,13 +47,7 @@ The data I am using to test these methods are fluorescence microscopy images, sp
 The three methods that I am focusing on are:
 
 1.  **BaSiCPy** (also called PyBaSiC or PB): [<u>https://github.com/peng-lab/BaSiCPy</u>](https://github.com/peng-lab/BaSiCPy)
-
-<!-- -->
-
 2.  **CellProfiler** (or CP): [<u>https://cellprofiler.org/</u>](https://cellprofiler.org)
-
-<!-- -->
-
 3.  **CIDRE**: [<u>https://github.com/smithk/cidre</u>](https://github.com/smithk/cidre)
 
 These methods are all different in their approach and how they are accessed/used. 
@@ -76,6 +70,8 @@ In this post, I created the pros and cons based on what I have researched and th
 
 ### Let's go through each of these methods one by one:
 
+### CellProfiler
+
 I started off my research with CellProfiler (CP). 
 Whenever I searched for illumination correction methods, this software came up first. 
 The main way that it is used is through the GUI (graphical user interface).
@@ -88,7 +84,7 @@ Back to the GUI, CP 4.0 has a very user-friendly interface that makes it easy fo
 But this comes with a not-so-fun challenge that impacts generalizability, which is manual parameters (I know, terrifying!).
 
 Now, a few manual parameters are fine within a software, like if you need to make minor corrections to fit the function to your data, but too many manual parameters creates many avenues for confusion and error. 
-When it comes to CP illumination correction, it has MANY manual parameters (ranging from 5 to 15 depending on the method you choose).
+When it comes to CP illumination correction, it has *MANY* manual parameters (ranging from 5 to 15 depending on the method you choose).
 As a beginner in the field, how are you meant to know which threshold to use or if the correction should be run based on all images or per image? 
 That is my main issue with CP. 
 It is set up to be easy to use for beginners, but you need to be an expert to use it properly.
@@ -101,6 +97,8 @@ As well, CP works like a Jupyter Notebook where you can test each module and fig
 I believe this software can be used effectively when you put a lot of time into research and investigate as many examples as possible to find the best combination of parameters. 
 But I also believe that after all the time I put into understanding CP, I am still left with doubt in all my
 pipelines and don’t feel comfortable using them for my current project.
+
+### PyBaSiC
 
 The next method I used is PyBaSiC, which took a lot less time to implement but took the most time with troubleshooting. 
 PB is a Python package that runs illumination correction on many different image types (i.e. timelapse and multi-plex). 
@@ -124,6 +122,8 @@ For my project, I implemented a [fellow lab member’s code](https://github.com/
 I needed to use this conversion because downloading the images as-is (without conversion) was causing multiple errors during my downstream processes. 
 It is important to know that you will likely have to retrace your steps back to previous pipelines, like IC, when issues need to be corrected or to be improved. 
 In all, I believe this method is the most efficient and easy to work with to perform illumination correction.
+
+### CIDRE
 
 Lastly, I checked out the Fiji/ImageJ plugin called CIDRE. 
 I don’t have a lot to say about it since when I used it with my image set of 96 images, it came up with an error. 
