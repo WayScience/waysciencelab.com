@@ -6,6 +6,7 @@ tags:
   - opinions
   - process
 ---
+
 # Illumination Correction: A Comparison of Methods
 
 For anyone new to cell-image analysis (**like me!**), let me preface this blog post with the fact that no matter how good a method is, nothing will ever be “perfect.” 
