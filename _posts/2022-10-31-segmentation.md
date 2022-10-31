@@ -89,7 +89,7 @@ the other value segments a different cell better (Figure 2).
 
 {%
   include figure.html
-  image="images/blog/segmentation/identification_method_blog.png"
+  image="images/blog/segmentation/TCF_blog.png"
   width="100%"
 %}
 
@@ -136,7 +136,7 @@ But set too small, it will incorrectly segment a bunch of small regions within t
 
 {%
   include figure.html
-  image="images/blog/segmentation/identification_method_blog.png"
+  image="images/blog/segmentation/cell_diameter_blog.png"
   width="100%"
 %}
 
@@ -273,7 +273,7 @@ After doing a lot of prototyping with both CellProfiler and Cellpose, I believe 
 
 {%
   include figure.html
-  image="images/blog/segmentation/sensitivity_blog_fig.png"
+  image="images/blog/segmentation/whole_cell_seg.png"
   width="100%"
 %}
 
