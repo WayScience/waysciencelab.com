@@ -27,7 +27,7 @@ I also tested Ilastik, Weka Trainable Segmentation, and Scikit testing.
 From my experience, these performed sub-optimally with my data. I will discuss these methods in part II of my segmentation blog.
 
 **Note:** My segmentation findings in this blog are based on Cell Painting data. 
-For more information on Cell Painting assays and what makes them unique, go through the [GitHub wiki](https://github.com/carpenterlab/2022\_Cimini\_NatureProtocols/wiki\#morphological-image-feature-extraction-from-microscopy-data) from the Broad Institute.
+For more information on Cell Painting assays and what makes them unique, go through the [GitHub wiki](https://github.com/carpenterlab/2022_Cimini_NatureProtocols/wiki#morphological-image-feature-extraction-from-microscopy-data) from the Broad Institute.
 
 ## CellProfiler
 
@@ -152,7 +152,7 @@ It could not determine where cells were since it did not have a nucleus channel 
 
 In Cellpose 2.0, there isn't a way for you to load a group of images from multiple channels and use the nucleus channel as the base for segmenting other channels. 
 You would need to create composite images (RGB) from each site to be able to reference the nucleus channel. 
-That takes an extra step, which is what I have done in [my code for segmentation](https://github.com/jenna-tomkinson/NF1\_SchwannCell\_data/blob/main/2\_segmenting\_data/segmentation\_utils.py\#:\~:text=def%20overlay\_channels).
+That takes an extra step, which is what I have done in [my code for segmentation](https://github.com/jenna-tomkinson/NF1_SchwannCell_data/blob/548983b6cd32ed4121e719e34eb84934185ae0c6/2_segmenting_data/segmentation_utils.py#L67).
 This function overlays the channels for every site to then use as an input for running Cellpose headless through Python.
 
 As seen in Figure 4, Cellpose needs to have reference nuclei to accurately segment the cells in an image.
@@ -186,11 +186,11 @@ I struggled to download CellProfiler from source, following many of the tutorial
 
 After all of my struggles, I was able to install CellProfiler from source and install this plugin on my Linux computer (unfortunately, my Macbook to this day still refuses to just download CellProfiler from source). 
 After installation, it only took one additional simple answer.
-With the help of the amazing Beth Cimini, (she [linked me to a part of the wiki](https://github.com/CellProfiler/CellProfiler-plugins/issues/161) that discussed setting CellProfiler plugin paths), I was able to use the plugin.
+With the help of the amazing Beth Cimini, (she [linked me to a part of the wiki](https://github.com/CellProfiler/CellProfiler/blob/master/cellprofiler/data/help/other_plugins.rst) that discussed setting CellProfiler plugin paths), I was able to use the plugin.
 
 However, using the plugin came with an interesting challenge.
 
-The challenge that I ran across was that my version of the `runcellpose.py` file was not displaying all the parameters that I saw on the version in the[CellProfiler-plugins repository](https://github.com/CellProfiler/CellProfiler-plugins/blob/master/runcellpose.py).
+The challenge that I ran across was that my version of the `runcellpose.py` file was not displaying all the parameters that I saw on the version in the [CellProfiler-plugins repository](https://github.com/CellProfiler/CellProfiler-plugins/blob/master/runcellpose.py).
 For the longest time, I believed that the file I downloaded onto my computer was the most up-to-date. 
 When I finally thought, "*huh, maybe I should check my file and see what it looks like*", I came to the realization that the code in my file did not match what was on the latest Github version.
 
@@ -210,7 +210,7 @@ Once I downloaded the most recent version of the plugin and put it in the plugin
 > Figure 5. Cellpose 2.0 parameters available in the CellProfiler Cellpose plugin. This figure demonstrates that the most up-to-date plugin file does work in CellProfiler and provides parameters (YAY!).
 
 Since I had so many issues with the install, and when you look up "Cellpose plugin for CellProfiler" on Google, it pulls up the forum post
-that does not give complete instructions, I have gone ahead and created [a version-controlled document](https://github.com/WayScience/CellProfiler\_Prototyping/tree/main/Cellpose\_Plugin\_CellProfiler\_Instructions) for how to install this plugin.
+that does not give complete instructions, I have gone ahead and created [a version-controlled document](https://github.com/WayScience/CellProfiler_Prototyping/tree/main/Cellpose_Plugin_CellProfiler_Instructions) for how to install this plugin.
 
 Now, let's talk about some positives!
 
@@ -248,7 +248,7 @@ This means that I am fully confident in being able to replicate the same segment
 ## Proposed Improvements for CellProfiler Cellpose Plugin
 
 One thing that I noticed right off the bat is that this module did not have (but **needed!**) is a way to remove objects/cells/nuclei that had pixels that touched an edge of the image. 
-This is a function that is already in place in the CellProfiler standard method and in the [Cellpose pipeline](https://github.com/jenna-tomkinson/NF1\_SchwannCell\_data/blob/548983b6cd32ed4121e719e34eb84934185ae0c6/2\_segmenting\_data/segmentation\_utils.py\#L37-L39).
+This is a function that is already in place in the CellProfiler standard method and in the [Cellpose pipeline](https://github.com/jenna-tomkinson/NF1_SchwannCell_data/blob/548983b6cd32ed4121e719e34eb84934185ae0c6/2_segmenting_data/segmentation_utils.py#L37-L39).
 I use for all my CellProfiler projects, and I thought it would be a good idea to add it to the CellProfiler Cellpose plugin!
 
 As you can see in [the PR](https://github.com/CellProfiler/CellProfiler-plugins/pull/169) I made for CellProfiler, I was able to take one of the utility functions already in Cellpose, which removes objects that touch the edges, and added it to the module to allow the option for users.
