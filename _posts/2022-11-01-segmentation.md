@@ -89,7 +89,7 @@ the other value segments a different cell better (Figure 2).
 
 {%
   include figure.html
-  image="images/blog/segmentation/TCF_blog.png"
+  image="images/blog/segmentation/tcf_fig_blog.png"
   width="100%"
 %}
 
