@@ -1,5 +1,5 @@
 ---
-title: "Segmentation Part I"
+title: "Segmentation Software Usability and Performance: Part I"
 author: Jenna Tomkinson
 member: jenna-tomkinson
 tags:
@@ -7,7 +7,7 @@ tags:
   - process
 ---
 
-# A Brief Performance Comparison of Popular Cell Segmentation Software
+# A Brief Comparison of Popular Cell Segmentation Software
 
 Welcome back! I hope that you were able to come up with an amazing illumination correction pipeline from [my illumination correction blog post](https://www.waysciencelab.com/2022/08/09/illumcorrect.html) and are ready for segmentation! 
 If you are just starting with this blog post, then welcome in!
@@ -140,7 +140,7 @@ But set too small, it will incorrectly segment a bunch of small regions within t
   width="100%"
 %}
 
-> Figure 3. Comparison of cell diameter (CD) impact on segmentation. This figure demonstrates how CD values can make a big impact on how Cellpose segments nuclei. The left panel shows what happens when the CD is very low (segmenting nuclei into multiple parts) and the right panel shows what happens when the CD is very high (combining nuclei with other cells/abtracts/organelles). CD was the most important parameter that I toggled when optimizing nuclei segmentation.
+> Figure 3. Comparison of cell diameter (CD) impact on segmentation. This figure demonstrates how CD values can make a big impact on how Cellpose segments nuclei. The left panel shows what happens when the CD is very low (segmenting nuclei into multiple parts) and the right panel shows what happens when the CD is very high (combining nuclei with other cells or artifacts). CD was the most important parameter that I toggled when optimizing nuclei segmentation.
 
 There are multiple [models](https://cellpose.readthedocs.io/en/latest/models.html) that you can use for segmentation. 
 You can use any model, but the three models that I found most useful for my data were: `nuclei`, `cyto`, and `cyto2`. 
