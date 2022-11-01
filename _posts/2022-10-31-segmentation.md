@@ -27,7 +27,7 @@ I also tested Ilastik, Weka Trainable Segmentation, and Scikit testing.
 From my experience, these performed sub-optimally with my data. I will discuss these methods in part II of my segmentation blog.
 
 **Note:** My segmentation findings in this blog are based on Cell Painting data. 
-For more information on Cell Painting assays and what makes them unique, go through the [GitHub wiki](https://github.com/carpenterlab/2022_Cimini_NatureProtocols/wiki#morphological-image-feature-extraction-from-microscopy-data) from the Broad Institute.
+For more information on Cell Painting assays and what makes them unique, see the following [GitHub wiki](https://github.com/carpenterlab/2022_Cimini_NatureProtocols/wiki#morphological-image-feature-extraction-from-microscopy-data) from the Broad Institute.
 
 ## CellProfiler
 
@@ -140,7 +140,7 @@ But set too small, it will incorrectly segment a bunch of small regions within t
   width="100%"
 %}
 
-> Figure 3. Comparison of cell diameter (CD) impact on segmentation. This figure demonstrates how CD values can make a big impact on how Cellpose segments nuclei. The left panel shows what happens when the CD is very low (segmenting nuclei into multiple parts) and the right panel shows what happens when the CD is very high (combining nuclei with abstracts). CD was the most important parameter that I toggled when optimizing nuclei segmentation.
+> Figure 3. Comparison of cell diameter (CD) impact on segmentation. This figure demonstrates how CD values can make a big impact on how Cellpose segments nuclei. The left panel shows what happens when the CD is very low (segmenting nuclei into multiple parts) and the right panel shows what happens when the CD is very high (combining nuclei with other cells/abtracts/organelles). CD was the most important parameter that I toggled when optimizing nuclei segmentation.
 
 There are multiple [models](https://cellpose.readthedocs.io/en/latest/models.html) that you can use for segmentation. 
 You can use any model, but the three models that I found most useful for my data were: `nuclei`, `cyto`, and `cyto2`. 
@@ -214,7 +214,7 @@ that does not give complete instructions, I have gone ahead and created [a versi
 
 Now, let's talk about some positives!
 
-The one thing I really liked about this plugin is that it has a parameter called `Supply nuclei image as well?'. 
+The one thing I really liked about this plugin is that it has a parameter called `Supply nuclei image as well?`. 
 As I stated in the Cellpose portion of this blog, you can only load one image at a time in the Cellpose GUI, so there is no way for it to be able to reference the nuclei channel. 
 But using the Cellpose plugin, the module comes with the innate ability from CellProfiler to use the nuclei channel that has already been loaded to use as the base for segmenting other objects within cells. 
 This is such a nice feature to have to avoid the extra step of needing composite images.
@@ -269,7 +269,7 @@ As well, CellProfiler included more of the stringy parts of the actin that Cellp
 
 > Figure 8. Comparison of sensitivity between Cellpose and CellProfiler. This figure shows how CellProfiler segments cells much tighter and includes small parts compared to Cellpose. Cellpose segments cells more broadly and includes more of the background compared to CellProfiler.
 
-After doing a lot of prototyping with both CellProfiler and Cellpose, I believe that Cellpose segments whole cells much better (e.g. no cell is segmented over each other) than CellProfiler (Figure 9).
+After doing a lot of prototyping with both CellProfiler and Cellpose, I believe that Cellpose segments whole cells much better (e.g. no cell is segmented over each other) than CellProfiler, even though it is less sensitive. (Figure 9).
 
 {%
   include figure.html
@@ -297,7 +297,7 @@ This will be a project that I will be pursuing in the future!
 
 After all of the prototyping, I have come to one conclusion: All these segmentation methods are good! 
 They are all very easy to use and seem to work well by eye. 
-It is yet to be seen if these subtle segmentation differences that I discussed will impact cell morphologies and thesubsequent biology that we discover (e.g. biomarkers for gene deficiency).
+It is yet to be seen if these subtle segmentation differences that I discussed will impact cell morphologies and the subsequent biology that we discover (e.g. biomarkers for gene deficiency).
 
 I will be using all of them for various projects and not one of them is substantially better than the other. 
 They each have their pros and cons that I have talked about, where you can easily decide which one will be best for your project (Table 1). 
@@ -307,7 +307,7 @@ I hope that my testing has helped you and I will be seeing you next time when I 
 
 {%
   include figure.html
-  image="images/blog/segmentation/segmentation_table.png"
+  image="images/blog/segmentation/seg_methods_table.png"
   width="100%"
 %}
 
