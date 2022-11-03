@@ -1,4 +1,24 @@
-- id: doi:10.1101/2021.09.02.458673
+- id: doi:10.1016/j.cels.2022.10.001
+  image: https://www.cell.com/cms/attachment/55912f54-18d9-4ee9-8374-6f24f9d15bbc/fx1.jpg
+  repo: https://github.com/broadinstitute/lincs-profiling-complementarity
+  extra-links:
+    - type: data
+      link: broadinstitute/lincs-cell-painting
+      text: Reproducible data pipeline
+    - type: data
+      link: https://idr.github.io/idr0125-way-cellpainting/
+      text: Publicly-available Cell Painting images
+    - type: data
+      link: https://doi.org/10.6084/m9.figshare.13181966.v2
+      text: Publicly-available L1000 profiles
+  tags:
+    - cell painting
+    - drug discovery
+    - gene expression
+    - deep learning
+    - reproducibility
+
+- id: doi:10.1371/journal.pcbi.1009888
   image: https://docs.google.com/drawings/d/e/2PACX-1vRzFGkZMf9ZfXb_q1rE1D9gAAczySfYZ4zyVl93l-zcRXv7sNtJpZTNp__9fmyaTl5MyccvtHh74i-I/pub?w=345&h=321
   repo: broadinstitute/cell-painting-vae
   extra-links:
