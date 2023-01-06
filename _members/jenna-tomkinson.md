@@ -1,6 +1,7 @@
 ---
 name: Jenna Tomkinson
 image: images/team/jenna_tomkinson.png
+description: Quantitative Cell Biologist
 role: programmer
 aliases:
   - Jenna Tomkinson
