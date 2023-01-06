@@ -1,6 +1,6 @@
 ---
 name: Dave Bunten
-image: images/team/dave-bunten.jpg
+image: images/team/dave_bunten.jpg
 description: Software Developer
 role: programmer
 aliases:
