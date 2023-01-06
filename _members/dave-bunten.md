@@ -5,8 +5,8 @@ description: Software Developer
 role: programmer
 aliases:
   - David Bunten
-  - D. Bunten
   - David M. Bunten
+  - D. Bunten
   - D. M. Bunten
   - d33bs
 links:
