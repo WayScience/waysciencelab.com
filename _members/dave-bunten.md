@@ -11,7 +11,6 @@ aliases:
   - d33bs
 links:
   orcid: 0000-0001-6041-3665
-  home-page: https://github.com/d33bs
   email: dave.bunten@cuanschutz.edu
   github: d33bs
 ---
