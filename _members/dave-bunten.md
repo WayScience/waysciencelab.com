@@ -1,0 +1,22 @@
+---
+name: Dave Bunten
+image: images/team/dave-bunten.jpg
+description: Software Developer
+role: programmer
+aliases:
+  - David Bunten
+  - D. Bunten
+  - David M. Bunten
+  - D. M. Bunten
+  - d33bs
+links:
+  orcid: 0000-0001-6041-3665
+  home-page: https://github.com/d33bs
+  email: dave.bunten@cuanschutz.edu
+  github: d33bs
+---
+
+Dave Bunten is a software developer with a passion for expanding human potential through software design, collaboration, and innovation.
+He brings a diverse background in higher education, healthcare, and software development to help orchestrate scientific data pipelines.
+
+Outside of work, Dave enjoys hiking, biking, painting, and spending time with family.
