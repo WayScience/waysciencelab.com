@@ -2,6 +2,7 @@
 name: Roshan Kern
 image: images/team/roshan_kern.png
 role: undergrad
+description: Data Scientist
 aliases:
   - Roshan Kern
   - Roshan S. Kern

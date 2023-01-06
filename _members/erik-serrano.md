@@ -1,6 +1,7 @@
 ---
 name: Erik Serrano
 image: images/team/erik_serrano.png
+description: PhD Student
 role: phd
 aliases:
     - Erik Serrano
