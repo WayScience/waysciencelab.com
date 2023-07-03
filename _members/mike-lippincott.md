@@ -17,7 +17,8 @@ links:
   twitter: mike_lippincott
 ---
 
-Mike Lippincott is a Cell Biology, Stem Cells, and Development (CSD) PhD student at the University of Colorado, Anschutz Medical Campus. Mike joined the Way Lab in July 2023 and is looking to understand how cellular morphologies change in the context of cellular stress and how organelle interactions affect cellular states.
+Mike Lippincott is a Cell Biology, Stem Cells, and Development (CSD) PhD student at the University of Colorado, Anschutz Medical Campus.
+Mike joined the Way Lab in July 2023 and is looking to understand how cellular morphologies change in the context of cellular stress and how organelle interactions affect cellular states.
 
 Mike earned a B.S. in Biochemistry and Data Science from [Maryville University of Saint Louis](https://www.maryville.edu/) in 2021. Here he conducted research in biochemical pathway manipulations in sugar cane, CRISPR gene editing in non-mendelian genetic plant models, plasma based atomic emission spectroscopy, and cellular transcriptomic investigation of telomerase activating drug TA-65.
 
