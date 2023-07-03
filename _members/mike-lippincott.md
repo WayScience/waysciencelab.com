@@ -26,4 +26,4 @@ After graduating from [Maryville](https://www.maryville.edu/), Mike did his post
 
 Mike is passionate about collaborative team science and bridging the gap between scientific fields to promote interdisciplinary science. 
 
-Outside of lab you can find Mike rock climbing, snowboarding, 3D printing, photographing nature, or tending to his aquatic pets the Neocaridina davidi.
+Outside of lab you can find Mike rock climbing, snowboarding, 3D printing, photographing nature, or tending to his aquatic pets the _Neocaridina davidi_.
