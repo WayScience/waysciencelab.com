@@ -12,7 +12,6 @@ We focus on pediatric diseases, including pediatric cancer and Neurofibromatosis
 
 We perform team science with multidisciplinary collaborators to amplify the impact of our computationally-focused work.
 We also perform open science, making all of our work immediately open for anyone to use and build upon.
-See https://github.com/WayScience for more.
 
 {%
   include link.html
