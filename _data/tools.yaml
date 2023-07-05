@@ -2,14 +2,14 @@
   group: featured
   image: https://raw.githubusercontent.com/cytomining/pycytominer/master/logo/just-icon.png
   link: https://github.com/cytomining/pycytominer
-  description: Python package to process image-based profiling readouts
+  description: Python package for processing image-based profiling readouts
   repo: cytomining/pycytominer
 
 - name: CytoTable
   group: featured
   image: https://raw.githubusercontent.com/cytomining/cytotable/master/logo/just-icon.png
   link: https://github.com/cytomining/cytotable
-  description: Python package for enabling single-cell morphology analysis
+  description: Python package for enabling single-cell microscopy analysis
   repo: cytomining/cytotable
 
 - name: CytoSnake
