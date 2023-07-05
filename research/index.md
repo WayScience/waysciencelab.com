@@ -2,32 +2,29 @@
 title: Research
 nav:
   order: 1
-  tooltip: Published works
+  tooltip: Overview and published works
 ---
 
 # <i class="fas fa-microscope"></i>Research
 
-Cells are building blocks of life.
-We are building the next generation of data science methods for cell biology.
-This means developing software, reproducible pipelines, and inventing analytical approaches to extract biological insights from microscopy images.
+We are building the next generation of data science methods for curing pediatric diseases.
 
-We are interested in several specific research avenues:
+We are specifically focused on the following research:
 
-- Live-cell imaging. After tracking cells through time course experiments, can we observe morphology changes over time? Unlike other biological data types, cell morphology can be measured while the cell is still living. Can we observe specific morphological differences of cellular differentiation in different genetic backgrounds?
-- Reproducible pipelines for processing high-dimensional morphology readouts. A major bottleneck in analyzing cell morphology is a lack of data provenance and software documentation. We are building infrastructure to support reproducible, large-scale morphology data processing, and developing specific tools like [pycytominer](https://github.com/cytomining/pycytominer) to normalize cell morphology readouts.
-- Publicly-available microscopy data. There are growing resources of publicly available microscopy images (e.g. [Image Data Resource](https://idr.openmicroscopy.org/)). We are developing approaches to increase visibility, access, and computability of publicly available resources, while developing methods to leverage the wealth of existing resources.
-- Cell health. Cells are constantly in flux, oscillating between different cell cycle stages, and responding to environmental stimuli. We are developing methods to model different variables of cell health to better inform the impacts of chemical and genetic (e.g. CRISPR) perturbations. Can we model the cell health impacts of compounds with polypharmacology and off-target effects?
+- **Reproducible software for processing high-dimensional morphology readouts.** We are building infrastructure to support reproducible, large-scale morphology data processing, and developing specific tools like [pycytominer](https://github.com/cytomining/pycytominer), [CytoTable](https://github.com/cytomining/cytotable), and [CytoSnake](https://github.com/WayScience/cytosnake) to process large-scale cell morphology readouts. Our aim is to improve data processing pipelines, reproducibility, data provenance, and dataset interoperability. 
+- **Microscopy representations of cell state.** We derive and benchmark different approaches to extracting biologically-meaningful and reproducible representations from microscopy images. We train artificial intelligence and machine learning (AI/ML) algorithms to predict cell phenotypes from these representations. These phenotypes include cell states including various cell health and death mechanisms. Our aim is to use these representations to annotate drug screening data with phenotype and mechanism.
+- **Drug screening for pediatric diseases.** We perform microscopy-based, in vitro drug screens to identify promising drug candidates. Our goal is to identify new therapeutic options for children with diseases like Neurofibromatosis Type 1 (NF1), neuroblastoma, and pediatric high grade glioma.
+- **New models of pediatric disease to aid drug screening.** We develop new assays and computational methods to support finding better drugs for pediatric diseases. This includes modeling NF1 and other pediatric diseases using patient-derived organoids, developing gene-network-based targets that take advantage of polypharmacology, developing CRISPRi approaches to simulate specific high-dimensional phenotypes, and more.
 
 ## How we do science
 
-How science is performed is sometimes as important as the research topic.
+How science is performed is as important as the research topic.
 Science hinges on reproducibility, and our procedure maximizes both biological and computational reproducibility.
 
 Biology is messy, but computational biology need not be!
 
-We pursue [open science](https://en.wikipedia.org/wiki/Open_science) to the fullest extent possible in every project.
-We submit preprints of our work and subsequently publish in peer-reviewed journals to disseminate knowledge more formally around the world.
-For each project, we also share project-specific github repositories (representing a lab notebook) to facilitate computational reproducibility.
+- **Open science and software.** We perform all of our work in the open and release all of our software as open source. We aim to maximize the impact and reproducibility of our research by making everything we do immediately available for others to build upon.
+- **Scientific publishing.** We submit preprints of our work and subsequently publish in peer-reviewed journals to disseminate knowledge more formally. We use pre-print review services (like [Review Commons](https://www.reviewcommons.org/)) whenever possible to improve the peer-review process. For each project, we also share project-specific github repositories (representing a lab notebook) to facilitate computational reproducibility.
 
 We strive for creativity, integrity, inclusivity, and rigor in everything that we do.
 
