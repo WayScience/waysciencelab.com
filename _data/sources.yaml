@@ -56,6 +56,7 @@
 
 - id: doi:10.1371/journal.pbio.3001419
   image: https://raw.githubusercontent.com/WayScience/waysciencelab.com/main/_posts/analysis/cultivating_compbio_map_us_centric.png
+  authors:
   - Gregory P Way
   - Anne E Carpenter
   - Casey S Greene
