@@ -1,6 +1,6 @@
 ---
 name: Mike Lippincott
-image: images/team/mike_lippincott.jpg
+image: images/team/mike_lippincott.jpeg
 description: PhD Student
 role: phd
 aliases:
