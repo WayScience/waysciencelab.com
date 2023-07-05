@@ -1,5 +1,132 @@
 # GENERATED AUTOMATICALLY, DO NOT EDIT
 
+- id: 10.1101/2023.05.02.539137
+  title: High-content microscopy reveals a morphological signature of bortezomib resistance
+  authors:
+  - M.E. Kelley
+  - A.Y. Berman
+  - D.R. Stirling
+  - B.A. Cimini
+  - Y. Han
+  - S. Singh
+  - A.E. Carpenter
+  - T.M. Kapoor
+  - G.P. Way
+  publisher: Cold Spring Harbor Laboratory
+  date: '2023-05-02'
+  link: https://doi.org/gsfpj4
+  image: https://raw.githubusercontent.com/broadinstitute/profiling-resistance-mechanisms/master/3.resistance-signature/figures/bortezomib_roc_curve.png
+  repo: https://github.com/broadinstitute/profiling-resistance-mechanisms
+  tags:
+  - cancer resistance
+  - cell painting
+  - open science
+- id: doi:10.1016/j.xgen.2023.100340
+  title: 'OpenPBTA: The Open Pediatric Brain Tumor Atlas'
+  authors:
+  - Joshua A. Shapiro
+  - Krutika S. Gaonkar
+  - Stephanie J. Spielman
+  - Candace L. Savonen
+  - Chante J. Bethell
+  - Run Jin
+  - Komal S. Rathi
+  - Yuankun Zhu
+  - Laura E. Egolf
+  - Bailey K. Farrow
+  - Daniel P. Miller
+  - Yang Yang
+  - Tejaswi Koganti
+  - Nighat Noureen
+  - Mateusz P. Koptyra
+  - Nhat Duong
+  - Mariarita Santi
+  - Jung Kim
+  - Shannon Robins
+  - Phillip B. Storm
+  - Stephen C. Mack
+  - Jena V. Lilly
+  - Hongbo M. Xie
+  - Payal Jain
+  - Pichai Raman
+  - Brian R. Rood
+  - Rishi R. Lulla
+  - Javad Nazarian
+  - Adam A. Kraya
+  - Zalman Vaksman
+  - Allison P. Heath
+  - Cassie Kline
+  - Laura Scolaro
+  - Angela N. Viaene
+  - Xiaoyan Huang
+  - Gregory P. Way
+  - Steven M. Foltz
+  - Bo Zhang
+  - Anna R. Poetsch
+  - Sabine Mueller
+  - Brian M. Ennis
+  - Michael Prados
+  - Sharon J. Diskin
+  - Siyuan Zheng
+  - Yiran Guo
+  - Shrivats Kannan
+  - Angela J. Waanders
+  - Ashley S. Margol
+  - Meen Chul Kim
+  - Derek Hanson
+  - Nicholas Van Kuren
+  - Jessica Wong
+  - Rebecca S. Kaufman
+  - Noel Coleman
+  - Christopher Blackden
+  - Kristina A. Cole
+  - Jennifer L. Mason
+  - Peter J. Madsen
+  - Carl J. Koschmann
+  - Douglas R. Stewart
+  - Eric Wafula
+  - Miguel A. Brown
+  - Adam C. Resnick
+  - Casey S. Greene
+  - Jo Lynne Rokita
+  - Jaclyn N. Taroni
+  publisher: Cell Genomics
+  date: '2023-05-01'
+  link: https://doi.org/gr92p6
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2666979X23001155-fx1.jpg
+  repo: https://github.com/AlexsLemonade/OpenPBTA-analysis
+  tags:
+  - pediatric cancer
+  - brain tumor
+  - open science
+- id: 10.1101/2023.01.09.522731
+  title: High-dimensional phenotyping to define the genetic basis of cellular morphology
+  authors:
+  - Matthew Tegtmeyer
+  - Jatin Arora
+  - Samira Asgari
+  - Beth A. Cimini
+  - Emily Peirent
+  - Dhara Liyanage
+  - Gregory Way
+  - Erin Weisbart
+  - Aparna Nathan
+  - Tiffany Amariuta
+  - Kevin Eggan
+  - Marzieh Haghighi
+  - Steven A. McCarroll
+  - Anne E. Carpenter
+  - Shantanu Singh
+  - Ralda Nehme
+  - Soumya Raychaudhuri
+  publisher: Cold Spring Harbor Laboratory
+  date: '2023-01-09'
+  link: https://doi.org/gsfpj5
+  image: https://www.biorxiv.org/content/biorxiv/early/2023/01/09/2023.01.09.522731/F1.large.jpg
+  tags:
+  - cell painting
+  - data integration
+  - cell morphology
 - id: doi:10.1016/j.cels.2022.10.001
   title: Morphology and gene expression profiling provide complementary information
     for mapping cell state
@@ -88,7 +215,7 @@
   publisher: PLOS Biology
   date: '2021-10-07'
   link: https://doi.org/gm3hdh
-  image: https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pbio.3001419/1/pbio.3001419.g001.PNG_L?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20211012%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20211012T210747Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=25e1b3ee36003c4de19f18c2994e0ddea8c74f255a382fc71e91ac40bc8c4308c8ebd9acba5bd44c746df8cb9bb596b7487fe5fd2bf9ec9de9668a84d1991c70278362ff2288d597349934fe6b2d997cf3457aeba28d2913b476722e5bb195dcf8b7a2ec760d1a561221b9836f9d63f5162e9a9da2a5d16f7c6887f715725c19be7824ee9dea382f124d190690c511048e9efa0baf030113c8b292f543d1aa7d5c433f668ecfb4478698e3638c381f6b178cfcdaed037ad9413a9dc20e4b859a0a301700fa69d3066d6cb1c935c911b9cc743b456bf8996004604a6f9967213a211f0f09722cd3bf6fb0ba83148165f3a0ed7ef39351d87aed1a18dce5101910
+  image: https://raw.githubusercontent.com/WayScience/waysciencelab.com/main/_posts/analysis/cultivating_compbio_map_us_centric.png
   tags:
   - open science
   - essay
@@ -165,16 +292,20 @@
   - biological representations
   - unsupervised learning
   - cancer
-- id: 10.1101/2021.07.17.452050
+- id: 10.1016/j.xgen.2023.100346
   title: Discovering cellular programs of intrinsic and extrinsic drivers of metabolic
     traits using LipocyteProfiler
   authors:
   - Samantha Laber
   - Sophie Strobel
-  - Josep-Maria Mercader
+  - Josep M. Mercader
   - Hesam Dashti
+  - Felipe R.C. dos Santos
+  - Phil Kubitz
+  - Maya Jackson
   - Alina Ainbinder
   - Julius Honecker
+  - Saaket Agrawal
   - Garrett Garborcauskas
   - David R. Stirling
   - Aaron Leong
@@ -198,16 +329,17 @@
   - Miriam S. Udler
   - Anne E. Carpenter
   - Jose C. Florez
-  - Cecilia M. Lindgren
-  - Suzanne B. R. Jacobs
+  - Cecilia Lindgren
+  - Suzanne B.R. Jacobs
   - Melina Claussnitzer
-  publisher: Cold Spring Harbor Laboratory
-  date: '2021-07-19'
-  link: https://doi.org/gmndmk
+  publisher: Cell Genomics
+  date: '2023-06-01'
+  link: https://doi.org/gsff72
   image: https://www.biorxiv.org/content/biorxiv/early/2021/07/19/2021.07.17.452050/F1.large.jpg
   tags:
   - image-based profiling
   - metabolism
+  - variant to function
 - id: 10.1038/s41597-020-0458-y
   title: Epigenomic profiling of neuroblastoma cell lines
   authors:

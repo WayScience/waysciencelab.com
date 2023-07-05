@@ -6,7 +6,7 @@ nav:
 ---
 
 # <i class="fas fa-envelope"></i>Contact
-Our lab is part of the [Department of Biochemistry and Molecular Genetics](https://medschool.cuanschutz.edu/biochemistry) within the [Center for Health AI](https://medschool.cuanschutz.edu/ai) in the [School of Medicine at University of Colorado Anschutz](https://medschool.cuanschutz.edu/).
+Our lab is part of the [Department of Biomedical Informatics](https://medschool.cuanschutz.edu/dbmi) in the [School of Medicine at University of Colorado Anschutz](https://medschool.cuanschutz.edu/).
 
 Office P12-6275<br/>
 Anschutz Health Sciences Building<br/>
@@ -26,7 +26,7 @@ Aurora, CO 80045
   icon=""
   text="Email"
   tooltip=""
-  link="gregory.way@gmail.com"
+  link="gregory.way@cuanschutz.edu"
   style="button"
 %}
 <!---

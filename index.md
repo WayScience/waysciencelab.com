@@ -6,13 +6,12 @@ title: Home
 
 Welcome to the Way Lab at [The University of Colorado Anschutz](https://www.cuanschutz.edu/)!
 
-We are currently hiring curious, compassionate, daring, and meticulous scientists to lead the next generation of biomedical research.
+The mission of our lab is to reduce human suffering by integrating biomedical data science and software engineering into drug discovery.
+We develop new computational methods, innovative approaches, assays, and software for analyzing high-dimensional genomic, molecular, and microscopy data.
+We focus on pediatric diseases, including pediatric cancer and Neurofibromatosis Type 1 (NF1).
 
-The mission of our lab is to integrate high-dimensional biomedical data science into clinical decision making to improve patient outcomes.
-We will develop new methods, approaches, assays, and software for analyzing high-dimensional genomic, molecular, and morphological data.
-Our primary focus will be on establishing cell morphology as a reproducible systems biology measurement of cell state.
-
-Click around to learn more about the lab's research vision and focus!
+We perform team science with multidisciplinary collaborators to amplify the impact of our computationally-focused work.
+We also perform open science, making all of our work immediately open for anyone to use and build upon.
 
 {%
   include link.html
@@ -40,9 +39,7 @@ Click around to learn more about the lab's research vision and focus!
 # Highlights
 
 {% capture text %}
-We use biomedical data science, software, and machine learning to enhance biological discovery and to improve the human condition.
-We develop data-driven methods and approaches to understand disease mechanisms, to personalize treatment strategies, and to reduce human suffering.
-We focus on extracting value from biomedical image data, and are currently building the infrastructure required to establish morphology as a systems biology measurement.
+We develop computational methods and innovative approaches to find better drugs for pediatric diseases.
 
 [See what we've published &nbsp;→](research)
 {:.center}
@@ -57,10 +54,7 @@ We focus on extracting value from biomedical image data, and are currently build
 %}
 
 {% capture text %}
-We also release data and software to enable reproducible computational biology analyses and workflows.
-Data are important resources that scientists can use to answer multiple questions.
-All of our software is open source, and we encourage active learning through meaningful code contributions.
-Please cite any data or software you use!
+We also release public data and open source software to enable reproducible computational biology analyses and workflows.
 
 [See our resources &nbsp;→](resources)
 {:.center}
@@ -75,8 +69,8 @@ Please cite any data or software you use!
 %}
 
 {% capture text %}
-We are recruiting!
-To see your face in this page, please reach out!
+Our group is a welcoming, diverse, and inclusive team.
+We are collaborative, curious, and passionate about our work.
 
 [Meet our team &nbsp;→](team)
 {:.center}
