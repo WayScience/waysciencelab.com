@@ -55,8 +55,7 @@
     - latent space arithmetic
 
 - id: doi:10.1371/journal.pbio.3001419
-  image: https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pbio.3001419/1/pbio.3001419.g001.PNG_L?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20211012%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20211012T210747Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=25e1b3ee36003c4de19f18c2994e0ddea8c74f255a382fc71e91ac40bc8c4308c8ebd9acba5bd44c746df8cb9bb596b7487fe5fd2bf9ec9de9668a84d1991c70278362ff2288d597349934fe6b2d997cf3457aeba28d2913b476722e5bb195dcf8b7a2ec760d1a561221b9836f9d63f5162e9a9da2a5d16f7c6887f715725c19be7824ee9dea382f124d190690c511048e9efa0baf030113c8b292f543d1aa7d5c433f668ecfb4478698e3638c381f6b178cfcdaed037ad9413a9dc20e4b859a0a301700fa69d3066d6cb1c935c911b9cc743b456bf8996004604a6f9967213a211f0f09722cd3bf6fb0ba83148165f3a0ed7ef39351d87aed1a18dce5101910
-  authors:
+  image: https://raw.githubusercontent.com/WayScience/waysciencelab.com/main/_posts/analysis/cultivating_compbio_map_us_centric.png
   - Gregory P Way
   - Anne E Carpenter
   - Casey S Greene
