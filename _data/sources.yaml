@@ -1,3 +1,26 @@
+- id: 10.1101/2023.05.02.539137 
+  image: https://raw.githubusercontent.com/broadinstitute/profiling-resistance-mechanisms/master/3.resistance-signature/figures/bortezomib_roc_curve.png
+  repo: https://github.com/broadinstitute/profiling-resistance-mechanisms
+  tags:
+    - cancer resistance
+    - cell painting
+    - open science
+
+- id: doi:10.1016/j.xgen.2023.100340
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2666979X23001155-fx1.jpg
+  repo: https://github.com/AlexsLemonade/OpenPBTA-analysis
+  tags:
+    - pediatric cancer
+    - brain tumor
+    - open science
+
+- id: 10.1101/2023.01.09.522731
+  image: https://www.biorxiv.org/content/biorxiv/early/2023/01/09/2023.01.09.522731/F1.large.jpg
+  tags:
+    - cell painting
+    - data integration
+    - cell morphology
+
 - id: doi:10.1016/j.cels.2022.10.001
   image: https://www.cell.com/cms/attachment/55912f54-18d9-4ee9-8374-6f24f9d15bbc/fx1.jpg
   repo: https://github.com/broadinstitute/lincs-profiling-complementarity
@@ -92,11 +115,12 @@
     - unsupervised learning
     - cancer
 
-- id: 10.1101/2021.07.17.452050
+- id: 10.1016/j.xgen.2023.100346
   image: https://www.biorxiv.org/content/biorxiv/early/2021/07/19/2021.07.17.452050/F1.large.jpg
   tags:
     - image-based profiling
     - metabolism
+    - variant to function
 
 - id: 10.1038/s41597-020-0458-y
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41597-020-0458-y/MediaObjects/41597_2020_458_Fig1_HTML.png?as=webp

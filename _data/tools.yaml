@@ -1,12 +1,26 @@
 - name: Pycytominer
   group: featured
-  image: images/photo.jpg
+  image: https://raw.githubusercontent.com/cytomining/pycytominer/master/logo/just-icon.png
   link: https://github.com/cytomining/pycytominer
   description: Python package to process image-based profiling readouts
   repo: cytomining/pycytominer
 
-- name: BioBombe
+- name: CytoTable
   group: featured
+  image: https://raw.githubusercontent.com/cytomining/cytotable/master/logo/just-icon.png
+  link: https://github.com/cytomining/cytotable
+  description: Python package for enabling single-cell morphology analysis
+  repo: cytomining/cytotable
+
+- name: CytoSnake
+  group: featured
+  image: https://raw.githubusercontent.com/wayscience/cytosnake/master/logo/just-icon.png
+  link: https://github.com/wayscience/cytosnake
+  description: Python package for orchestrating customized image-based profiling pipelines
+  repo: wayscience/cytosnake
+
+- name: BioBombe
+  group: more
   image: https://raw.githubusercontent.com/greenelab/BioBombe/master/docs/favicon-192x192.png
   link: https://greenelab.github.io/BioBombe/
   description: Maximize biological representations with unsupervised ensembles across different latent space dimensionalities
