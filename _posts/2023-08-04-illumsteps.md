@@ -39,12 +39,13 @@ WAIT! ✋ Here is a quick recap:
 This is an important step within an image-based analysis pipeline since the uneven illumination in an image impacts segmentation performance and accuracy of intensity measurement.
 Sometimes it is easy to see from the raw images that there is a need for illumination correction, but other times it might not be noticeable with the naked eye (Figure 1).
 
-![Figure_1](../images/blog/illumsteps/fig_1.png)
 {%
   include figure.html
   image="images/blog/illumsteps/fig_1.png"
   width="100%"
 %}
+
+> **Figure 1. Variation in identifying uneven illumination.** In image A, it is clear to see that the bottom right of the image is brighter and dims as it reaches the top left of the image. In image B, it is very hard to tell with the naked eye if there is any uneven illumination.
 
 ---
 
@@ -69,12 +70,13 @@ All you have to do is:
 
 Once the image is brightened, either you will see the illumination across the image to be even (e.g., as you increase to max brightness, the image will become entirely white) OR you will start to see one part of the image to be more bright than the rest (Figure 2).
 
-![Figure_2](../images/blog/illumsteps/fig_2.png)
 {%
   include figure.html
   image="images/blog/illumsteps/fig_2.png"
   width="100%"
 %}
+
+> **Figure 2. Increasing brightness improves ability to observe uneven illumination.** Image A is the raw version of the image, where it is hard to tell if the image is suffering from uneven illumination. Image B is the brightened version of Image A, where it is much clearer to see that this image has a much brighter area in the lower right of the image.
 
 Now that we have identified that our image definitely needs to be corrected for uneven illumination, we will need to perform an illumination correction function.
 If you would like to go over how to make function in CellProfiler, please go to the [next section of the blog post](https://www.waysciencelab.com/2023/06/21/illumsteps.html#creating-a-cellprofiler-ic-function).
@@ -91,12 +93,13 @@ The most full-proof method I have found is exactly what I have already told you!
 Brighten up the image and see how the illumination looks across the image.
 What you expect to see is that your IC corrected images will have even illumination across the image and no brighter areas (Figure 3).
 
-![Figure_3](../images/blog/illumsteps/fig_3.png)
 {%
   include figure.html
   image="images/blog/illumsteps/fig_3.png"
   width="100%"
 %}
+
+> **Figure 3. Illumination correction improves contrast and evens illumination.** In panel A, it demonstrates how uneven the illumination is when brightened with the decreased contrast between the foreground (organelles) and the background. In panel B, the image raw image has been corrected and it is noticeable that the organelles are less intense. When brightened, it is more noticeable that the contrast is improved and the illumination across the image is even.
 
 ### Step 3: Repeat for each _channel_
 
@@ -141,7 +144,7 @@ In this blog, I am going over the most basic steps and parameters that I have fo
 The first thing that you will need to decide when making a function is which method of calculating the function to use:
 
 1. **Regular:** Recommended per CellProfiler to use on a dataset where for majority of the objects in an image are evenly dispersed and covers most of the image (e.g., little background area). This method will create the function based on each pixel in an image.
-2. **Background:** Recommended per CellProfiler to use on a dataset where based on images, the pattern of uneven illumination is the same between the background and objects. I personally have found that this can be hard to tell and it take trial and error to find if this method works best on your dataset. This method finds the minimum pixel intensity in multiple "blocks" that set across the image/
+2. **Background:** Recommended per CellProfiler to use on a dataset where based on images, the pattern of uneven illumination is the same between the background and objects. I personally have found that this can be hard to tell and it take trial and error to find if this method works best on your dataset. This method finds the minimum pixel intensity in multiple "blocks" that set across the image.
 
 When using the **Regular** method, make sure that `Rescale the illumination function` is turned on since this is a required parameter.
 This is the opposite for the **Background** method, make sure that this same parameter is **turned off**, or it will cause this function to break and produce bad results.
@@ -211,7 +214,7 @@ Now, I believe it is the right time to go back and reflect on my opinions regard
 
 To refresh your memory, I went over these three software; CellProfiler, PyBaSiC, and CIDRE.
 
-**Note:** I will not be including a section in the blog for CIDRE since it is still deprecated and can not be used. 
+**Note:** I will not be including a section in the blog for CIDRE since it is still deprecated and can not be used.
 This means I have nothing new to add, but I will still say that maintaining and even creating software takes a lot of work, so kudos to all of the software and their respective developers I mention in this blog.
 
 In this portion of the blog, I will be going over:
@@ -275,12 +278,13 @@ I will admit, this was something that ChatGPT recommended for saving images from
 What occurred was VERY interesting.
 Some images showed black/empty spots which I call "artifacts" (Figure 4).
 
-![Figure_4](../images/blog/illumsteps/fig_4.png)
 {%
   include figure.html
   image="images/blog/illumsteps/fig_4.png"
   width="100%"
 %}
+
+> **Figure 4. Artifacts produced when using the pillow package to save images.** Compared to other images with different organelles, these artifacts are disproportionately produced in the nuclei channel. As well, the artifacts become more intense in images where organelles were highly saturated.
 
 After this issue, I decided to take a look back at how I had saved the images when using the older version of BaSiCPy (see notebook from old repository [here](https://github.com/WayScience/Benchmarking_NF1_data/blob/main/1_preprocessing_data/PyBaSiC_Pipelines/Illumination_Correction_Plate1.ipynb)).
 I had in fact used the `skimage` package to save the images, but I had converted the images to 8-bit which was different from the original images bit-depth for that dataset (which was 16-bit).
@@ -289,12 +293,13 @@ Though embarrassing, I am realizing that I had to make this mistake to be able t
 Now going back and having more knowledge under my belt, I was able to identify this problem and implement the correct conversion to 16-bit.
 Comparing the same images when using the different saving methods, I can say that using `skimage.io.save` was a success (Figure 5)!
 
-![Figure_5](../images/blog/illumsteps/fig_5.png)
 {%
   include figure.html
   image="images/blog/illumsteps/fig_5.png"
   width="100%"
 %}
+
+> **Figure 5. Method of output impacts quality of images.** (a) This corrected image was saved using the PIL Image function which caused issues in the image like the black artifacts in the nuclei. (b) This corrected image was saved using the recommended scikit-image package and the results are free from artifacts.
 
 You might wonder: well why even need to convert in the first place?
 
@@ -343,12 +348,13 @@ Unfortunately, this is more of an Apple issue it seems than a developer issue, s
 
 Though I have already stated that I will be used CellProfiler over BaSiCPy for usability reasons, I wanted to include a direct comparison of the quality of correction from both methods (Figure 6).
 
-![Figure_6](../images/blog/illumsteps/fig_6.png)
 {%
   include figure.html
   image="images/blog/illumsteps/fig_6.png"
   width="100%"
 %}
+
+> **Figure 6. Comparing quality of illumination correction between methods.** All images are brightened to approximately the same level as seen in the value in the red circle (+/- 50 units). The corrected image from BaSiCPy looks to have made the illumination more even by correcting the bright spot in the middle of the raw image, but did not improve the contrast between the foreground and background. CellProfiler is able to both even out the illumination across the image and significantly improve the contrast.
 
 I can say that without a doubt that CellProfiler (which optimal parameters through trial and error) is able to significantly outperform PyBaSiC.
 The most significant difference is with the contrast, which is important to improve segmentation as low contrast can cause issues with any segmentation software to identify organelles in the foreground versus the background.
