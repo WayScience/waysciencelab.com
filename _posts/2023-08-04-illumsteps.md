@@ -10,6 +10,7 @@ tags:
 # The Process of Illumination Correction on Microscopy Images
 
 Hello again! 👋
+
 It has been a little while since [the last blog post](https://www.waysciencelab.com/2022/11/01/segmentation.html)!
 But, I am excited to be writing this new and updated blog post stemming from [my first blog post ever on illumination correction (IC)](https://www.waysciencelab.com/2022/08/09/illumcorrect.html).
 I have grown and learned a lot in my first year of my position, from CellProfiler pipelines to multi-processing.
@@ -25,8 +26,10 @@ Within this blog post, I will be going over:
 2. 💡 Overview on CellProfiler IC
 3. 🎙️ An updated opinion on IC methods
 
-**Note:** For figures in the first two sections, I will be utilizing the example images provided by CellProfiler in [their tutorial for illumination correction](https://cellprofiler.org/examples).
-For the third section, I will be using `Plate_1` data from the [nf1_cellpainting_data](https://github.com/WayScience/nf1_cellpainting_data) repository for figures.
+**Note:** Data used as examples are as follows:
+
+_Sections 1 and 2:_ [Illumination correction example from CellProfiler](https://cellprofiler.org/examples)
+_Section 3:_ [Plate 1 data from the nf1_cellpainting_data repository](https://github.com/WayScience/nf1_cellpainting_data/tree/main/0.download_data)
 
 ---
 
@@ -36,7 +39,7 @@ WAIT! ✋ Here is a quick recap:
 
 > Illumination correction (IC) is the method of adjusting the lighting within a collection of images so that the lighting is evenly distributed across the image (no dim or bright spots).
 
-This is an important step within an image-based analysis pipeline since the uneven illumination in an image impacts segmentation performance and accuracy of intensity measurement.
+This is an important step within an image-based analysis pipeline since the uneven illumination in an image impacts segmentation performance and accuracy of intensity measurements.
 Sometimes it is easy to see from the raw images that there is a need for illumination correction, but other times it might not be noticeable with the naked eye (Figure 1).
 
 {%
@@ -56,7 +59,7 @@ Lets talk about step 1!
 
 ### Step 1: Brighten the image with Fiji
 
-The easier way to tell if there is uneven illumination in images that are dim or it is just not obvious is to increase the brightness to the point where you can see.
+The easiest way to tell if there is uneven illumination in images that are dim or it is just not obvious is to increase the brightness to the point where you can see.
 
 The software that I find to be the best at this (among many other things) is [Fiji](https://imagej.net/software/fiji/.).
 
@@ -78,7 +81,7 @@ Once the image is brightened, either you will see the illumination across the im
 
 > **Figure 2. Increasing brightness improves ability to observe uneven illumination.** Image A is the raw version of the image, where it is hard to tell if the image is suffering from uneven illumination. Image B is the brightened version of Image A, where it is much clearer to see that this image has a much brighter area in the lower right of the image.
 
-Now that we have identified that our image definitely needs to be corrected for uneven illumination, we will need to perform an illumination correction function.
+Now that we have identified that our image definitely needs to be corrected for uneven illumination, we will need to create an illumination correction function.
 If you would like to go over how to make function in CellProfiler, please go to the [next section of the blog post](https://www.waysciencelab.com/2023/06/21/illumsteps.html#creating-a-cellprofiler-ic-function).
 This section goes over the basics, so lets move on to step two!
 
@@ -105,10 +108,11 @@ What you expect to see is that your IC corrected images will have even illuminat
 
 For all datasets you work with, these basic steps should be taken as quality control assurance prior to analysis.
 
-The biggest note is that traditionally, an IC function is created for each `channel`, not all of the images in a dataset. This is due to different distributions and sizes of the objects in a channel.
-As well, I have noticed myself that for some unknown reason to me, there are patterns of uneven illumination to seem to occur only in images in the same channel, but this is just my experience.
+Traditionally, an IC function is created for each `channel`, not all of the images in a dataset.
+This is due to different distributions and sizes of the objects in a channel.
+I have also noticed that patterns of uneven illumination tend to be channel specific.
 
-If these steps are not performed, you will likely have a hard time finding optimal segmentation parameters and the intensity measurements will not be biologically accurate.
+If these steps are not performed and images are left with uneven illumination, you will likely have a hard time finding optimal segmentation parameters and the intensity measurements will not be biologically accurate.
 
 **NOW** that you know the steps to determining if IC is needed and/or if an IC method worked, lets get into how to create an IC function through CellProfiler!
 
@@ -116,12 +120,12 @@ If these steps are not performed, you will likely have a hard time finding optim
 
 ## Creating a CellProfiler IC function
 
-You might be thinking: well, you already said that you are using images from an already existing tutorial from CellProfiler, why do you need to create _ANOTHER_ tutorial?
+You might be thinking: "Well, you already said that you are using images from an already existing tutorial from CellProfiler, why do you need to create _ANOTHER_ tutorial?".
 
 Well, good question! I have two main reasons:
 
 1. That tutorial is from 2011, when CellProfiler was in version 2.0. As of this blog post, the latest version of CellProfiler is v4.2.5, and **MANY** things have changed since then.
-2. The tutorial is more specific to the datasets they are using, and for me I find it to be too narrow and doesn't go into as much detail on the specific parameters as I would like.
+2. The tutorial is more specific to the datasets they are using, and for me, I find it to be too narrow and doesn't go into as much detail on the specific parameters as I would like.
 
 **Please note that I do not think that this tutorial is bad in anyway.**
 My hope with this blog post is to make a more concise and broader version of this tutorial.
@@ -144,16 +148,17 @@ In this blog, I am going over the most basic steps and parameters that I have fo
 The first thing that you will need to decide when making a function is which method of calculating the function to use:
 
 1. **Regular:** Recommended per CellProfiler to use on a dataset where for majority of the objects in an image are evenly dispersed and covers most of the image (e.g., little background area). This method will create the function based on each pixel in an image.
-2. **Background:** Recommended per CellProfiler to use on a dataset where based on images, the pattern of uneven illumination is the same between the background and objects. I personally have found that this can be hard to tell and it take trial and error to find if this method works best on your dataset. This method finds the minimum pixel intensity in multiple "blocks" that set across the image.
+2. **Background:** Recommended per CellProfiler to use on a dataset where based on the images, the pattern of uneven illumination is the same between the background and objects. I personally have found that this can be hard to tell and it takes trial and error to find if this method works best on your dataset. This method finds the minimum pixel intensity in multiple "blocks" that set across the image.
 
 When using the **Regular** method, make sure that `Rescale the illumination function` is turned on since this is a required parameter.
-This is the opposite for the **Background** method, make sure that this same parameter is **turned off**, or it will cause this function to break and produce bad results.
+This is the _opposite_ for the **Background** method.
+Make sure that this same parameter is **turned off**, or it will cause this function to break and produce bad results.
 
 The last parameter to note when using the **Background** method is the `Block size` parameter.
 This parameter is specific to this method and you will set a pixel value.
 This block, as referenced above, is placed multiple times to cover the image.
 The value you should use is one where the block is most likely to have background and not objects.
-I have found this take trial and error to find the optimal parameter, but I recommend trying the default value first.
+I have found this takes trial and error to find the optimal value, but I recommend trying the default first.
 
 #### Step 2: Determine how the selected IC function is calculated
 
@@ -179,7 +184,7 @@ The method I typically choose for all of my IC pipelines is (drum roll please! �
 
 Though it doesn't sound very exciting, I assure you it is!
 This method I have found to be the most robust and produce pretty decent results.
-Though it isn't perfect sometimes, I find this method to consistently improve the illumination is my various image sets compared to the other methods.
+Though it isn't perfect sometimes, I find this method to consistently improve the illumination in my various image sets compared to the other methods.
 
 **BUT...**
 Take my advice with a grain of salt.
@@ -193,9 +198,9 @@ I didn't go over _EVERY_ parameter that is offered in this module, so it is on y
 
 ### CorrectIlluminationApply versus SaveImages module
 
-Now that an illumination function has been created, you have two options:
+Now that an illumination correction function has been created, you have two options:
 
-1. If you decided to use the **Each** method, then it would be best to apply the correction onto your images and save them in the same pipeline with the `CorrectIlluminationApply` module.
+1. If you decided to use the **Each** method, then it would be best to apply the correction onto your images and save them in the same pipeline with the `CorrectIlluminationApply` module. **IMPORTANT:** You will need to make sure the method for the `Select how the illumination function is applied` parameter matches the method from the previous module. To be exact, if you use applied the **Regular** method, you use **Divide** to apply the function. If you use **Background**, you use **Subtract**.
 2. If you used an **All** method, the documentation from CellProfiler mentions that you can save the illumination function with the `SaveImages` module. I would highly recommend this when you are planning on correcting the images during the next pipeline and don't want to have the intermediate files (e.g., corrected images). When saving the IC functions, make sure you are saving them as `Images` in the `npy` file format (you can thank me later!).
 
 ---
@@ -301,7 +306,7 @@ Comparing the same images when using the different saving methods, I can say tha
 
 > **Figure 5. Method of output impacts quality of images.** (a) This corrected image was saved using the PIL Image function which caused issues in the image like the black artifacts in the nuclei. (b) This corrected image was saved using the recommended scikit-image package and the results are free from artifacts.
 
-You might wonder: well why even need to convert in the first place?
+You might wonder: "Well, why even need to convert in the first place?"
 
 Great question!
 If you don't convert and just save the corrected image straight from BaSiCPy, your image will be a 32-bit image.
@@ -319,7 +324,7 @@ Will I end up including this in my pipelines over CellProfiler?
 
 My answer is unfortunately no at this time.
 
-I have a few small problems for why I am not going to use it over CellProfiler for my traditional image-based analysis projects:
+I have identified a few limitations that influenced why I am not going to use it over CellProfiler for my traditional image-based analysis projects:
 
 1. It is not optimal for running with multiple channels. A way around this could be to utilize a Python package called [papermill](https://papermill.readthedocs.io/en/latest/), which allows for running one notebook with different variables through an `sh` file ([here](https://github.com/WayScience/pyroptosis_signature_data_analysis/blob/main/1.Exploratory_Data_Analysis/correlation_run.sh) is an example showing how this is done with two different variables).
 2. There isn't a way to run multiple plates a time (e.g., parallel) with this method, unlike compared to CellProfiler (_wink, wink; will talk about in the next blog_ 😉). Being able to run multiple plates at once decreases the computational time, which can be important for some projects.
@@ -356,8 +361,10 @@ Though I have already stated that I will be used CellProfiler over BaSiCPy for u
 
 > **Figure 6. Comparing quality of illumination correction between methods.** All images are brightened to approximately the same level as seen in the value in the red circle (+/- 50 units). The corrected image from BaSiCPy looks to have made the illumination more even by correcting the bright spot in the middle of the raw image, but did not improve the contrast between the foreground and background. CellProfiler is able to both even out the illumination across the image and significantly improve the contrast.
 
-I can say that without a doubt that CellProfiler (which optimal parameters through trial and error) is able to significantly outperform PyBaSiC.
+I can say that without a doubt that CellProfiler (with optimal parameters found through trial and error) is able to significantly outperform PyBaSiC.
 The most significant difference is with the contrast, which is important to improve segmentation as low contrast can cause issues with any segmentation software to identify organelles in the foreground versus the background.
+
+---
 
 ## Conclusion
 
