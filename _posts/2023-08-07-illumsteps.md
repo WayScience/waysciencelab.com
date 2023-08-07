@@ -28,8 +28,8 @@ Within this blog post, I will be going over:
 
 **Note:** Data used as examples are as follows:
 
-_Sections 1 and 2:_ [Illumination correction example from CellProfiler](https://cellprofiler.org/examples)
-_Section 3:_ [Plate 1 data from the nf1_cellpainting_data repository](https://github.com/WayScience/nf1_cellpainting_data/tree/main/0.download_data)
+1. _Sections 1 and 2:_ [Illumination correction example from CellProfiler](https://cellprofiler.org/examples)
+2. _Section 3:_ [Plate 1 data from the nf1_cellpainting_data repository](https://github.com/WayScience/nf1_cellpainting_data/tree/main/0.download_data)
 
 ---
 
