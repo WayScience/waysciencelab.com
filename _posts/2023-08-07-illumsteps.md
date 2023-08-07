@@ -82,7 +82,7 @@ Once the image is brightened, either you will see the illumination across the im
 > **Figure 2. Increasing brightness improves ability to observe uneven illumination.** Image A is the raw version of the image, where it is hard to tell if the image is suffering from uneven illumination. Image B is the brightened version of Image A, where it is much clearer to see that this image has a much brighter area in the lower right of the image.
 
 Now that we have identified that our image definitely needs to be corrected for uneven illumination, we will need to create an illumination correction function.
-If you would like to go over how to make function in CellProfiler, please go to the [next section of the blog post](https://www.waysciencelab.com/2023/06/21/illumsteps.html#creating-a-cellprofiler-ic-function).
+If you would like to go over how to make function in CellProfiler, please go to the [next section of the blog post](https://www.waysciencelab.com/2023/08/07/illumsteps.html#creating-a-cellprofiler-ic-function).
 This section goes over the basics, so lets move on to step two!
 
 ### Step 2: Confirm that your IC function worked
