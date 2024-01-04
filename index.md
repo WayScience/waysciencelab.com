@@ -2,11 +2,9 @@
 title: Home
 ---
 
-# Biomedical data science
-
 Welcome to the Way Lab at [The University of Colorado Anschutz](https://www.cuanschutz.edu/)!
 
-The mission of our lab is to reduce human suffering by integrating biomedical data science and software engineering into drug discovery.
+The mission of our lab is to reduce human suffering by integrating biomedical data science and software engineering into drug discovery and translational research.
 We develop new computational methods, innovative approaches, assays, and software for analyzing high-dimensional genomic, molecular, and microscopy data.
 We focus on pediatric diseases, including pediatric cancer and Neurofibromatosis Type 1 (NF1).
 
@@ -24,8 +22,8 @@ We also perform open science, making all of our work immediately open for anyone
 {%
   include link.html
   icon="fas fa-users"
-  text="Join the Team"
-  link="join/"
+  text="Contact us"
+  link="contact/"
   style="button"
 %}
 {:.center}
@@ -41,7 +39,7 @@ We also perform open science, making all of our work immediately open for anyone
 {% capture text %}
 We develop computational methods and innovative approaches to find better drugs for pediatric diseases.
 
-[See what we've published &nbsp;→](research)
+[Research focus and publications &nbsp;→](research)
 {:.center}
 {% endcapture %}
 
@@ -54,9 +52,9 @@ We develop computational methods and innovative approaches to find better drugs 
 %}
 
 {% capture text %}
-We also release public data and open source software to enable reproducible computational biology analyses and workflows.
+We release public data and open source software to enable reproducible computational biology analyses and workflows.
 
-[See our resources &nbsp;→](resources)
+[Software &nbsp;→](software)
 {:.center}
 {% endcapture %}
 
@@ -64,15 +62,15 @@ We also release public data and open source software to enable reproducible comp
   include feature.html
   image="images/network.png"
   link="resources"
-  headline="Software and data"
+  headline="Biomedical software"
   text=text
 %}
 
 {% capture text %}
-Our group is a welcoming, diverse, and inclusive team.
+Our lab is a welcoming, diverse, and inclusive team.
 We are collaborative, curious, and passionate about our work.
 
-[Meet our team &nbsp;→](team)
+[Meet our lab &nbsp;→](team)
 {:.center}
 {% endcapture %}
 
@@ -80,10 +78,10 @@ We are collaborative, curious, and passionate about our work.
   include feature.html
   image="images/team.jpeg"
   link="team"
-  headline="Our lab team"
+  headline="Our lab"
   text=text
 %}
-
+<!---
 {%
   include link.html
   type="github"
@@ -93,3 +91,4 @@ We are collaborative, curious, and passionate about our work.
   style="button"
 %}
 {:.center}
+-->

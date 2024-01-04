@@ -13,13 +13,15 @@ Anschutz Health Sciences Building<br/>
 1890 N Revere Ct<br/>
 Aurora, CO 80045
 
+Email: gregory.way@cuanschutz.edu
+
 {%
   include figure.html
   image="images/contact_ahs.jpg"
   caption="Anschutz Health Sciences Building"
   width="400px"
 %}
-
+<!---
 {%
   include link.html
   type="email"
@@ -29,7 +31,7 @@ Aurora, CO 80045
   link="gregory.way@cuanschutz.edu"
   style="button"
 %}
-<!---
+
 {%
   include link.html
   type="phone"
