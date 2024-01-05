@@ -1,11 +1,11 @@
 ---
-title: Resources
+title: Software
 nav:
   order: 2
   tooltip: Software and data
 ---
 
-# <i class="fas fa-tools"></i>Resources
+# <i class="fas fa-tools"></i>Software
 
 {% include search-info.html %}
 

@@ -1,4 +1,24 @@
-- id: 10.1101/2023.05.02.539137 
+- id: 10.1016/j.slasd.2023.08.009
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2472555223000667-gr2.jpg
+  tags:
+    - review
+    - high-content imaging
+
+- id: 10.1101/2023.08.06.552164
+  image: https://www.ncbi.nlm.nih.gov/corecgi/tileshop/tileshop.fcgi?p=PMC3&id=704470&s=171&r=2&c=2
+  tags:
+    - cell painting
+    - cell morphology
+    - assay
+
+- id: https://arxiv.org/abs/2311.13417
+  image: https://raw.githubusercontent.com/cytomining/pycytominer/main/logo/just-icon.png
+  repo: https://github.com/cytomining/pycytominer
+  tags:
+    - software
+    - cell morphology
+
+- id: 10.7554/eLife.91362
   image: https://raw.githubusercontent.com/broadinstitute/profiling-resistance-mechanisms/master/3.resistance-signature/figures/bortezomib_roc_curve.png
   repo: https://github.com/broadinstitute/profiling-resistance-mechanisms
   tags:

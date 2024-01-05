@@ -1,20 +1,104 @@
 # GENERATED AUTOMATICALLY, DO NOT EDIT
 
-- id: 10.1101/2023.05.02.539137
+- id: 10.1016/j.slasd.2023.08.009
+  title: Evolution and impact of high content imaging
+  authors:
+  - Gregory P. Way
+  - Heba Sailem
+  - Steven Shave
+  - Richard Kasprowicz
+  - Neil O. Carragher
+  publisher: SLAS Discovery
+  date: '2023-10-01'
+  link: https://doi.org/gtcgfv
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2472555223000667-gr2.jpg
+  tags:
+  - review
+  - high-content imaging
+- id: 10.1101/2023.08.06.552164
+  title: A genome-wide atlas of human cell morphology
+  authors:
+  - Meraj Ramezani
+  - Julia Bauman
+  - Avtar Singh
+  - Erin Weisbart
+  - John Yong
+  - Maria Lozada
+  - Gregory P. Way
+  - Sanam L. Kavari
+  - Celeste Diaz
+  - Marzieh Haghighi
+  - Thiago M. Batista
+  - "Joaqu\xEDn P\xE9rez-Schindler"
+  - Melina Claussnitzer
+  - Shantanu Singh
+  - Beth A. Cimini
+  - Paul C. Blainey
+  - Anne E. Carpenter
+  - Calvin H. Jan
+  - James T. Neal
+  publisher: Cold Spring Harbor Laboratory
+  date: '2023-08-07'
+  link: https://doi.org/gszn2s
+  image: https://www.ncbi.nlm.nih.gov/corecgi/tileshop/tileshop.fcgi?p=PMC3&id=704470&s=171&r=2&c=2
+  tags:
+  - cell painting
+  - cell morphology
+  - assay
+- id: https://arxiv.org/abs/2311.13417
+  title: Reproducible image-based profiling with Pycytominer
+  authors:
+  - Erik Serrano
+  - Srinivas Niranj Chandrasekaran
+  - Dave Bunten
+  - Kenneth I. Brewer
+  - Jenna Tomkinson
+  - Roshan Kern
+  - Michael Bornholdt
+  - Stephen Fleming
+  - Ruifan Pei
+  - John Arevalo
+  - Hillary Tsang
+  - Vincent Rubinetti
+  - Callum Tromans-Coia
+  - Tim Becker
+  - Erin Weisbart
+  - Charlotte Bunne
+  - Alexandr A. Kalinin
+  - Rebecca Senft
+  - Stephen J. Taylor
+  - Nasim Jamali
+  - Adeniyi Adeboye
+  - Hamdah Shafqat Abbasi
+  - Allen Goodman
+  - Juan C. Caicedo
+  - Anne E. Carpenter
+  - Beth A. Cimini
+  - Shantanu Singh
+  - Gregory P. Way
+  publisher: arXiv
+  date: '2023-11-22'
+  link: http://arxiv.org/abs/2311.13417
+  image: https://raw.githubusercontent.com/cytomining/pycytominer/main/logo/just-icon.png
+  repo: https://github.com/cytomining/pycytominer
+  tags:
+  - software
+  - cell morphology
+- id: 10.7554/eLife.91362
   title: High-content microscopy reveals a morphological signature of bortezomib resistance
   authors:
-  - M.E. Kelley
-  - A.Y. Berman
-  - D.R. Stirling
-  - B.A. Cimini
-  - Y. Han
-  - S. Singh
-  - A.E. Carpenter
-  - T.M. Kapoor
-  - G.P. Way
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-05-02'
-  link: https://doi.org/gsfpj4
+  - Megan E Kelley
+  - Adi Y Berman
+  - David R Stirling
+  - Beth A Cimini
+  - Yu Han
+  - Shantanu Singh
+  - Anne E Carpenter
+  - Tarun M Kapoor
+  - Gregory P Way
+  publisher: eLife
+  date: '2023-09-27'
+  link: https://doi.org/gtcgdd
   image: https://raw.githubusercontent.com/broadinstitute/profiling-resistance-mechanisms/master/3.resistance-signature/figures/bortezomib_roc_curve.png
   repo: https://github.com/broadinstitute/profiling-resistance-mechanisms
   tags:
