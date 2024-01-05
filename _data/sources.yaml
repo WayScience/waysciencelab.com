@@ -1,4 +1,11 @@
-- id: 10.1101/2023.05.02.539137 
+- id: https://arxiv.org/abs/2311.13417
+  image: https://raw.githubusercontent.com/cytomining/pycytominer/main/logo/just-icon.png
+  repo: https://github.com/cytomining/pycytominer
+  tags:
+    - software
+    - cell morphology
+
+- id: 10.7554/eLife.91362
   image: https://raw.githubusercontent.com/broadinstitute/profiling-resistance-mechanisms/master/3.resistance-signature/figures/bortezomib_roc_curve.png
   repo: https://github.com/broadinstitute/profiling-resistance-mechanisms
   tags:
