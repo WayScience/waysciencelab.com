@@ -1,5 +1,50 @@
 # GENERATED AUTOMATICALLY, DO NOT EDIT
 
+- id: 10.1016/j.slasd.2023.08.009
+  title: Evolution and impact of high content imaging
+  authors:
+  - Gregory P. Way
+  - Heba Sailem
+  - Steven Shave
+  - Richard Kasprowicz
+  - Neil O. Carragher
+  publisher: SLAS Discovery
+  date: '2023-10-01'
+  link: https://doi.org/gtcgfv
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2472555223000667-gr2.jpg
+  tags:
+  - review
+  - high-content imaging
+- id: 10.1101/2023.08.06.552164
+  title: A genome-wide atlas of human cell morphology
+  authors:
+  - Meraj Ramezani
+  - Julia Bauman
+  - Avtar Singh
+  - Erin Weisbart
+  - John Yong
+  - Maria Lozada
+  - Gregory P. Way
+  - Sanam L. Kavari
+  - Celeste Diaz
+  - Marzieh Haghighi
+  - Thiago M. Batista
+  - "Joaqu\xEDn P\xE9rez-Schindler"
+  - Melina Claussnitzer
+  - Shantanu Singh
+  - Beth A. Cimini
+  - Paul C. Blainey
+  - Anne E. Carpenter
+  - Calvin H. Jan
+  - James T. Neal
+  publisher: Cold Spring Harbor Laboratory
+  date: '2023-08-07'
+  link: https://doi.org/gszn2s
+  image: https://www.ncbi.nlm.nih.gov/corecgi/tileshop/tileshop.fcgi?p=PMC3&id=704470&s=171&r=2&c=2
+  tags:
+  - cell painting
+  - cell morphology
+  - assay
 - id: https://arxiv.org/abs/2311.13417
   title: Reproducible image-based profiling with Pycytominer
   authors:
