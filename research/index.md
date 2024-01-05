@@ -23,6 +23,8 @@ We are specifically focused on the following work:
 
 We strive for creativity, integrity, inclusivity, and rigor in everything that we do.
 
+See [here](https://scholar.google.com/citations?user=iDKZaA4AAAAJ&hl=en) for a full list of work.
+
 See below for a selection of our recent papers.
 
 {% include section.html %}
