@@ -4,6 +4,13 @@
     - single-cell
     - microscopy
     - phenotype
+  extra-links:
+    - type: source
+      link: https://github.com/WayScience/phenotypic_profiling/
+      text: Analysis
+    - type: data
+      link: https://github.com/WayScience/mitocheck_data
+      text: Data
 
 - id: 10.1038/s41467-023-44045-w
   image: https://www.biorxiv.org/content/biorxiv/early/2023/01/09/2023.01.09.522731/F1.large.jpg
@@ -11,6 +18,10 @@
     - drug screening metric
     - software
     - profiling
+extra-links:
+    - type: source
+      link: https://github.com/cytomining/copairs
+      text: Software
 
 - id: 10.1101/2024.04.01.587631
   image: https://www.biorxiv.org/content/biorxiv/early/2024/04/02/2024.04.01.587631/F1.large.jpg
