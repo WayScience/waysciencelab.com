@@ -11,9 +11,19 @@
     - type: data
       link: https://github.com/WayScience/mitocheck_data
       text: Data
+    - type: software
+      link: https://github.com/WayScience/IDR_Stream
+      text: IDR_stream Software
 
 - id: 10.1038/s41467-023-44045-w
   image: https://www.biorxiv.org/content/biorxiv/early/2023/01/09/2023.01.09.522731/F1.large.jpg
+  tags:
+    - cell painting
+    - data integration
+    - cell morphology
+
+- id: 10.1101/2024.04.01.587631
+  image: https://www.biorxiv.org/content/biorxiv/early/2024/04/02/2024.04.01.587631/F1.large.jpg
   tags:
     - drug screening metric
     - software
@@ -22,13 +32,6 @@
     - type: source
       link: https://github.com/cytomining/copairs
       text: Software
-
-- id: 10.1101/2024.04.01.587631
-  image: https://www.biorxiv.org/content/biorxiv/early/2024/04/02/2024.04.01.587631/F1.large.jpg
-  tags:
-    - cell painting
-    - data integration
-    - cell morphology
 
 - id: 10.7554/eLife.91362
   image: https://raw.githubusercontent.com/broadinstitute/profiling-resistance-mechanisms/master/3.resistance-signature/figures/bortezomib_roc_curve.png
