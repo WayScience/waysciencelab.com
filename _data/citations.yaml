@@ -22,6 +22,9 @@
   - type: data
     link: https://github.com/WayScience/mitocheck_data
     text: Data
+  - type: software
+    link: https://github.com/WayScience/IDR_Stream
+    text: IDR_stream Software
 - id: 10.1038/s41467-023-44045-w
   title: High-dimensional phenotyping to define the genetic basis of cellular morphology
   authors:
@@ -49,9 +52,9 @@
   link: https://doi.org/gtct77
   image: https://www.biorxiv.org/content/biorxiv/early/2023/01/09/2023.01.09.522731/F1.large.jpg
   tags:
-  - drug screening metric
-  - software
-  - profiling
+  - cell painting
+  - data integration
+  - cell morphology
   extra-links:
   - type: source
     link: https://github.com/cytomining/copairs
@@ -75,9 +78,13 @@
   link: https://doi.org/gtrgrj
   image: https://www.biorxiv.org/content/biorxiv/early/2024/04/02/2024.04.01.587631/F1.large.jpg
   tags:
-  - cell painting
-  - data integration
-  - cell morphology
+  - drug screening metric
+  - software
+  - profiling
+  extra-links:
+  - type: source
+    link: https://github.com/cytomining/copairs
+    text: Software
 - &id001
   id: 10.7554/eLife.91362
   title: High-content microscopy reveals a morphological signature of bortezomib resistance
