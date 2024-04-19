@@ -1,5 +1,108 @@
 # GENERATED AUTOMATICALLY, DO NOT EDIT
 
+- id: 10.1101/2024.03.13.584858
+  title: Toward generalizable phenotype prediction from single-cell morphology representations
+  authors:
+  - Jenna Tomkinson
+  - Roshan Kern
+  - Cameron Mattson
+  - Gregory P. Way
+  publisher: Cold Spring Harbor Laboratory
+  date: '2024-03-13'
+  link: https://doi.org/gtrgrh
+  image: https://github.com/WayScience/phenotypic_profiling/blob/main/7.figures/figures/figure1_panelB.png?raw=true
+  tags:
+  - single-cell
+  - microscopy
+  - phenotype
+  extra-links:
+  - type: source
+    link: https://github.com/WayScience/phenotypic_profiling/
+    text: Analysis
+  - type: data
+    link: https://github.com/WayScience/mitocheck_data
+    text: Data
+  - type: software
+    link: https://github.com/WayScience/IDR_Stream
+    text: IDR_stream Software
+- id: 10.1038/s41467-023-44045-w
+  title: High-dimensional phenotyping to define the genetic basis of cellular morphology
+  authors:
+  - Matthew Tegtmeyer
+  - Jatin Arora
+  - Samira Asgari
+  - Beth A. Cimini
+  - Ajay Nadig
+  - Emily Peirent
+  - Dhara Liyanage
+  - Gregory P. Way
+  - Erin Weisbart
+  - Aparna Nathan
+  - Tiffany Amariuta
+  - Kevin Eggan
+  - Marzieh Haghighi
+  - Steven A. McCarroll
+  - "Luke O\u2019Connor"
+  - Anne E. Carpenter
+  - Shantanu Singh
+  - Ralda Nehme
+  - Soumya Raychaudhuri
+  publisher: Nature Communications
+  date: '2024-01-06'
+  link: https://doi.org/gtct77
+  image: https://www.biorxiv.org/content/biorxiv/early/2023/01/09/2023.01.09.522731/F1.large.jpg
+  tags:
+  - cell painting
+  - data integration
+  - cell morphology
+- id: 10.1101/2024.04.01.587631
+  title: A versatile information retrieval framework for evaluating profile strength
+    and similarity
+  authors:
+  - Alexandr A. Kalinin
+  - John Arevalo
+  - Loan Vulliard
+  - Erik Serrano
+  - Hillary Tsang
+  - Michael Bornholdt
+  - Bartek Rajwa
+  - Anne E. Carpenter
+  - Gregory P. Way
+  - Shantanu Singh
+  publisher: Cold Spring Harbor Laboratory
+  date: '2024-04-02'
+  link: https://doi.org/gtrgrj
+  image: https://www.biorxiv.org/content/biorxiv/early/2024/04/02/2024.04.01.587631/F1.large.jpg
+  tags:
+  - drug screening metric
+  - software
+  - profiling
+  extra-links:
+  - type: source
+    link: https://github.com/cytomining/copairs
+    text: Software
+- &id001
+  id: 10.7554/eLife.91362
+  title: High-content microscopy reveals a morphological signature of bortezomib resistance
+  authors:
+  - Megan E Kelley
+  - Adi Y Berman
+  - David R Stirling
+  - Beth A Cimini
+  - Yu Han
+  - Shantanu Singh
+  - Anne E Carpenter
+  - Tarun M Kapoor
+  - Gregory P Way
+  publisher: eLife
+  date: '2023-09-27'
+  link: https://doi.org/gtcgdd
+  image: https://raw.githubusercontent.com/broadinstitute/profiling-resistance-mechanisms/master/3.resistance-signature/figures/bortezomib_roc_curve.png
+  repo: https://github.com/broadinstitute/profiling-resistance-mechanisms
+  tags:
+  - cancer resistance
+  - cell painting
+  - open science
 - id: 10.1016/j.slasd.2023.08.009
   title: Evolution and impact of high content imaging
   authors:
@@ -84,27 +187,7 @@
   tags:
   - software
   - cell morphology
-- id: 10.7554/eLife.91362
-  title: High-content microscopy reveals a morphological signature of bortezomib resistance
-  authors:
-  - Megan E Kelley
-  - Adi Y Berman
-  - David R Stirling
-  - Beth A Cimini
-  - Yu Han
-  - Shantanu Singh
-  - Anne E Carpenter
-  - Tarun M Kapoor
-  - Gregory P Way
-  publisher: eLife
-  date: '2023-09-27'
-  link: https://doi.org/gtcgdd
-  image: https://raw.githubusercontent.com/broadinstitute/profiling-resistance-mechanisms/master/3.resistance-signature/figures/bortezomib_roc_curve.png
-  repo: https://github.com/broadinstitute/profiling-resistance-mechanisms
-  tags:
-  - cancer resistance
-  - cell painting
-  - open science
+- *id001
 - id: doi:10.1016/j.xgen.2023.100340
   title: 'OpenPBTA: The Open Pediatric Brain Tumor Atlas'
   authors:
@@ -183,34 +266,6 @@
   - pediatric cancer
   - brain tumor
   - open science
-- id: 10.1101/2023.01.09.522731
-  title: High-dimensional phenotyping to define the genetic basis of cellular morphology
-  authors:
-  - Matthew Tegtmeyer
-  - Jatin Arora
-  - Samira Asgari
-  - Beth A. Cimini
-  - Emily Peirent
-  - Dhara Liyanage
-  - Gregory Way
-  - Erin Weisbart
-  - Aparna Nathan
-  - Tiffany Amariuta
-  - Kevin Eggan
-  - Marzieh Haghighi
-  - Steven A. McCarroll
-  - Anne E. Carpenter
-  - Shantanu Singh
-  - Ralda Nehme
-  - Soumya Raychaudhuri
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-01-09'
-  link: https://doi.org/gsfpj5
-  image: https://www.biorxiv.org/content/biorxiv/early/2023/01/09/2023.01.09.522731/F1.large.jpg
-  tags:
-  - cell painting
-  - data integration
-  - cell morphology
 - id: doi:10.1016/j.cels.2022.10.001
   title: Morphology and gene expression profiling provide complementary information
     for mapping cell state

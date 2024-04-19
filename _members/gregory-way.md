@@ -10,14 +10,14 @@ aliases:
   - G.P. Way
   - G. P. Way
   - gwaygenomics
-  - gwayscience
+  - gwaybio
   - gway
 links:
   orcid: 0000-0002-0503-9348
   home-page: waysciencelab.com
   email: gregory.way@gmail.com
-  github: gwaygenomics
-  twitter: gwayscience
+  github: gwaybio
+  twitter: gwaybio
   google-scholar:: iDKZaA4AAAAJ
 ---
 
