@@ -1,3 +1,32 @@
+- id: 10.1101/2024.03.13.584858 
+  image: https://github.com/WayScience/phenotypic_profiling/blob/main/7.figures/figures/figure1_panelB.png?raw=true
+  tags:
+    - single-cell
+    - microscopy
+    - phenotype
+
+- id: 10.1038/s41467-023-44045-w
+  image: https://www.biorxiv.org/content/biorxiv/early/2024/04/02/2024.04.01.587631/F1.large.jpg
+  tags:
+    - drug screening metric
+    - software
+    - profiling
+
+- id: 10.1101/2024.04.01.587631
+  image: https://www.biorxiv.org/content/biorxiv/early/2023/01/09/2023.01.09.522731/F1.large.jpg
+  tags:
+    - cell painting
+    - data integration
+    - cell morphology
+
+- id: 10.7554/eLife.91362
+  image: https://raw.githubusercontent.com/broadinstitute/profiling-resistance-mechanisms/master/3.resistance-signature/figures/bortezomib_roc_curve.png
+  repo: https://github.com/broadinstitute/profiling-resistance-mechanisms
+  tags:
+    - cancer resistance
+    - cell painting
+    - open science
+  
 - id: 10.1016/j.slasd.2023.08.009
   image: https://ars.els-cdn.com/content/image/1-s2.0-S2472555223000667-gr2.jpg
   tags:
@@ -33,13 +62,6 @@
     - pediatric cancer
     - brain tumor
     - open science
-
-- id: 10.1101/2023.01.09.522731
-  image: https://www.biorxiv.org/content/biorxiv/early/2023/01/09/2023.01.09.522731/F1.large.jpg
-  tags:
-    - cell painting
-    - data integration
-    - cell morphology
 
 - id: doi:10.1016/j.cels.2022.10.001
   image: https://www.cell.com/cms/attachment/55912f54-18d9-4ee9-8374-6f24f9d15bbc/fx1.jpg
