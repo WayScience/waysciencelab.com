@@ -15,6 +15,13 @@
   - single-cell
   - microscopy
   - phenotype
+  extra-links:
+  - type: source
+    link: https://github.com/WayScience/phenotypic_profiling/
+    text: Analysis
+  - type: data
+    link: https://github.com/WayScience/mitocheck_data
+    text: Data
 - id: 10.1038/s41467-023-44045-w
   title: High-dimensional phenotyping to define the genetic basis of cellular morphology
   authors:
@@ -45,6 +52,10 @@
   - drug screening metric
   - software
   - profiling
+  extra-links:
+  - type: source
+    link: https://github.com/cytomining/copairs
+    text: Software
 - id: 10.1101/2024.04.01.587631
   title: A versatile information retrieval framework for evaluating profile strength
     and similarity
