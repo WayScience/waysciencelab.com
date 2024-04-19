@@ -55,10 +55,6 @@
   - cell painting
   - data integration
   - cell morphology
-  extra-links:
-  - type: source
-    link: https://github.com/cytomining/copairs
-    text: Software
 - id: 10.1101/2024.04.01.587631
   title: A versatile information retrieval framework for evaluating profile strength
     and similarity
