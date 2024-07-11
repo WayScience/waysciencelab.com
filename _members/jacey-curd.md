@@ -1,7 +1,7 @@
 ---
 name: Jacey Curd
 image: images/team/jacey_curd.jpeg
-description: Bio Data Scientist
+description: Data Scientist
 role: programmer
 aliases:
     - Julia Curd
