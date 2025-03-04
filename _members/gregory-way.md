@@ -18,7 +18,7 @@ links:
   email: gregory.way@gmail.com
   github: gwaybio
   twitter: gwaybio
-  google-scholar:: iDKZaA4AAAAJ
+  google-scholar: iDKZaA4AAAAJ
 ---
 
 
