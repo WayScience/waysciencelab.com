@@ -80,4 +80,6 @@ Our work is made possible by the following organizations.
 
 {% endcapture %}
 
+{% include grid.html content=content %}
+
 {% include section.html %}
