@@ -67,27 +67,17 @@ We will always be grateful for the time we spent together and the knowledge they
 ## Funding
 
 Our work is made possible by the following organizations.
-{:.center}
 
-{%
-  include gallery.html
-  style="square"
+{% capture content %}
 
-  image1="images/alsf_logo.png"
-  link1="https://www.alexslemonade.org/
-  tooltip1="Alex's Lemonade Stand Foundation"
+[![Alex's Lemonade Stand Foundation](images/alsf_logo.png)](https://www.alexslemonade.org/)
 
-  image2="images/gff_logo.png"
-  link2="https://gilbertfamilyfoundation.org/"
-  tooltip2="Gilbert Family Foundation NGMI"
+[![Gilbert Family Foundation](images/gff_logo.png)](https://gilbertfamilyfoundation.org/)
 
-  image3="images/aha_logo.png"
-  link3="https://www.heart.org/"
-  tooltip3="American Heart Association"
+[![American Heart Association](images/aha_logo.png)](https://www.heart.org/)
 
-  image4="images/amed_logo.jpg"
-  link4="https://www.amed.go.jp/"
-  tooltip4="Japan Agency for Medical Research and Development"
-%}
+[![Japan Agency for Medical Research and Development](images/amed_logo.jpg)](https://www.amed.go.jp/)
+
+{% endcapture %}
 
 {% include section.html %}
