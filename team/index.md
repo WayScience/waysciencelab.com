@@ -72,23 +72,23 @@ Our work is made possible by the following organizations.
   include gallery.html
   style="square"
 
-  image1="images/alsf_logo.png"
+  image1="images/funding/alsf_logo.png"
   link1="https://www.alexslemonade.org/"
   tooltip1="Alex's Lemonade Stand Foundation"
 
-  image2="images/gff_logo.png"
+  image2="images/funding/gff_logo.jpg"
   link2="https://gilbertfamilyfoundation.org/"
   tooltip2="Gilbert Family Foundation NGMI"
 
-  image3="images/aha_logo.png"
+  image3="images/funding/aha_logo.jpg"
   link3="https://www.heart.org/"
   tooltip3="American Heart Association"
 
-  image4="images/amed_logo.jpg"
+  image4="images/funding/amed_logo.jpg"
   link4="https://www.amed.go.jp/"
   tooltip4="Japan Agency for Medical Research and Development"
 
-  image5="images/NHLBI_logo.png"
+  image5="images/funding/NHLBI_logo.png"
   link4="https://www.nhlbi.nih.gov/"
   tooltip4="National Heart, Lung, and Blood Institute"
 %}
