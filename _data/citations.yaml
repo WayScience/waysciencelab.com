@@ -1,15 +1,148 @@
 # GENERATED AUTOMATICALLY, DO NOT EDIT
 
-- id: 10.1101/2024.03.13.584858
+- id: 10.1038/s41592-025-02611-8
+  title: Reproducible image-based profiling with Pycytominer
+  authors:
+  - Erik Serrano
+  - Srinivas Niranj Chandrasekaran
+  - Dave Bunten
+  - Kenneth I. Brewer
+  - Jenna Tomkinson
+  - Roshan Kern
+  - Michael Bornholdt
+  - Stephen J. Fleming
+  - Ruifan Pei
+  - John Arevalo
+  - Hillary Tsang
+  - Vincent Rubinetti
+  - Callum Tromans-Coia
+  - Tim Becker
+  - Erin Weisbart
+  - Charlotte Bunne
+  - Alexandr A. Kalinin
+  - Rebecca Senft
+  - Stephen J. Taylor
+  - Nasim Jamali
+  - Adeniyi Adeboye
+  - Hamdah Shafqat Abbasi
+  - Allen Goodman
+  - Juan C. Caicedo
+  - Anne E. Carpenter
+  - Beth A. Cimini
+  - Shantanu Singh
+  - Gregory P. Way
+  publisher: Nature Methods
+  date: '2025-03-03'
+  link: https://doi.org/g863nc
+  image: https://raw.githubusercontent.com/cytomining/pycytominer/master/logo/just-icon.png
+  tags:
+  - image-based profiling
+  - bioinformatics
+  - software
+  - cell morphology
+  extra-links:
+  - type: software
+    link: https://github.com/cytomining/pycytominer
+    text: GitHub
+- id: 10.1101/2024.09.11.612546
+  title: High-content microscopy and machine learning characterize a cell morphology
+    signature of<i>NF1</i>genotype in Schwann cells
+  authors:
+  - Jenna Tomkinson
+  - Cameron Mattson
+  - Michelle Mattson-Hoss
+  - Herb Sarnoff
+  - Stephanie J. Bouley
+  - James A. Walker
+  - Gregory P. Way
+  publisher: Cold Spring Harbor Laboratory
+  date: '2024-09-16'
+  link: https://doi.org/g863nd
+  image: https://www.biorxiv.org/content/biorxiv/early/2024/09/16/2024.09.11.612546/F1.large.jpg
+  tags:
+  - image-based profiling
+  - neurofibromatosis type 1
+  - cell morphology
+  - assay development
+  extra-links:
+  - type: software
+    link: https://github.com/WayScience/nf1_schwann_cell_morphology_signature
+    text: Analysis code
+  - type: software
+    link: https://github.com/WayScience/nf1_schwann_cell_painting_data
+    text: Data processing code
+- id: 10.1038/s41592-024-02537-7
+  title: A genome-wide atlas of human cell morphology
+  authors:
+  - Meraj Ramezani
+  - Erin Weisbart
+  - Julia Bauman
+  - Avtar Singh
+  - John Yong
+  - Maria Lozada
+  - Gregory P. Way
+  - Sanam L. Kavari
+  - Celeste Diaz
+  - Eddy Leardini
+  - Gunjan Jetley
+  - Jenlu Pagnotta
+  - Marzieh Haghighi
+  - Thiago M. Batista
+  - "Joaqu\xEDn P\xE9rez-Schindler"
+  - Melina Claussnitzer
+  - Shantanu Singh
+  - Beth A. Cimini
+  - Paul C. Blainey
+  - Anne E. Carpenter
+  - Calvin H. Jan
+  - James T. Neal
+  publisher: Nature Methods
+  date: '2025-01-27'
+  link: https://doi.org/g826g9
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-024-02537-7/MediaObjects/41592_2024_2537_Fig1_HTML.png
+  tags:
+  - image-based profiling
+  - pooled cell painting
+  - cell morphology
+  extra-links:
+  - type: source
+    link: https://github.com/broadinstitute/pooled-cell-painting-image-processing
+    text: GitHub
+- id: 10.1101/2024.11.16.623947
+  title: Combining NeuroPainting with transcriptomics reveals cell-type-specific morphological
+    and molecular signatures of the 22q11.2 deletion
+  authors:
+  - Matthew Tegtmeyer
+  - Dhara Liyanage
+  - Yu Han
+  - Kathryn B. Hebert
+  - Ruifan Pei
+  - Gregory P. Way
+  - Pearl V. Ryder
+  - Derek Hawes
+  - Callum Tromans-Coia
+  - Beth A. Cimini
+  - Anne E. Carpenter
+  - Shantanu Singh
+  - Ralda Nehme
+  publisher: Cold Spring Harbor Laboratory
+  date: '2024-11-17'
+  link: https://doi.org/g863nf
+  image: https://www.biorxiv.org/content/biorxiv/early/2024/11/17/2024.11.16.623947/F1.large.jpg
+  tags:
+  - image-based profiling
+  - cell painting
+  - data integration
+- id: 10.1186/s44330-024-00014-3
   title: Toward generalizable phenotype prediction from single-cell morphology representations
   authors:
   - Jenna Tomkinson
   - Roshan Kern
   - Cameron Mattson
   - Gregory P. Way
-  publisher: Cold Spring Harbor Laboratory
-  date: '2024-03-13'
-  link: https://doi.org/gtrgrh
+  publisher: BMC Methods
+  date: '2024-12-09'
+  link: https://doi.org/g863ng
   image: https://github.com/WayScience/phenotypic_profiling/blob/main/7.figures/figures/figure1_panelB.png?raw=true
   tags:
   - single-cell
