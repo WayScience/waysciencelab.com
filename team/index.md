@@ -13,30 +13,8 @@ We define success individually for each team member, and we challenge each other
 
 {% include section.html %}
 
-{%
-  include list.html
-  data="members"
-  component="portrait"
-  filters="role: pi"
-%}
-{%
-  include list.html
-  data="members"
-  component="portrait"
-  filters="role: phd"
-%}
-{%
-  include list.html
-  data="members"
-  component="portrait"
-  filters="role: programmer"
-%}
-{%
-  include list.html
-  data="members"
-  component="portrait"
-  filters="role: undergrad"
-%}
+{% include list.html data="members" component="portrait" filter="role == 'principal-investigator' and group != 'alum'" %}
+{% include list.html data="members" component="portrait" filter="role != 'principal-investigator' and group != 'alum'" %}
 {:.center}
 
 {% include section.html background="images/banner.jpg" dark=true%}
