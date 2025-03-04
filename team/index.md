@@ -64,7 +64,6 @@ We will always be grateful for the time we spent together and the knowledge they
 
 {% include section.html %}
 
-
 ## Funding
 
 Our work is made possible by the following organizations.
@@ -90,4 +89,5 @@ Our work is made possible by the following organizations.
   link4="https://www.amed.go.jp/"
   tooltip4="Japan Agency for Medical Research and Development"
 %}
--->
+
+{% include section.html %}
