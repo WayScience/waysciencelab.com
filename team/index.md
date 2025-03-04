@@ -73,7 +73,7 @@ Our work is made possible by the following organizations.
   style="square"
 
   image1="images/alsf_logo.png"
-  link1="https://www.alexslemonade.org/
+  link1="https://www.alexslemonade.org/"
   tooltip1="Alex's Lemonade Stand Foundation"
 
   image2="images/gff_logo.png"
