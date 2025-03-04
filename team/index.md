@@ -13,8 +13,30 @@ We define success individually for each team member, and we challenge each other
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filter="role == 'principal-investigator' and group != 'alum'" %}
-{% include list.html data="members" component="portrait" filter="role != 'principal-investigator' and group != 'alum'" %}
+{%
+  include list.html
+  data="members"
+  component="portrait"
+  filters="role: pi,group:!alum"
+%}
+{%
+  include list.html
+  data="members"
+  component="portrait"
+  filters="role: phd,group:!alum"
+%}
+{%
+  include list.html
+  data="members"
+  component="portrait"
+  filters="role: programmer,group:!alum"
+%}
+{%
+  include list.html
+  data="members"
+  component="portrait"
+  filters="role: undergrad,group:!alum"
+%}
 {:.center}
 
 {% include section.html background="images/banner.jpg" dark=true%}
@@ -38,7 +60,7 @@ We encourage all to apply.
 All of our former team members have made important contributions to our lab and science.
 We will always be grateful for the time we spent together and the knowledge they shared!
 
-{% include list.html data="members" component="portrait" filter="group == 'alum'" style="small" %}
+{% include list.html data="members" component="portrait" filter="group: alum" %}
 
 {% include section.html %}
 
