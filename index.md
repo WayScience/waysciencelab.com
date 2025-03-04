@@ -4,11 +4,11 @@ title: Home
 
 Welcome to the Way Lab at [The University of Colorado Anschutz](https://www.cuanschutz.edu/)!
 
-The mission of our lab is to reduce human suffering by integrating biomedical data science and software engineering into drug discovery and translational research.
-We develop new computational methods, innovative approaches, assays, and software for analyzing high-dimensional genomic, molecular, and microscopy data.
-We focus on pediatric diseases, including pediatric cancer and Neurofibromatosis Type 1 (NF1).
+The mission of our lab is to reduce human suffering.
+We develop new computational methods and software for analyzing microscopy images of cells.
+With our collaborators around the world, we develop innovative assays and approaches for making sense of high-content microscopy.
+We focus on pediatric diseases, including pediatric cancer and Neurofibromatosis Type 1 (NF1), and we also have applications in discovering new treatments for cardiac fibrosis.
 
-We perform team science with multidisciplinary collaborators to amplify the impact of our computationally-focused work.
 We also perform open science, making all of our work immediately open for anyone to use and build upon.
 
 {%
@@ -37,7 +37,7 @@ We also perform open science, making all of our work immediately open for anyone
 # Highlights
 
 {% capture text %}
-We develop computational methods and innovative approaches to find better drugs for pediatric diseases.
+We develop computational methods and innovative approaches to analyze high-content microscopy images of cells.
 
 [Research focus and publications &nbsp;→](research)
 {:.center}
@@ -52,7 +52,7 @@ We develop computational methods and innovative approaches to find better drugs 
 %}
 
 {% capture text %}
-We release public data and open source software to enable reproducible computational biology analyses and workflows.
+We release public data and open source software and methods to enable reproducible analysis of microscopy images.
 
 [Software &nbsp;→](software)
 {:.center}

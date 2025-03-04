@@ -12,6 +12,7 @@ aliases:
 links:
   email: julia.curd@cuanschutz.edu
   github: JaceyBronte
+group: active
 ---
 
 Jacey graduated with B.S. degrees in Computer Science and Biology from Duke University, where she worked in Dr. Raluca Gordan’s lab on CRISPR and MutS.

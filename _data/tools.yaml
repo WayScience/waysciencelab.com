@@ -12,12 +12,19 @@
   description: Python package for enabling single-cell microscopy analysis
   repo: cytomining/cytotable
 
-- name: CytoSnake
+- name: coSMicQC
   group: featured
-  image: https://raw.githubusercontent.com/wayscience/cytosnake/master/logo/just-icon.png
-  link: https://github.com/wayscience/cytosnake
-  description: Python package for orchestrating customized image-based profiling pipelines
-  repo: wayscience/cytosnake
+  image: https://raw.githubusercontent.com/wayscience/coSMicQC/main/media/logo/just-icon.png
+  link: https://github.com/WayScience/coSMicQC
+  description: Python package for single-cell quality control
+  repo: wayscience/cosmicqc
+
+#- name: CytoSnake
+#  group: featured
+#  image: https://raw.githubusercontent.com/wayscience/cytosnake/master/logo/just-icon.png
+#  link: https://github.com/wayscience/cytosnake
+#  description: Python package for orchestrating customized image-based profiling pipelines
+# repo: wayscience/cytosnake
 
 - name: BioBombe
   group: more

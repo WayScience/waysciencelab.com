@@ -1,4 +1,50 @@
-- id: 10.1101/2024.03.13.584858 
+- id: 10.1038/s41592-025-02611-8
+  image: https://raw.githubusercontent.com/cytomining/pycytominer/master/logo/just-icon.png
+  tags:
+    - image-based profiling
+    - bioinformatics
+    - software
+    - cell morphology
+  extra-links:
+    - type: software
+      link: https://github.com/cytomining/pycytominer
+      text: GitHub
+
+- id: 10.1101/2024.09.11.612546 
+  image: https://www.biorxiv.org/content/biorxiv/early/2024/09/16/2024.09.11.612546/F1.large.jpg
+  tags:
+    - image-based profiling
+    - neurofibromatosis type 1
+    - cell morphology
+    - assay development
+  extra-links:
+    - type: software
+      link: https://github.com/WayScience/nf1_schwann_cell_morphology_signature
+      text: Analysis code
+    - type: software
+      link: https://github.com/WayScience/nf1_schwann_cell_painting_data
+      text: Data processing code
+      
+
+- id: 10.1038/s41592-024-02537-7
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-024-02537-7/MediaObjects/41592_2024_2537_Fig1_HTML.png
+  tags:
+    - image-based profiling
+    - pooled cell painting
+    - cell morphology
+  extra-links:
+    - type: source
+      link: https://github.com/broadinstitute/pooled-cell-painting-image-processing
+      text: GitHub
+
+- id: 10.1101/2024.11.16.623947
+  image: https://www.biorxiv.org/content/biorxiv/early/2024/11/17/2024.11.16.623947/F1.large.jpg
+  tags:
+    - image-based profiling
+    - cell painting
+    - data integration
+
+- id: 10.1186/s44330-024-00014-3
   image: https://github.com/WayScience/phenotypic_profiling/blob/main/7.figures/figures/figure1_panelB.png?raw=true
   tags:
     - single-cell
