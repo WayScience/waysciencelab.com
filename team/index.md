@@ -55,6 +55,15 @@ We encourage all to apply.
 
 {% include section.html %}
 
+## Alumni
+
+All of our former team members have made important contributions to our lab and science.
+We will always be grateful for the time we spent together and the knowledge they shared!
+
+{% include list.html data="members" component="portrait" filter="group == 'alum'" style="small" %}
+
+{% include section.html %}
+
 <!---
 ## Funding
 
