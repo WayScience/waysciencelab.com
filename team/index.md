@@ -87,6 +87,10 @@ Our work is made possible by the following organizations.
   image4="images/amed_logo.jpg"
   link4="https://www.amed.go.jp/"
   tooltip4="Japan Agency for Medical Research and Development"
+
+  image5="images/NHLBI_logo.png"
+  link4="https://www.nhlbi.nih.gov/"
+  tooltip4="National Heart, Lung, and Blood Institute"
 %}
 
 {% include section.html %}
