@@ -13,6 +13,7 @@ links:
   orcid: 0000-0001-6041-3665
   email: dave.bunten@cuanschutz.edu
   github: d33bs
+group: active
 ---
 
 Dave Bunten is a software developer with a passion for expanding human potential through software design, collaboration, and innovation.

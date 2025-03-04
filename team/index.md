@@ -17,25 +17,25 @@ We define success individually for each team member, and we challenge each other
   include list.html
   data="members"
   component="portrait"
-  filters="role:pi,group:!alum"
+  filters="role:pi,group:active"
 %}
 {%
   include list.html
   data="members"
   component="portrait"
-  filters="role:phd,group:!alum"
+  filters="role:phd,group:active"
 %}
 {%
   include list.html
   data="members"
   component="portrait"
-  filters="role:programmer,group:!alum"
+  filters="role:programmer,group:active"
 %}
 {%
   include list.html
   data="members"
   component="portrait"
-  filters="role:undergrad,group:!alum"
+  filters="role:undergrad,group:active"
 %}
 {:.center}
 

@@ -12,6 +12,7 @@ links:
   orcid: 0000-0003-2676-5813
   email: jenna.tomkinson@ucdenver.edu
   github: jenna-tomkinson
+group: active
 ---
 
 Jenna is a Quantitative Cell Biologist at the Way Lab.

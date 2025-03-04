@@ -15,6 +15,7 @@ links:
   email: michael.lippincott@cuanschutz.com
   github: MikeLippincott
   twitter: mike_lippincott
+group: active
 ---
 
 Mike Lippincott is a Cell Biology, Stem Cells, and Development (CSD) PhD student at the University of Colorado, Anschutz Medical Campus.
