@@ -1,6 +1,567 @@
 # GENERATED AUTOMATICALLY, DO NOT EDIT
 
-- id: doi:10.1101/2021.09.02.458673
+- id: https://arxiv.org/abs/2508.05800
+  title: Progress and new challenges in image-based profiling
+  authors:
+  - Erik Serrano
+  - John Peters
+  - Jesko Wagner
+  - Rebecca E. Graham
+  - Zhenghao Chen
+  - Brian Feng
+  - Gisele Miranda
+  - Alexandr A. Kalinin
+  - Loan Vulliard
+  - Jenna Tomkinson
+  - Cameron Mattson
+  - Michael J. Lippincott
+  - Ziqi Kang
+  - Divya Sitani
+  - Dave Bunten
+  - Srijit Seal
+  - Neil O. Carragher
+  - Anne E. Carpenter
+  - Shantanu Singh
+  - Paula A. Marin Zapata
+  - Juan C. Caicedo
+  - Gregory P. Way
+  publisher: arXiv
+  date: '2025-08-07'
+  link: http://arxiv.org/abs/2508.05800
+  image: https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg
+  tags:
+  - image-based profiling
+  - review
+- id: 10.1161/CIRCULATIONAHA.124.071956
+  title: Cell Painting and Machine Learning Distinguish Fibroblasts From Nonfailing
+    and Failing Human Hearts
+  authors:
+  - Joshua G. Travers
+  - Jenna Tomkinson
+  - Marcello Rubino
+  - Marion Delaunay
+  - Michael R. Bristow
+  - Gregory P. Way
+  - Timothy A. McKinsey
+  publisher: Circulation
+  date: '2025-04-22'
+  link: https://doi.org/g9wt6s
+  image: https://www.ahajournals.org/cms/10.1161/CIRCULATIONAHA.124.071956/asset/eb5df843-0afb-4f37-bf75-265f17c7ec93/assets/graphic/circulationaha.124.071956.fig01.jpg
+  tags:
+  - high-content microscopy
+  - cell painting
+  - cardiac fibrosis
+  extra-links:
+  - type: source
+    link: https://github.com/WayScience/cellpainting_predicts_cardiac_fibrosis
+    text: Analysis code
+- id: 10.1091/mbc.E25-03-0119
+  title: A morphology and secretome map of pyroptosis
+  authors:
+  - Michael J. Lippincott
+  - Jenna Tomkinson
+  - Dave Bunten
+  - Milad Mohammadi
+  - Johanna Kastl
+  - Johannes Knop
+  - Ralf Schwandner
+  - Jiamin Huang
+  - Grant Ongo
+  - Nathaniel Robichaud
+  - Milad Dagher
+  - "Andr\xE9s Mansilla-Soto"
+  - Cynthia Saravia-Estrada
+  - Masafumi Tsuboi
+  - "Carla Basualto-Alarc\xF3n"
+  - Gregory P. Way
+  publisher: Molecular Biology of the Cell
+  date: '2025-06-01'
+  link: https://doi.org/g9wt6t
+  image: https://www.molbiolcell.org/cms/10.1091/mbc.E25-03-0119/asset/images/large/mbc-36-ar63-g001.jpeg
+  tags:
+  - cell death
+  - high-content microscopy
+  - multimodal data
+  extra-links:
+  - type: source
+    link: https://github.com/WayScience/pyroptosis_signature_image_profiling
+    text: Data processing
+  - type: source
+    link: https://github.com/WayScience/pyroptosis_signature_data_analysis
+    text: Analysis code
+- id: 10.1038/s41467-025-60306-2
+  title: A versatile information retrieval framework for evaluating profile strength
+    and similarity
+  authors:
+  - Alexandr A. Kalinin
+  - John Arevalo
+  - Erik Serrano
+  - Loan Vulliard
+  - Hillary Tsang
+  - Michael Bornholdt
+  - "Al\xE1n F. Mu\xF1oz"
+  - Suganya Sivagurunathan
+  - Bartek Rajwa
+  - Anne E. Carpenter
+  - Gregory P. Way
+  - Shantanu Singh
+  publisher: Nature Communications
+  date: '2025-06-04'
+  link: https://doi.org/g9wt6v
+  image: https://www.biorxiv.org/content/biorxiv/early/2024/04/02/2024.04.01.587631/F1.large.jpg
+  tags:
+  - drug screening metric
+  - software
+  - profiling
+  extra-links:
+  - type: source
+    link: https://github.com/cytomining/copairs
+    text: Software
+- id: 10.1038/s41592-025-02611-8
+  title: Reproducible image-based profiling with Pycytominer
+  authors:
+  - Erik Serrano
+  - Srinivas Niranj Chandrasekaran
+  - Dave Bunten
+  - Kenneth I. Brewer
+  - Jenna Tomkinson
+  - Roshan Kern
+  - Michael Bornholdt
+  - Stephen J. Fleming
+  - Ruifan Pei
+  - John Arevalo
+  - Hillary Tsang
+  - Vincent Rubinetti
+  - Callum Tromans-Coia
+  - Tim Becker
+  - Erin Weisbart
+  - Charlotte Bunne
+  - Alexandr A. Kalinin
+  - Rebecca Senft
+  - Stephen J. Taylor
+  - Nasim Jamali
+  - Adeniyi Adeboye
+  - Hamdah Shafqat Abbasi
+  - Allen Goodman
+  - Juan C. Caicedo
+  - Anne E. Carpenter
+  - Beth A. Cimini
+  - Shantanu Singh
+  - Gregory P. Way
+  publisher: Nature Methods
+  date: '2025-03-03'
+  link: https://doi.org/g863nc
+  image: https://raw.githubusercontent.com/cytomining/pycytominer/master/logo/just-icon.png
+  tags:
+  - image-based profiling
+  - bioinformatics
+  - software
+  - cell morphology
+  extra-links:
+  - type: software
+    link: https://github.com/cytomining/pycytominer
+    text: GitHub
+- id: 10.1101/2024.09.11.612546
+  title: High-content microscopy and machine learning characterize a cell morphology
+    signature of<i>NF1</i>genotype in Schwann cells
+  authors:
+  - Jenna Tomkinson
+  - Cameron Mattson
+  - Michelle Mattson-Hoss
+  - Herb Sarnoff
+  - Stephanie J. Bouley
+  - James A. Walker
+  - Gregory P. Way
+  publisher: Cold Spring Harbor Laboratory
+  date: '2024-09-16'
+  link: https://doi.org/g863nd
+  image: https://www.biorxiv.org/content/biorxiv/early/2024/09/16/2024.09.11.612546/F1.large.jpg
+  tags:
+  - image-based profiling
+  - neurofibromatosis type 1
+  - cell morphology
+  - assay development
+  extra-links:
+  - type: software
+    link: https://github.com/WayScience/nf1_schwann_cell_morphology_signature
+    text: Analysis code
+  - type: software
+    link: https://github.com/WayScience/nf1_schwann_cell_painting_data
+    text: Data processing code
+- id: 10.1038/s41592-024-02537-7
+  title: A genome-wide atlas of human cell morphology
+  authors:
+  - Meraj Ramezani
+  - Erin Weisbart
+  - Julia Bauman
+  - Avtar Singh
+  - John Yong
+  - Maria Lozada
+  - Gregory P. Way
+  - Sanam L. Kavari
+  - Celeste Diaz
+  - Eddy Leardini
+  - Gunjan Jetley
+  - Jenlu Pagnotta
+  - Marzieh Haghighi
+  - Thiago M. Batista
+  - "Joaqu\xEDn P\xE9rez-Schindler"
+  - Melina Claussnitzer
+  - Shantanu Singh
+  - Beth A. Cimini
+  - Paul C. Blainey
+  - Anne E. Carpenter
+  - Calvin H. Jan
+  - James T. Neal
+  publisher: Nature Methods
+  date: '2025-01-27'
+  link: https://doi.org/g826g9
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-024-02537-7/MediaObjects/41592_2024_2537_Fig1_HTML.png
+  tags:
+  - image-based profiling
+  - pooled cell painting
+  - cell morphology
+  extra-links:
+  - type: source
+    link: https://github.com/broadinstitute/pooled-cell-painting-image-processing
+    text: GitHub
+- id: 10.1101/2024.11.16.623947
+  title: Combining NeuroPainting with transcriptomics reveals cell-type-specific morphological
+    and molecular signatures of the 22q11.2 deletion
+  authors:
+  - Matthew Tegtmeyer
+  - Dhara Liyanage
+  - Yu Han
+  - Kathryn B. Hebert
+  - Ruifan Pei
+  - Gregory P. Way
+  - Pearl V. Ryder
+  - Derek Hawes
+  - Callum Tromans-Coia
+  - Beth A. Cimini
+  - Anne E. Carpenter
+  - Shantanu Singh
+  - Ralda Nehme
+  publisher: Cold Spring Harbor Laboratory
+  date: '2024-11-17'
+  link: https://doi.org/g863nf
+  image: https://www.biorxiv.org/content/biorxiv/early/2024/11/17/2024.11.16.623947/F1.large.jpg
+  tags:
+  - image-based profiling
+  - cell painting
+  - data integration
+- id: 10.1186/s44330-024-00014-3
+  title: Toward generalizable phenotype prediction from single-cell morphology representations
+  authors:
+  - Jenna Tomkinson
+  - Roshan Kern
+  - Cameron Mattson
+  - Gregory P. Way
+  publisher: BMC Methods
+  date: '2024-12-09'
+  link: https://doi.org/g863ng
+  image: https://github.com/WayScience/phenotypic_profiling/blob/main/7.figures/figures/figure1_panelB.png?raw=true
+  tags:
+  - single-cell
+  - microscopy
+  - phenotype
+  extra-links:
+  - type: source
+    link: https://github.com/WayScience/phenotypic_profiling/
+    text: Analysis
+  - type: data
+    link: https://github.com/WayScience/mitocheck_data
+    text: Data
+  - type: software
+    link: https://github.com/WayScience/IDR_Stream
+    text: IDR_stream Software
+- id: 10.1038/s41467-023-44045-w
+  title: High-dimensional phenotyping to define the genetic basis of cellular morphology
+  authors:
+  - Matthew Tegtmeyer
+  - Jatin Arora
+  - Samira Asgari
+  - Beth A. Cimini
+  - Ajay Nadig
+  - Emily Peirent
+  - Dhara Liyanage
+  - Gregory P. Way
+  - Erin Weisbart
+  - Aparna Nathan
+  - Tiffany Amariuta
+  - Kevin Eggan
+  - Marzieh Haghighi
+  - Steven A. McCarroll
+  - "Luke O\u2019Connor"
+  - Anne E. Carpenter
+  - Shantanu Singh
+  - Ralda Nehme
+  - Soumya Raychaudhuri
+  publisher: Nature Communications
+  date: '2024-01-06'
+  link: https://doi.org/gtct77
+  image: https://www.biorxiv.org/content/biorxiv/early/2023/01/09/2023.01.09.522731/F1.large.jpg
+  tags:
+  - cell painting
+  - data integration
+  - cell morphology
+- id: 10.1101/2024.04.01.587631
+  title: A versatile information retrieval framework for evaluating profile strength
+    and similarity
+  authors:
+  - Alexandr A. Kalinin
+  - John Arevalo
+  - Loan Vulliard
+  - Erik Serrano
+  - Hillary Tsang
+  - Michael Bornholdt
+  - Bartek Rajwa
+  - Anne E. Carpenter
+  - Gregory P. Way
+  - Shantanu Singh
+  publisher: Cold Spring Harbor Laboratory
+  date: '2024-04-02'
+  link: https://doi.org/gtrgrj
+  image: https://www.biorxiv.org/content/biorxiv/early/2024/04/02/2024.04.01.587631/F1.large.jpg
+  tags:
+  - drug screening metric
+  - software
+  - profiling
+  extra-links:
+  - type: source
+    link: https://github.com/cytomining/copairs
+    text: Software
+- &id001
+  id: 10.7554/eLife.91362
+  title: High-content microscopy reveals a morphological signature of bortezomib resistance
+  authors:
+  - Megan E Kelley
+  - Adi Y Berman
+  - David R Stirling
+  - Beth A Cimini
+  - Yu Han
+  - Shantanu Singh
+  - Anne E Carpenter
+  - Tarun M Kapoor
+  - Gregory P Way
+  publisher: eLife
+  date: '2023-09-27'
+  link: https://doi.org/gtcgdd
+  image: https://raw.githubusercontent.com/broadinstitute/profiling-resistance-mechanisms/master/3.resistance-signature/figures/bortezomib_roc_curve.png
+  repo: https://github.com/broadinstitute/profiling-resistance-mechanisms
+  tags:
+  - cancer resistance
+  - cell painting
+  - open science
+- id: 10.1016/j.slasd.2023.08.009
+  title: Evolution and impact of high content imaging
+  authors:
+  - Gregory P. Way
+  - Heba Sailem
+  - Steven Shave
+  - Richard Kasprowicz
+  - Neil O. Carragher
+  publisher: SLAS Discovery
+  date: '2023-10-01'
+  link: https://doi.org/gtcgfv
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2472555223000667-gr2.jpg
+  tags:
+  - review
+  - high-content imaging
+- id: 10.1101/2023.08.06.552164
+  title: A genome-wide atlas of human cell morphology
+  authors:
+  - Meraj Ramezani
+  - Julia Bauman
+  - Avtar Singh
+  - Erin Weisbart
+  - John Yong
+  - Maria Lozada
+  - Gregory P. Way
+  - Sanam L. Kavari
+  - Celeste Diaz
+  - Marzieh Haghighi
+  - Thiago M. Batista
+  - "Joaqu\xEDn P\xE9rez-Schindler"
+  - Melina Claussnitzer
+  - Shantanu Singh
+  - Beth A. Cimini
+  - Paul C. Blainey
+  - Anne E. Carpenter
+  - Calvin H. Jan
+  - James T. Neal
+  publisher: Cold Spring Harbor Laboratory
+  date: '2023-08-07'
+  link: https://doi.org/gszn2s
+  image: https://www.ncbi.nlm.nih.gov/corecgi/tileshop/tileshop.fcgi?p=PMC3&id=704470&s=171&r=2&c=2
+  tags:
+  - cell painting
+  - cell morphology
+  - assay
+- id: https://arxiv.org/abs/2311.13417
+  title: Reproducible image-based profiling with Pycytominer
+  authors:
+  - Erik Serrano
+  - Srinivas Niranj Chandrasekaran
+  - Dave Bunten
+  - Kenneth I. Brewer
+  - Jenna Tomkinson
+  - Roshan Kern
+  - Michael Bornholdt
+  - Stephen Fleming
+  - Ruifan Pei
+  - John Arevalo
+  - Hillary Tsang
+  - Vincent Rubinetti
+  - Callum Tromans-Coia
+  - Tim Becker
+  - Erin Weisbart
+  - Charlotte Bunne
+  - Alexandr A. Kalinin
+  - Rebecca Senft
+  - Stephen J. Taylor
+  - Nasim Jamali
+  - Adeniyi Adeboye
+  - Hamdah Shafqat Abbasi
+  - Allen Goodman
+  - Juan C. Caicedo
+  - Anne E. Carpenter
+  - Beth A. Cimini
+  - Shantanu Singh
+  - Gregory P. Way
+  publisher: arXiv
+  date: '2023-11-22'
+  link: http://arxiv.org/abs/2311.13417
+  image: https://raw.githubusercontent.com/cytomining/pycytominer/main/logo/just-icon.png
+  repo: https://github.com/cytomining/pycytominer
+  tags:
+  - software
+  - cell morphology
+- *id001
+- id: doi:10.1016/j.xgen.2023.100340
+  title: 'OpenPBTA: The Open Pediatric Brain Tumor Atlas'
+  authors:
+  - Joshua A. Shapiro
+  - Krutika S. Gaonkar
+  - Stephanie J. Spielman
+  - Candace L. Savonen
+  - Chante J. Bethell
+  - Run Jin
+  - Komal S. Rathi
+  - Yuankun Zhu
+  - Laura E. Egolf
+  - Bailey K. Farrow
+  - Daniel P. Miller
+  - Yang Yang
+  - Tejaswi Koganti
+  - Nighat Noureen
+  - Mateusz P. Koptyra
+  - Nhat Duong
+  - Mariarita Santi
+  - Jung Kim
+  - Shannon Robins
+  - Phillip B. Storm
+  - Stephen C. Mack
+  - Jena V. Lilly
+  - Hongbo M. Xie
+  - Payal Jain
+  - Pichai Raman
+  - Brian R. Rood
+  - Rishi R. Lulla
+  - Javad Nazarian
+  - Adam A. Kraya
+  - Zalman Vaksman
+  - Allison P. Heath
+  - Cassie Kline
+  - Laura Scolaro
+  - Angela N. Viaene
+  - Xiaoyan Huang
+  - Gregory P. Way
+  - Steven M. Foltz
+  - Bo Zhang
+  - Anna R. Poetsch
+  - Sabine Mueller
+  - Brian M. Ennis
+  - Michael Prados
+  - Sharon J. Diskin
+  - Siyuan Zheng
+  - Yiran Guo
+  - Shrivats Kannan
+  - Angela J. Waanders
+  - Ashley S. Margol
+  - Meen Chul Kim
+  - Derek Hanson
+  - Nicholas Van Kuren
+  - Jessica Wong
+  - Rebecca S. Kaufman
+  - Noel Coleman
+  - Christopher Blackden
+  - Kristina A. Cole
+  - Jennifer L. Mason
+  - Peter J. Madsen
+  - Carl J. Koschmann
+  - Douglas R. Stewart
+  - Eric Wafula
+  - Miguel A. Brown
+  - Adam C. Resnick
+  - Casey S. Greene
+  - Jo Lynne Rokita
+  - Jaclyn N. Taroni
+  publisher: Cell Genomics
+  date: '2023-05-01'
+  link: https://doi.org/gr92p6
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2666979X23001155-fx1.jpg
+  repo: https://github.com/AlexsLemonade/OpenPBTA-analysis
+  tags:
+  - pediatric cancer
+  - brain tumor
+  - open science
+- id: doi:10.1016/j.cels.2022.10.001
+  title: Morphology and gene expression profiling provide complementary information
+    for mapping cell state
+  authors:
+  - Gregory P. Way
+  - Ted Natoli
+  - Adeniyi Adeboye
+  - Lev Litichevskiy
+  - Andrew Yang
+  - Xiaodong Lu
+  - Juan C. Caicedo
+  - Beth A. Cimini
+  - Kyle Karhohs
+  - David J. Logan
+  - Mohammad H. Rohban
+  - Maria Kost-Alimova
+  - Kate Hartland
+  - Michael Bornholdt
+  - Srinivas Niranj Chandrasekaran
+  - Marzieh Haghighi
+  - Erin Weisbart
+  - Shantanu Singh
+  - Aravind Subramanian
+  - Anne E. Carpenter
+  publisher: Cell Systems
+  date: '2022-10-01'
+  link: https://doi.org/gq6hbw
+  image: https://www.cell.com/cms/attachment/55912f54-18d9-4ee9-8374-6f24f9d15bbc/fx1.jpg
+  repo: https://github.com/broadinstitute/lincs-profiling-complementarity
+  extra-links:
+  - type: data
+    link: broadinstitute/lincs-cell-painting
+    text: Reproducible data pipeline
+  - type: data
+    link: https://idr.github.io/idr0125-way-cellpainting/
+    text: Publicly-available Cell Painting images
+  - type: data
+    link: https://doi.org/10.6084/m9.figshare.13181966.v2
+    text: Publicly-available L1000 profiles
+  tags:
+  - cell painting
+  - drug discovery
+  - gene expression
+  - deep learning
+  - reproducibility
+- id: doi:10.1371/journal.pcbi.1009888
   title: Predicting drug polypharmacology from cell morphology readouts using variational
     autoencoder latent space arithmetic
   authors:
@@ -8,20 +569,20 @@
   - Shantanu Singh
   - Anne E. Carpenter
   - Gregory P. Way
-  publisher: Cold Spring Harbor Laboratory
-  date: '2021-09-03'
-  link: https://doi.org/gm38gt
+  publisher: PLOS Computational Biology
+  date: '2022-02-25'
+  link: https://doi.org/gq6hbx
   image: https://docs.google.com/drawings/d/e/2PACX-1vRzFGkZMf9ZfXb_q1rE1D9gAAczySfYZ4zyVl93l-zcRXv7sNtJpZTNp__9fmyaTl5MyccvtHh74i-I/pub?w=345&h=321
   repo: broadinstitute/cell-painting-vae
+  extra-links:
+  - type: data
+    link: https://doi.org/10.5281/zenodo.5348067
+    text: Zenodo archive
   tags:
   - variational autoencoder
   - cell painting
   - drug discovery
   - latent space arithmetic
-  extra-links:
-  - type: data
-    link: https://doi.org/10.5281/zenodo.5348067
-    text: Zenodo archive
 - id: doi:10.1371/journal.pbio.3001419
   title: A field guide to cultivating computational biology
   authors:
@@ -43,7 +604,7 @@
   publisher: PLOS Biology
   date: '2021-10-07'
   link: https://doi.org/gm3hdh
-  image: https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pbio.3001419/1/pbio.3001419.g001.PNG_L?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20211012%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20211012T210747Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=25e1b3ee36003c4de19f18c2994e0ddea8c74f255a382fc71e91ac40bc8c4308c8ebd9acba5bd44c746df8cb9bb596b7487fe5fd2bf9ec9de9668a84d1991c70278362ff2288d597349934fe6b2d997cf3457aeba28d2913b476722e5bb195dcf8b7a2ec760d1a561221b9836f9d63f5162e9a9da2a5d16f7c6887f715725c19be7824ee9dea382f124d190690c511048e9efa0baf030113c8b292f543d1aa7d5c433f668ecfb4478698e3638c381f6b178cfcdaed037ad9413a9dc20e4b859a0a301700fa69d3066d6cb1c935c911b9cc743b456bf8996004604a6f9967213a211f0f09722cd3bf6fb0ba83148165f3a0ed7ef39351d87aed1a18dce5101910
+  image: https://raw.githubusercontent.com/WayScience/waysciencelab.com/main/_posts/analysis/cultivating_compbio_map_us_centric.png
   tags:
   - open science
   - essay
@@ -120,16 +681,20 @@
   - biological representations
   - unsupervised learning
   - cancer
-- id: 10.1101/2021.07.17.452050
+- id: 10.1016/j.xgen.2023.100346
   title: Discovering cellular programs of intrinsic and extrinsic drivers of metabolic
     traits using LipocyteProfiler
   authors:
   - Samantha Laber
   - Sophie Strobel
-  - Josep-Maria Mercader
+  - Josep M. Mercader
   - Hesam Dashti
+  - Felipe R.C. dos Santos
+  - Phil Kubitz
+  - Maya Jackson
   - Alina Ainbinder
   - Julius Honecker
+  - Saaket Agrawal
   - Garrett Garborcauskas
   - David R. Stirling
   - Aaron Leong
@@ -153,16 +718,17 @@
   - Miriam S. Udler
   - Anne E. Carpenter
   - Jose C. Florez
-  - Cecilia M. Lindgren
-  - Suzanne B. R. Jacobs
+  - Cecilia Lindgren
+  - Suzanne B.R. Jacobs
   - Melina Claussnitzer
-  publisher: Cold Spring Harbor Laboratory
-  date: '2021-07-19'
-  link: https://doi.org/gmndmk
+  publisher: Cell Genomics
+  date: '2023-06-01'
+  link: https://doi.org/gsff72
   image: https://www.biorxiv.org/content/biorxiv/early/2021/07/19/2021.07.17.452050/F1.large.jpg
   tags:
   - image-based profiling
   - metabolism
+  - variant to function
 - id: 10.1038/s41597-020-0458-y
   title: Epigenomic profiling of neuroblastoma cell lines
   authors:

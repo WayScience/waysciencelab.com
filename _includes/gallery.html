@@ -9,8 +9,7 @@
 {%- endfor -%}
 
 <div class="gallery" data-style="{{ include.style }}" data-number="{{ max }}">
-  {%- for i in (1..100) -%}
-
+  {%- for i in (1..max) -%}
     {%- assign image = "image" | append: i -%}
     {%- assign image = include[image] -%}
     {%- assign tooltip = "tooltip" | append: i -%}
@@ -20,13 +19,18 @@
 
     {%- if image -%}
       <a
-        {% if link %}href="{{ link | relative_url }}"{% endif %}
+        {% if link %}
+          {% if link contains "http" %}
+            href="{{ link }}"
+          {% else %}
+            href="{{ link | relative_url }}"
+          {% endif %}
+        {% endif %}
         class="gallery_item"
-        data-tooltip="{{ tooltip }}"
+        {% if tooltip %}data-tooltip="{{ tooltip }}"{% endif %}
       >
         <img src="{{ image | relative_url }}" loading="lazy">
       </a>
     {%- endif -%}
-
   {%- endfor -%}
 </div>
