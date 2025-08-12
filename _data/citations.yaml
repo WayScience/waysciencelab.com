@@ -1,5 +1,122 @@
 # GENERATED AUTOMATICALLY, DO NOT EDIT
 
+- id: https://arxiv.org/abs/2508.05800
+  title: Progress and new challenges in image-based profiling
+  authors:
+  - Erik Serrano
+  - John Peters
+  - Jesko Wagner
+  - Rebecca E. Graham
+  - Zhenghao Chen
+  - Brian Feng
+  - Gisele Miranda
+  - Alexandr A. Kalinin
+  - Loan Vulliard
+  - Jenna Tomkinson
+  - Cameron Mattson
+  - Michael J. Lippincott
+  - Ziqi Kang
+  - Divya Sitani
+  - Dave Bunten
+  - Srijit Seal
+  - Neil O. Carragher
+  - Anne E. Carpenter
+  - Shantanu Singh
+  - Paula A. Marin Zapata
+  - Juan C. Caicedo
+  - Gregory P. Way
+  publisher: arXiv
+  date: '2025-08-07'
+  link: http://arxiv.org/abs/2508.05800
+  image: https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg
+  tags:
+  - image-based profiling
+  - review
+- id: 10.1161/CIRCULATIONAHA.124.071956
+  title: Cell Painting and Machine Learning Distinguish Fibroblasts From Nonfailing
+    and Failing Human Hearts
+  authors:
+  - Joshua G. Travers
+  - Jenna Tomkinson
+  - Marcello Rubino
+  - Marion Delaunay
+  - Michael R. Bristow
+  - Gregory P. Way
+  - Timothy A. McKinsey
+  publisher: Circulation
+  date: '2025-04-22'
+  link: https://doi.org/g9wt6s
+  image: https://www.ahajournals.org/cms/10.1161/CIRCULATIONAHA.124.071956/asset/eb5df843-0afb-4f37-bf75-265f17c7ec93/assets/graphic/circulationaha.124.071956.fig01.jpg
+  tags:
+  - high-content microscopy
+  - cell painting
+  - cardiac fibrosis
+  extra-links:
+  - type: source
+    link: https://github.com/WayScience/cellpainting_predicts_cardiac_fibrosis
+    text: Analysis code
+- id: 10.1091/mbc.E25-03-0119
+  title: A morphology and secretome map of pyroptosis
+  authors:
+  - Michael J. Lippincott
+  - Jenna Tomkinson
+  - Dave Bunten
+  - Milad Mohammadi
+  - Johanna Kastl
+  - Johannes Knop
+  - Ralf Schwandner
+  - Jiamin Huang
+  - Grant Ongo
+  - Nathaniel Robichaud
+  - Milad Dagher
+  - "Andr\xE9s Mansilla-Soto"
+  - Cynthia Saravia-Estrada
+  - Masafumi Tsuboi
+  - "Carla Basualto-Alarc\xF3n"
+  - Gregory P. Way
+  publisher: Molecular Biology of the Cell
+  date: '2025-06-01'
+  link: https://doi.org/g9wt6t
+  image: https://www.molbiolcell.org/cms/10.1091/mbc.E25-03-0119/asset/images/large/mbc-36-ar63-g001.jpeg
+  tags:
+  - cell death
+  - high-content microscopy
+  - multimodal data
+  extra-links:
+  - type: source
+    link: https://github.com/WayScience/pyroptosis_signature_image_profiling
+    text: Data processing
+  - type: source
+    link: https://github.com/WayScience/pyroptosis_signature_data_analysis
+    text: Analysis code
+- id: 10.1038/s41467-025-60306-2
+  title: A versatile information retrieval framework for evaluating profile strength
+    and similarity
+  authors:
+  - Alexandr A. Kalinin
+  - John Arevalo
+  - Erik Serrano
+  - Loan Vulliard
+  - Hillary Tsang
+  - Michael Bornholdt
+  - "Al\xE1n F. Mu\xF1oz"
+  - Suganya Sivagurunathan
+  - Bartek Rajwa
+  - Anne E. Carpenter
+  - Gregory P. Way
+  - Shantanu Singh
+  publisher: Nature Communications
+  date: '2025-06-04'
+  link: https://doi.org/g9wt6v
+  image: https://www.biorxiv.org/content/biorxiv/early/2024/04/02/2024.04.01.587631/F1.large.jpg
+  tags:
+  - drug screening metric
+  - software
+  - profiling
+  extra-links:
+  - type: source
+    link: https://github.com/cytomining/copairs
+    text: Software
 - id: 10.1038/s41592-025-02611-8
   title: Reproducible image-based profiling with Pycytominer
   authors:
@@ -41,7 +158,7 @@
   - software
   - cell morphology
   extra-links:
-  - type: software
+  - type: source
     link: https://github.com/cytomining/pycytominer
     text: GitHub
 - id: 10.1101/2024.09.11.612546
@@ -65,10 +182,10 @@
   - cell morphology
   - assay development
   extra-links:
-  - type: software
+  - type: source
     link: https://github.com/WayScience/nf1_schwann_cell_morphology_signature
     text: Analysis code
-  - type: software
+  - type: source
     link: https://github.com/WayScience/nf1_schwann_cell_painting_data
     text: Data processing code
 - id: 10.1038/s41592-024-02537-7
@@ -155,7 +272,7 @@
   - type: data
     link: https://github.com/WayScience/mitocheck_data
     text: Data
-  - type: software
+  - type: source
     link: https://github.com/WayScience/IDR_Stream
     text: IDR_stream Software
 - id: 10.1038/s41467-023-44045-w

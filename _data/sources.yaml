@@ -1,3 +1,45 @@
+- id: https://arxiv.org/abs/2508.05800
+  image: https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg
+  tags:
+    - image-based profiling
+    - review
+
+- id: 10.1161/CIRCULATIONAHA.124.071956
+  image: https://www.ahajournals.org/cms/10.1161/CIRCULATIONAHA.124.071956/asset/eb5df843-0afb-4f37-bf75-265f17c7ec93/assets/graphic/circulationaha.124.071956.fig01.jpg
+  tags:
+    - high-content microscopy
+    - cell painting
+    - cardiac fibrosis
+  extra-links:
+    - type: source
+      link: https://github.com/WayScience/cellpainting_predicts_cardiac_fibrosis
+      text: Analysis code
+
+- id: 10.1091/mbc.E25-03-0119
+  image: https://www.molbiolcell.org/cms/10.1091/mbc.E25-03-0119/asset/images/large/mbc-36-ar63-g001.jpeg
+  tags:
+    - cell death
+    - high-content microscopy
+    - multimodal data
+  extra-links:
+    - type: source
+      link: https://github.com/WayScience/pyroptosis_signature_image_profiling
+      text: Data processing
+    - type: source
+      link: https://github.com/WayScience/pyroptosis_signature_data_analysis
+      text: Analysis code
+
+- id: 10.1038/s41467-025-60306-2
+  image: https://www.biorxiv.org/content/biorxiv/early/2024/04/02/2024.04.01.587631/F1.large.jpg
+  tags:
+    - drug screening metric
+    - software
+    - profiling
+  extra-links:
+    - type: source
+      link: https://github.com/cytomining/copairs
+      text: Software
+
 - id: 10.1038/s41592-025-02611-8
   image: https://raw.githubusercontent.com/cytomining/pycytominer/master/logo/just-icon.png
   tags:
@@ -6,7 +48,7 @@
     - software
     - cell morphology
   extra-links:
-    - type: software
+    - type: source
       link: https://github.com/cytomining/pycytominer
       text: GitHub
 
@@ -18,13 +60,12 @@
     - cell morphology
     - assay development
   extra-links:
-    - type: software
+    - type: source
       link: https://github.com/WayScience/nf1_schwann_cell_morphology_signature
       text: Analysis code
-    - type: software
+    - type: source
       link: https://github.com/WayScience/nf1_schwann_cell_painting_data
       text: Data processing code
-      
 
 - id: 10.1038/s41592-024-02537-7
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-024-02537-7/MediaObjects/41592_2024_2537_Fig1_HTML.png
@@ -57,7 +98,7 @@
     - type: data
       link: https://github.com/WayScience/mitocheck_data
       text: Data
-    - type: software
+    - type: source
       link: https://github.com/WayScience/IDR_Stream
       text: IDR_stream Software
 
