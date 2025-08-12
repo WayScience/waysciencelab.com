@@ -1,3 +1,173 @@
+<<<<<<< refs/remotes/origin/update-pubs
+=======
+- id: https://arxiv.org/abs/2508.05800
+  image: https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg
+  tags:
+    - image-based profiling
+    - review
+
+- id: 10.1161/CIRCULATIONAHA.124.071956
+  image: https://www.ahajournals.org/cms/10.1161/CIRCULATIONAHA.124.071956/asset/eb5df843-0afb-4f37-bf75-265f17c7ec93/assets/graphic/circulationaha.124.071956.fig01.jpg
+  tags:
+    - high-content microscopy
+    - cell painting
+    - cardiac fibrosis
+  extra-links:
+    - type: source
+      link: https://github.com/WayScience/cellpainting_predicts_cardiac_fibrosis
+      text: Analysis code
+
+- id: 10.1091/mbc.E25-03-0119
+  image: https://www.molbiolcell.org/cms/10.1091/mbc.E25-03-0119/asset/images/large/mbc-36-ar63-g001.jpeg
+  tags:
+    - cell death
+    - high-content microscopy
+    - multimodal data
+  extra-links:
+    - type: source
+      link: https://github.com/WayScience/pyroptosis_signature_image_profiling
+      text: Data processing
+    - type: source
+      link: https://github.com/WayScience/pyroptosis_signature_data_analysis
+      text: Analysis code
+
+- id: 10.1038/s41467-025-60306-2
+  image: https://www.biorxiv.org/content/biorxiv/early/2024/04/02/2024.04.01.587631/F1.large.jpg
+  tags:
+    - drug screening metric
+    - software
+    - profiling
+  extra-links:
+    - type: source
+      link: https://github.com/cytomining/copairs
+      text: Software
+
+- id: 10.1038/s41592-025-02611-8
+  image: https://raw.githubusercontent.com/cytomining/pycytominer/master/logo/just-icon.png
+  tags:
+    - image-based profiling
+    - bioinformatics
+    - software
+    - cell morphology
+  extra-links:
+    - type: software
+      link: https://github.com/cytomining/pycytominer
+      text: GitHub
+
+- id: 10.1101/2024.09.11.612546 
+  image: https://www.biorxiv.org/content/biorxiv/early/2024/09/16/2024.09.11.612546/F1.large.jpg
+  tags:
+    - image-based profiling
+    - neurofibromatosis type 1
+    - cell morphology
+    - assay development
+  extra-links:
+    - type: software
+      link: https://github.com/WayScience/nf1_schwann_cell_morphology_signature
+      text: Analysis code
+    - type: software
+      link: https://github.com/WayScience/nf1_schwann_cell_painting_data
+      text: Data processing code
+      
+
+- id: 10.1038/s41592-024-02537-7
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-024-02537-7/MediaObjects/41592_2024_2537_Fig1_HTML.png
+  tags:
+    - image-based profiling
+    - pooled cell painting
+    - cell morphology
+  extra-links:
+    - type: source
+      link: https://github.com/broadinstitute/pooled-cell-painting-image-processing
+      text: GitHub
+
+- id: 10.1101/2024.11.16.623947
+  image: https://www.biorxiv.org/content/biorxiv/early/2024/11/17/2024.11.16.623947/F1.large.jpg
+  tags:
+    - image-based profiling
+    - cell painting
+    - data integration
+
+- id: 10.1186/s44330-024-00014-3
+  image: https://github.com/WayScience/phenotypic_profiling/blob/main/7.figures/figures/figure1_panelB.png?raw=true
+  tags:
+    - single-cell
+    - microscopy
+    - phenotype
+  extra-links:
+    - type: source
+      link: https://github.com/WayScience/phenotypic_profiling/
+      text: Analysis
+    - type: data
+      link: https://github.com/WayScience/mitocheck_data
+      text: Data
+    - type: software
+      link: https://github.com/WayScience/IDR_Stream
+      text: IDR_stream Software
+
+- id: 10.1038/s41467-023-44045-w
+  image: https://www.biorxiv.org/content/biorxiv/early/2023/01/09/2023.01.09.522731/F1.large.jpg
+  tags:
+    - cell painting
+    - data integration
+    - cell morphology
+
+- id: 10.1101/2024.04.01.587631
+  image: https://www.biorxiv.org/content/biorxiv/early/2024/04/02/2024.04.01.587631/F1.large.jpg
+  tags:
+    - drug screening metric
+    - software
+    - profiling
+  extra-links:
+    - type: source
+      link: https://github.com/cytomining/copairs
+      text: Software
+
+- id: 10.7554/eLife.91362
+  image: https://raw.githubusercontent.com/broadinstitute/profiling-resistance-mechanisms/master/3.resistance-signature/figures/bortezomib_roc_curve.png
+  repo: https://github.com/broadinstitute/profiling-resistance-mechanisms
+  tags:
+    - cancer resistance
+    - cell painting
+    - open science
+  
+- id: 10.1016/j.slasd.2023.08.009
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2472555223000667-gr2.jpg
+  tags:
+    - review
+    - high-content imaging
+
+- id: 10.1101/2023.08.06.552164
+  image: https://www.ncbi.nlm.nih.gov/corecgi/tileshop/tileshop.fcgi?p=PMC3&id=704470&s=171&r=2&c=2
+  tags:
+    - cell painting
+    - cell morphology
+    - assay
+
+- id: https://arxiv.org/abs/2311.13417
+  image: https://raw.githubusercontent.com/cytomining/pycytominer/main/logo/just-icon.png
+  repo: https://github.com/cytomining/pycytominer
+  tags:
+    - software
+    - cell morphology
+
+- id: 10.7554/eLife.91362
+  image: https://raw.githubusercontent.com/broadinstitute/profiling-resistance-mechanisms/master/3.resistance-signature/figures/bortezomib_roc_curve.png
+  repo: https://github.com/broadinstitute/profiling-resistance-mechanisms
+  tags:
+    - cancer resistance
+    - cell painting
+    - open science
+
+- id: doi:10.1016/j.xgen.2023.100340
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2666979X23001155-fx1.jpg
+  repo: https://github.com/AlexsLemonade/OpenPBTA-analysis
+  tags:
+    - pediatric cancer
+    - brain tumor
+    - open science
+
+>>>>>>> local
 - id: doi:10.1016/j.cels.2022.10.001
   image: https://www.cell.com/cms/attachment/55912f54-18d9-4ee9-8374-6f24f9d15bbc/fx1.jpg
   repo: https://github.com/broadinstitute/lincs-profiling-complementarity
