@@ -1,6 +1,7 @@
 ---
 name: Erik Serrano
 image: images/team/erik_serrano.png
+description: PhD Student
 role: phd
 aliases:
     - Erik Serrano
@@ -14,6 +15,7 @@ links:
   email: erik.serrano@cuanschutz.com
   github: axiomcura
   twitter: axiomcura
+group: active
 ---
 
 Erik Serrano is a Computational Bioscience (CPBS) PhD student at the Univeristy of Colorado, Anschutz Medical Campus (CU-AMC).

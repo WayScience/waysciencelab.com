@@ -7,3 +7,4 @@ debug.log
 __pycache__/
 .DS_Store
 .Rhistory
+settings.json

@@ -2,17 +2,14 @@
 title: Home
 ---
 
-# Biomedical data science
-
 Welcome to the Way Lab at [The University of Colorado Anschutz](https://www.cuanschutz.edu/)!
 
-We are currently hiring curious, compassionate, daring, and meticulous scientists to lead the next generation of biomedical research.
+The mission of our lab is to reduce human suffering.
+We develop new computational methods and software for analyzing microscopy images of cells.
+With our collaborators around the world, we develop innovative assays and approaches for making sense of high-content microscopy.
+We focus on pediatric diseases, including pediatric cancer and Neurofibromatosis Type 1 (NF1), and we also have applications in discovering new treatments for cardiac fibrosis.
 
-The mission of our lab is to integrate high-dimensional biomedical data science into clinical decision making to improve patient outcomes.
-We will develop new methods, approaches, assays, and software for analyzing high-dimensional genomic, molecular, and morphological data.
-Our primary focus will be on establishing cell morphology as a reproducible systems biology measurement of cell state.
-
-Click around to learn more about the lab's research vision and focus!
+We also perform open science, making all of our work immediately open for anyone to use and build upon.
 
 {%
   include link.html
@@ -25,8 +22,8 @@ Click around to learn more about the lab's research vision and focus!
 {%
   include link.html
   icon="fas fa-users"
-  text="Join the Team"
-  link="join/"
+  text="Contact us"
+  link="contact/"
   style="button"
 %}
 {:.center}
@@ -40,11 +37,9 @@ Click around to learn more about the lab's research vision and focus!
 # Highlights
 
 {% capture text %}
-We use biomedical data science, software, and machine learning to enhance biological discovery and to improve the human condition.
-We develop data-driven methods and approaches to understand disease mechanisms, to personalize treatment strategies, and to reduce human suffering.
-We focus on extracting value from biomedical image data, and are currently building the infrastructure required to establish morphology as a systems biology measurement.
+We develop computational methods and innovative approaches to analyze high-content microscopy images of cells.
 
-[See what we've published &nbsp;→](research)
+[Research focus and publications &nbsp;→](research)
 {:.center}
 {% endcapture %}
 
@@ -57,12 +52,9 @@ We focus on extracting value from biomedical image data, and are currently build
 %}
 
 {% capture text %}
-We also release data and software to enable reproducible computational biology analyses and workflows.
-Data are important resources that scientists can use to answer multiple questions.
-All of our software is open source, and we encourage active learning through meaningful code contributions.
-Please cite any data or software you use!
+We release public data and open source software and methods to enable reproducible analysis of microscopy images.
 
-[See our resources &nbsp;→](resources)
+[Software &nbsp;→](software)
 {:.center}
 {% endcapture %}
 
@@ -70,15 +62,15 @@ Please cite any data or software you use!
   include feature.html
   image="images/network.png"
   link="resources"
-  headline="Software and data"
+  headline="Biomedical software"
   text=text
 %}
 
 {% capture text %}
-We are recruiting!
-To see your face in this page, please reach out!
+Our lab is a welcoming, diverse, and inclusive team.
+We are collaborative, curious, and passionate about our work.
 
-[Meet our team &nbsp;→](team)
+[Meet our lab &nbsp;→](team)
 {:.center}
 {% endcapture %}
 
@@ -86,10 +78,10 @@ To see your face in this page, please reach out!
   include feature.html
   image="images/team.jpeg"
   link="team"
-  headline="Our lab team"
+  headline="Our lab"
   text=text
 %}
-
+<!---
 {%
   include link.html
   type="github"
@@ -99,3 +91,4 @@ To see your face in this page, please reach out!
   style="button"
 %}
 {:.center}
+-->
