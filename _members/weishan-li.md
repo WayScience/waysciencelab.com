@@ -7,7 +7,7 @@ aliases:
   - Weishan
 links:
   email: weishan.2.li@cuanschutz.edu
-  github: https://github.com/wli51
+  github: wli51
 group: active
 ---
 
