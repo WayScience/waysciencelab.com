@@ -1,6 +1,6 @@
 ---
 name: Weishan Li
-image: images/team/weishan_li.png
+image: images/team/weishan_li.jpg
 description: PhD Student
 role: phd
 aliases:
