@@ -6,7 +6,10 @@ nav:
 ---
 
 # <i class="fas fa-envelope"></i>Contact
-Our lab is part of the [Department of Biomedical Informatics](https://medschool.cuanschutz.edu/dbmi) in the [School of Medicine at University of Colorado Anschutz](https://medschool.cuanschutz.edu/).
+
+We'd love to hear from you. Reach out by email or find us on campus.
+
+Our lab is part of the [Department of Biomedical Informatics](https://medschool.cuanschutz.edu/dbmi) in the [School of Medicine at the University of Colorado Anschutz](https://medschool.cuanschutz.edu/).
 
 Office P12-6275<br/>
 Anschutz Health Sciences Building<br/>
@@ -21,27 +24,7 @@ Email: gregory.way@cuanschutz.edu
   caption="Anschutz Health Sciences Building"
   width="400px"
 %}
-<!---
-{%
-  include link.html
-  type="email"
-  icon=""
-  text="Email"
-  tooltip=""
-  link="gregory.way@cuanschutz.edu"
-  style="button"
-%}
 
-{%
-  include link.html
-  type="phone"
-  icon=""
-  text="(555) 867-5309"
-  tooltip=""
-  link="+1-555-867-5309"
-  style="button"
-%}
--->
 {%
   include link.html
   type="address"
@@ -52,30 +35,3 @@ Email: gregory.way@cuanschutz.edu
   style="button"
 %}
 {:.center}
-
-{% include section.html %}
-
-<!---
-### <i class="fas fa-mail-bulk"></i>Mailing Address
-
-That St & The Other St  
-Porters Lake, NS B3E 1H3  
-Canada
-{:.center}
-
-{% capture col1 %}
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="The Center for Wit and Sagacity"
-%}
-{% endcapture %}
-{% capture col2 %}
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Department of Metaphor"
-%}
-{% endcapture %}
-{% include two-col.html col1=col1 col2=col2 %}
--->
