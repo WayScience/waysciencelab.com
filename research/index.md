@@ -16,8 +16,8 @@ The Way Lab develops computational methods, software, and assays to push forward
 
 ## How we do science
 
-- **Open science.** All of our code, data, and analyses are publicly available as we generate them. We host everything at [https://github.com/WayScience](https://github.com/WayScience).
-- **Scientific publishing.** We post preprints and publish in peer-reviewed journals. We use pre-print review services like [Review Commons](https://www.reviewcommons.org/) to improve the peer review process, and share project-specific repositories as reproducible lab notebooks alongside each paper.
+- **Open science.** All of our code, data, and analyses are publicly available as we generate them. We host everything at [https://github.com/WayScience](https://github.com/WayScience) or community-focused projects at [https://github.com/cytomining](https://github.com/cytomining).
+- **Scientific publishing.** We post preprints and publish in peer-reviewed journals. We share project-specific repositories as reproducible lab notebooks alongside each paper.
 
 See [here](https://scholar.google.com/citations?user=iDKZaA4AAAAJ&hl=en) for a full list of work.
 
