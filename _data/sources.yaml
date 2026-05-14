@@ -1,14 +1,20 @@
 - id: 10.1038/s44320-026-00197-7
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs44320-026-00197-7/MediaObjects/44320_2026_197_Fig1_HTML.png?as=webp
   tags:
     - image-based profiling
     - review
 
 - id: 10.64898/2026.04.15.718737
+  image: https://raw.githubusercontent.com/WayScience/buscar/main/logo/just-icon.png
   tags:
     - software
     - hit calling
     - high-content screening
     - single-cell
+  extra-links:
+    - type: source
+      link: https://github.com/WayScience/Buscar
+      text: GitHub
 
 - id: 10.1101/2025.11.14.688518
   tags:
@@ -28,6 +34,7 @@
     - time-lapse
 
 - id: 10.1101/2025.10.14.682427
+  image: https://raw.githubusercontent.com/cytomining/cosmicqc/main/media/logo/just-icon.png
   tags:
     - software
     - quality control

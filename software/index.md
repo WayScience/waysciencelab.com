@@ -11,7 +11,7 @@ nav:
 
 {% include section.html %}
 
-## Featured
+## Featured Software
 
 {% include list.html component="card" data="tools" filters="group: featured" %}
 

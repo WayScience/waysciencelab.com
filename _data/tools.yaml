@@ -2,14 +2,14 @@
   group: featured
   image: https://raw.githubusercontent.com/cytomining/pycytominer/master/logo/just-icon.png
   link: https://github.com/cytomining/pycytominer
-  description: Python package for reproducible processing of image-based profiling data, published in Nature Methods (2025)
+  description: Python package for reproducible processing of image-based profiling data, published in Nature Methods (2025).
   repo: cytomining/pycytominer
 
 - name: CytoTable
   group: featured
   image: https://raw.githubusercontent.com/cytomining/cytotable/master/logo/just-icon.png
   link: https://github.com/cytomining/cytotable
-  description: Python package for harmonizing and converting large-scale single-cell microscopy data into analysis-ready formats
+  description: Python package for harmonizing and converting large-scale single-cell microscopy data into analysis-ready formats. Published in Patterns (2026).
   repo: cytomining/cytotable
 
 - name: coSMicQC
@@ -18,13 +18,6 @@
   link: https://github.com/WayScience/coSMicQC
   description: Python package for single-cell quality control
   repo: wayscience/cosmicqc
-
-#- name: CytoSnake
-#  group: featured
-#  image: https://raw.githubusercontent.com/wayscience/cytosnake/master/logo/just-icon.png
-#  link: https://github.com/wayscience/cytosnake
-#  description: Python package for orchestrating customized image-based profiling pipelines
-# repo: wayscience/cytosnake
 
 - name: BioBombe
   group: more
