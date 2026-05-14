@@ -7,9 +7,8 @@ nav:
 
 # <i class="fas fa-users"></i>Team
 
-We welcome, embrace, and are strengthened by diverse views and experiences of all team members.
-Our lab is comprised of compassionate scientists who foster a welcoming, inclusive, and healthy environment.
-We define success individually for each team member, and we challenge each other to develop and pursue individual passions.
+Our lab comprises scientists from diverse backgrounds who foster a welcoming, inclusive, and healthy environment.
+We define success individually for each team member, and we encourage everyone to develop and pursue their own passions.
 
 {% include section.html %}
 
@@ -58,7 +57,7 @@ We encourage all to apply.
 ## Alumni
 
 All of our former team members have made important contributions to our lab and science.
-We will always be grateful for the time we spent together and the knowledge they shared!
+We will always be grateful for the time we spent together and the knowledge they shared.
 
 {% include list.html data="members" component="portrait" filters="group: alum" %}
 
@@ -89,8 +88,8 @@ Our work is made possible by the following organizations.
   tooltip4="Japan Agency for Medical Research and Development"
 
   image5="images/funding/NHLBI_logo.png"
-  link4="https://www.nhlbi.nih.gov/"
-  tooltip4="National Heart, Lung, and Blood Institute"
+  link5="https://www.nhlbi.nih.gov/"
+  tooltip5="National Heart, Lung, and Blood Institute"
 %}
 
 {% include section.html %}

@@ -7,25 +7,21 @@ nav:
 
 # <i class="fas fa-microscope"></i>Research
 
-We are building the second generation of high-content microscopy image analysis.
+The Way Lab develops computational methods, software, and assays to push forward the next generation of high-content microscopy image analysis. Our work spans four interconnected areas:
 
-We are specifically focused on the following work:
-
-- **Reproducible software and methods for high-content microscopy analysis.** We are building open source software to support reproducible microscopy image analysis. We develop [pycytominer](https://github.com/cytomining/pycytominer), [CytoTable](https://github.com/cytomining/cytotable), and [coSMicQC](https://github.com/WayScience/cosmicqc) to analyze and process large-scale microscopy images. Our aim is to improve data processing pipelines, reproducibility, data provenance, and dataset interoperability. We are also innovating new methods and software for analyzing microscopy images across space and time.
-- **Predicting cell phenotypes.** We extract biologically-meaningful and reproducible representations which contain information about cell phenotypes. We train artificial intelligence and machine learning (AI/ML) algorithms (e.g., virtual staining) to predict cell phenotypes and other markers from these images. These phenotypes include various cell health states, cell death mechanisms, and other important biological processes (e.g., nuclear speckles). Our aim is to use these representations to characterize and discover new biological processes and to annotate drug screening data with cell phenotypes.
-- **Drug screening for pediatric cancers, Neurofibromatosis Type 1, and cardiac fibrosis.** We perform microscopy-based, _in vitro_ phenotypic drug screening to prioritize promising drug candidates and new targets. We are also developing patient-derived organoid phenotypic drug screening. Our goal is to identify new therapeutic strategies for diseases with urgent unmet needs.
-- **Innovative method development for drug screening and translational research.** We develop new assays and computational methods to improve human health. This includes modeling NF1 and other pediatric diseases using patient-derived organoids, developing CRISPRi approaches to simulate specific high-dimensional phenotypes, modeling cell resistance to cancer therapies, and pioneering the concept we call "multi-gene dependencies", which we believe will revolutionize precision medicine for cancer patients.
+- **Reproducible software for image-based profiling.** We build and maintain open source tools — [pycytominer](https://github.com/cytomining/pycytominer), [CytoTable](https://github.com/cytomining/cytotable), and [coSMicQC](https://github.com/WayScience/cosmicqc) — that process and harmonize large-scale microscopy data. We focus on reproducibility, data provenance, and interoperability, and are extending these tools to support spatial and time-lapse imaging.
+- **Predicting cell phenotypes from morphology.** We extract rich, reproducible representations of cell morphology and use machine learning — including deep learning and virtual staining — to predict cell health states, cell death mechanisms, and other biological processes. We apply these representations to characterize disease biology and to annotate drug screening data.
+- **Drug screening for pediatric cancer, NF1, and cardiac fibrosis.** We conduct microscopy-based, _in vitro_ phenotypic drug screening and are developing patient-derived organoid models to prioritize therapeutic candidates for diseases with few treatment options.
+- **New methods for drug screening and translational research.** We develop CRISPRi-based approaches to simulate high-dimensional phenotypes, model cancer therapy resistance, and investigate what we call "multi-gene dependencies" — the idea that most cancer vulnerabilities involve networks of genes, not single targets — with the goal of improving precision medicine.
 
 ## How we do science
 
-- **Open science and software.** We perform all of our work in the open and release all of our software as open source. We aim to maximize the impact and reproducibility of our research by making everything we do immediately available for others to build upon. We host all of our code, data, and analysis at [https://github.com/WayScience](https://github.com/WayScience).
-- **Scientific publishing.** We submit preprints of our work and subsequently publish in peer-reviewed journals to disseminate knowledge more formally. We use pre-print review services (like [Review Commons](https://www.reviewcommons.org/)) whenever possible to improve the peer-review process. For each project, we also share project-specific github repositories (representing a lab notebook) to facilitate computational reproducibility.
+- **Open science.** All of our code, data, and analyses are publicly available as we generate them. We host everything at [https://github.com/WayScience](https://github.com/WayScience) or community-focused projects at [https://github.com/cytomining](https://github.com/cytomining).
+- **Scientific publishing.** We post preprints and publish in peer-reviewed journals. We share project-specific repositories as reproducible lab notebooks alongside each paper.
 
-We strive for creativity, integrity, inclusivity, and rigor in everything that we do.
+See [here](https://scholar.google.com/citations?user=iDKZaA4AAAAJ&hl=en) for a full list of work with citation information.
 
-See [here](https://scholar.google.com/citations?user=iDKZaA4AAAAJ&hl=en) for a full list of work.
-
-See below for a selection of our recent papers.
+## Publications
 
 {% include section.html %}
 

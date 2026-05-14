@@ -20,8 +20,8 @@ In his capstone project, he collaborated with a cardiovascular surgeon to design
 Cameron is currently pursuing his Graduate degree in Computer Science with a focus in Data Science and Data Engineering from the University of Colorado Boulder.
 He has worked on a variety of machine learning and data science projects with both large and small companies.
 
-Cameron is naturally curious about the biomedical world: there are questions abound, but not enough answers.
-The genetics side interests him the most, particularly because it is so impactful on a large scale due to the many mechanisms contributing to the central dogma of life.
+Cameron is naturally curious about the biomedical world: questions abound, but not enough answers.
+The genetics side interests him the most, particularly because of its outsized impact across so many mechanisms of biology.
 He seeks to find interesting patterns and create useful machine learning algorithms, while growing in these areas and adapting to new challenges.
 
 Aside from these projects, Cameron enjoys trail running, snowboarding, scuba diving, and a wide variety of challenging DIY projects.
