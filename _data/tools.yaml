@@ -2,14 +2,14 @@
   group: featured
   image: https://raw.githubusercontent.com/cytomining/pycytominer/master/logo/just-icon.png
   link: https://github.com/cytomining/pycytominer
-  description: Python package for processing image-based profiling readouts
+  description: Python package for reproducible processing of image-based profiling data, published in Nature Methods (2025)
   repo: cytomining/pycytominer
 
 - name: CytoTable
   group: featured
   image: https://raw.githubusercontent.com/cytomining/cytotable/master/logo/just-icon.png
   link: https://github.com/cytomining/cytotable
-  description: Python package for enabling single-cell microscopy analysis
+  description: Python package for harmonizing and converting large-scale single-cell microscopy data into analysis-ready formats
   repo: cytomining/cytotable
 
 - name: coSMicQC
@@ -30,12 +30,12 @@
   group: more
   image: https://raw.githubusercontent.com/greenelab/BioBombe/master/docs/favicon-192x192.png
   link: https://greenelab.github.io/BioBombe/
-  description: Maximize biological representations with unsupervised ensembles across different latent space dimensionalities
+  description: Compresses gene expression data across latent space dimensionalities to learn complementary biological representations
   repo: greenelab/biobombe
 
 - name: LINCS Cell Painting
   group: more
   image: https://raw.githubusercontent.com/broadinstitute/lincs-cell-painting/master/profiles/media/cytominer_workflow.png
   link: https://github.com/broadinstitute/lincs-cell-painting
-  description: Version-controlled Cell Painting profile data from >10,000 compound perturbations
+  description: Version-controlled Cell Painting profiles from >10,000 compound perturbations (Broad Institute resource)
   repo: broadinstitute/lincs-cell-painting
