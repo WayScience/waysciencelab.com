@@ -1,37 +1,155 @@
 # GENERATED AUTOMATICALLY, DO NOT EDIT
 
-- id: https://arxiv.org/abs/2508.05800
+- id: 10.1038/s44320-026-00197-7
   title: Progress and new challenges in image-based profiling
   authors:
   - Erik Serrano
   - John Peters
   - Jesko Wagner
-  - Rebecca E. Graham
+  - Rebecca E Graham
   - Zhenghao Chen
-  - Brian Feng
+  - Brian Y Feng
   - Gisele Miranda
-  - Alexandr A. Kalinin
+  - Alexandr A Kalinin
   - Loan Vulliard
   - Jenna Tomkinson
   - Cameron Mattson
-  - Michael J. Lippincott
+  - Michael J Lippincott
   - Ziqi Kang
   - Divya Sitani
   - Dave Bunten
   - Srijit Seal
-  - Neil O. Carragher
-  - Anne E. Carpenter
+  - Neil O Carragher
+  - Anne E Carpenter
   - Shantanu Singh
-  - Paula A. Marin Zapata
-  - Juan C. Caicedo
-  - Gregory P. Way
-  publisher: arXiv
-  date: '2025-08-07'
-  link: http://arxiv.org/abs/2508.05800
-  image: https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-one-color-white.svg
+  - Paula A Marin Zapata
+  - Juan C Caicedo
+  - Gregory P Way
+  publisher: Molecular Systems Biology
+  date: '2026-03-27'
+  link: https://doi.org/hbxfz5
   tags:
   - image-based profiling
   - review
+- id: 10.64898/2026.04.15.718737
+  title: Single-cell hit calling in high-content imaging screens with Buscar
+  authors:
+  - Erik Serrano
+  - Wei-shan Li
+  - Gregory Way
+  publisher: openRxiv
+  date: '2026-04-19'
+  link: https://doi.org/hb35zs
+  tags:
+  - software
+  - hit calling
+  - high-content screening
+  - single-cell
+- id: 10.1101/2025.11.14.688518
+  title: Characterizing the landscape of gene process dependencies in cancer
+  authors:
+  - Julia B. Curd
+  - Gregory P. Way
+  publisher: openRxiv
+  date: '2025-11-16'
+  link: https://doi.org/hb35zt
+  tags:
+  - cancer
+  - gene dependencies
+  - CRISPR
+  extra-links:
+  - type: source
+    link: https://github.com/WayScience/gene_dependency_representations
+    text: Analysis code
+- id: 10.1101/2025.10.23.684203
+  title: High-content live-cell time-lapse imaging predicts cells about to die via
+    apoptosis
+  authors:
+  - Michael J. Lippincott
+  - Jenna Tomkinson
+  - Ibrahim Bilem
+  - Mahomi Suzuki
+  - Akiko Nakde
+  - Toshiaki Endou
+  - Simon Mathien
+  - Felix Lavoie-Perusse
+  - "Carla Basualto-Alarc\xF3n"
+  - Gregory P. Way
+  publisher: openRxiv
+  date: '2025-10-24'
+  link: https://doi.org/hb35zv
+  tags:
+  - live-cell imaging
+  - apoptosis
+  - cell death
+  - time-lapse
+- id: 10.1101/2025.10.14.682427
+  title: Stellar quality control for single-cell image-based profiling with coSMicQC
+  authors:
+  - Jenna Tomkinson
+  - Dave Bunten
+  - Gregory P. Way
+  publisher: openRxiv
+  date: '2025-10-15'
+  link: https://doi.org/hb35zw
+  tags:
+  - software
+  - quality control
+  - single-cell
+  - image-based profiling
+  extra-links:
+  - type: source
+    link: https://github.com/WayScience/coSMicQC
+    text: GitHub
+- id: 10.1016/j.patter.2026.101514
+  title: Scalable data harmonization for single-cell image-based profiling with CytoTable
+  authors:
+  - Dave Bunten
+  - Jenna Tomkinson
+  - Erik Serrano
+  - Michael J. Lippincott
+  - Kenneth I. Brewer
+  - Vince Rubinetti
+  - Faisal Alquaddoomi
+  - Gregory P. Way
+  publisher: Patterns
+  date: '2026-05-01'
+  link: https://doi.org/hbvg3p
+  image: https://raw.githubusercontent.com/cytomining/cytotable/master/logo/just-icon.png
+  tags:
+  - software
+  - image-based profiling
+  - single-cell
+  - data harmonization
+  extra-links:
+  - type: source
+    link: https://github.com/cytomining/CytoTable
+    text: GitHub
+- id: 10.1038/s41467-025-61547-x
+  title: Combining phenomics with transcriptomics reveals cell-type-specific morphological
+    and molecular signatures of the 22q11.2 deletion
+  authors:
+  - Matthew Tegtmeyer
+  - Dhara Liyanage
+  - Yu Han
+  - Kathryn B. Hebert
+  - Ruifan Pei
+  - Gregory P. Way
+  - Pearl V. Ryder
+  - Derek Hawes
+  - Callum Tromans-Coia
+  - Beth A. Cimini
+  - Anne E. Carpenter
+  - Shantanu Singh
+  - Ralda Nehme
+  publisher: Nature Communications
+  date: '2025-07-09'
+  link: https://doi.org/hb35zx
+  tags:
+  - cell morphology
+  - transcriptomics
+  - 22q11.2
+  - phenotyping
 - id: 10.1161/CIRCULATIONAHA.124.071956
   title: Cell Painting and Machine Learning Distinguish Fibroblasts From Nonfailing
     and Failing Human Hearts
@@ -305,34 +423,7 @@
   - cell painting
   - data integration
   - cell morphology
-- id: 10.1101/2024.04.01.587631
-  title: A versatile information retrieval framework for evaluating profile strength
-    and similarity
-  authors:
-  - Alexandr A. Kalinin
-  - John Arevalo
-  - Loan Vulliard
-  - Erik Serrano
-  - Hillary Tsang
-  - Michael Bornholdt
-  - Bartek Rajwa
-  - Anne E. Carpenter
-  - Gregory P. Way
-  - Shantanu Singh
-  publisher: Cold Spring Harbor Laboratory
-  date: '2024-04-02'
-  link: https://doi.org/gtrgrj
-  image: https://www.biorxiv.org/content/biorxiv/early/2024/04/02/2024.04.01.587631/F1.large.jpg
-  tags:
-  - drug screening metric
-  - software
-  - profiling
-  extra-links:
-  - type: source
-    link: https://github.com/cytomining/copairs
-    text: Software
-- &id001
-  id: 10.7554/eLife.91362
+- id: 10.7554/eLife.91362
   title: High-content microscopy reveals a morphological signature of bortezomib resistance
   authors:
   - Megan E Kelley
@@ -398,46 +489,32 @@
   - cell painting
   - cell morphology
   - assay
-- id: https://arxiv.org/abs/2311.13417
-  title: Reproducible image-based profiling with Pycytominer
+- id: 10.1101/2023.11.01.565179
+  title: Molecular subtypes of high-grade serous ovarian cancer across racial groups
+    and gene expression platforms
   authors:
-  - Erik Serrano
-  - Srinivas Niranj Chandrasekaran
-  - Dave Bunten
-  - Kenneth I. Brewer
-  - Jenna Tomkinson
-  - Roshan Kern
-  - Michael Bornholdt
-  - Stephen Fleming
-  - Ruifan Pei
-  - John Arevalo
-  - Hillary Tsang
-  - Vincent Rubinetti
-  - Callum Tromans-Coia
-  - Tim Becker
-  - Erin Weisbart
-  - Charlotte Bunne
-  - Alexandr A. Kalinin
-  - Rebecca Senft
-  - Stephen J. Taylor
-  - Nasim Jamali
-  - Adeniyi Adeboye
-  - Hamdah Shafqat Abbasi
-  - Allen Goodman
-  - Juan C. Caicedo
-  - Anne E. Carpenter
-  - Beth A. Cimini
-  - Shantanu Singh
+  - Natalie R. Davidson
+  - Mollie E. Barnard
+  - Ariel A. Hippen
+  - Amy Campbell
+  - Courtney E. Johnson
   - Gregory P. Way
-  publisher: arXiv
-  date: '2023-11-22'
-  link: http://arxiv.org/abs/2311.13417
-  image: https://raw.githubusercontent.com/cytomining/pycytominer/main/logo/just-icon.png
-  repo: https://github.com/cytomining/pycytominer
+  - Brian K. Dalley
+  - Andrew Berchuck
+  - Lucas A. Salas
+  - Lauren C. Peres
+  - Jeffrey R. Marks
+  - Joellen M. Schildkraut
+  - Casey S. Greene
+  - Jennifer A. Doherty
+  publisher: openRxiv
+  date: '2023-11-04'
+  link: https://doi.org/gs3vwj
   tags:
-  - software
-  - cell morphology
-- *id001
+  - ovarian cancer
+  - molecular subtypes
+  - racial disparities
+  - genomics
 - id: doi:10.1016/j.xgen.2023.100340
   title: 'OpenPBTA: The Open Pediatric Brain Tumor Atlas'
   authors:
@@ -801,7 +878,7 @@
   publisher: Blood Advances
   date: '2019-11-12'
   link: https://doi.org/gg7m56
-  image: https://ash.silverchair-cdn.com/ash/content_public/journal/bloodadvances/3/21/10.1182_bloodadvances.2019000303/6/advancesadv2019000303absf1.png?Expires=1632888317&Signature=gyxBCxLAJuFoJyUnY-Re3Tx7FjQJW3eGp8O5R58Nf9ivPWiKomDxz198mYlFFrCs6t-gu0ROAi9Ka4pdaBM5iltSUr~Ert9N85mYKB3NdQ9VHUXLAb-~4igHfF~azabT~UGLx2g44C3qP3RGw1X45kCm-wcOkGLwppiFdBeO-kB-llMFDPHIUtWz4KCeWPqUyDKKtCyr8A~Ke3pIxXQOMcUNhsBemAiGkbrfaRV2U08OjswvQYVkzacGGVAr7uNwBBiiaTD3EXLYw4JijMZi3bkYcNe5e9zFW2aPQifNun-76wWa4cDmI4XUqi1VOFPATlMdNXbI5JNMkRwyAESfqA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
+  image: https://ash.silverchair-cdn.com/ash/content_public/journal/bloodadvances/3/21/10.1182_bloodadvances.2019000303/6/advancesadv2019000303absf1.png?Expires=1632888317&Signature=gyxBCxLAJuFoJyUnY-Re3Tx7FjQJW3eGp8O5R58Nf9ivPWiKomDxz198mYlFFrCs6t-gu0ROAi9Ka4pdaBM5iltSUr~Ert9N85mYKB3NdQ9VHUXLAb-~4igHfF~azabT~UGLx2g44C3qP3RGw1X45kCm-wcOkGLwppiFdBeO-kB-llMFDPHIUtWz4JijMZi3bkYcNe5e9zFW2aPQifNun-76wWa4cDmI4XUqi1VOFPATlMdNXbI5JNMkRwyAESfqA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
   repo: greenelab/multiple-myeloma-classifier
   extra-links:
   - type: data
