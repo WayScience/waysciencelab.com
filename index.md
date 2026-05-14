@@ -4,12 +4,9 @@ title: Home
 
 Welcome to the Way Lab at [The University of Colorado Anschutz](https://www.cuanschutz.edu/)!
 
-The mission of our lab is to reduce human suffering.
-We develop new computational methods and software for analyzing microscopy images of cells.
-With our collaborators around the world, we develop innovative assays and approaches for making sense of high-content microscopy.
-We focus on pediatric diseases, including pediatric cancer and Neurofibromatosis Type 1 (NF1), and we also have applications in discovering new treatments for cardiac fibrosis.
+Our mission is to reduce human suffering through biomedical data science. We build computational methods and open source software to analyze high-content microscopy images of cells, and we partner with collaborators worldwide to develop innovative assays and approaches for extracting biological meaning from these images. Our disease focus spans pediatric cancer, Neurofibromatosis Type 1 (NF1), and cardiac fibrosis.
 
-We also perform open science, making all of our work immediately open for anyone to use and build upon.
+We practice open science — all of our code, data, and analyses are immediately available for anyone to use and build upon.
 
 {%
   include link.html
