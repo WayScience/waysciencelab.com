@@ -18,12 +18,23 @@ Aurora, CO 80045
 
 Email: gregory.way@cuanschutz.edu
 
+{% capture col1 %}
 {%
   include figure.html
   image="images/contact_ahs.jpg"
   caption="Anschutz Health Sciences Building"
-  width="400px"
 %}
+{% endcapture %}
+
+{% capture col2 %}
+{%
+  include figure.html
+  image="images/contact_lab.jpg"
+  caption="The Way Lab"
+%}
+{% endcapture %}
+
+{% include two-col.html col1=col1 col2=col2 %}
 
 {%
   include link.html
