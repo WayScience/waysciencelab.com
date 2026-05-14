@@ -31,6 +31,7 @@
   tags:
   - image-based profiling
   - review
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs44320-026-00197-7/MediaObjects/44320_2026_197_Fig1_HTML.png?as=webp
 - id: 10.64898/2026.04.15.718737
   title: Single-cell hit calling in high-content imaging screens with Buscar
   authors:
@@ -45,6 +46,11 @@
   - hit calling
   - high-content screening
   - single-cell
+  image: https://raw.githubusercontent.com/WayScience/buscar/main/logo/just-icon.png
+  extra-links:
+  - type: source
+    link: https://github.com/WayScience/Buscar
+    text: GitHub
 - id: 10.1101/2025.11.14.688518
   title: Characterizing the landscape of gene process dependencies in cancer
   authors:
@@ -101,6 +107,7 @@
   - type: source
     link: https://github.com/WayScience/coSMicQC
     text: GitHub
+  image: https://raw.githubusercontent.com/cytomining/cosmicqc/main/media/logo/just-icon.png
 - id: 10.1016/j.patter.2026.101514
   title: Scalable data harmonization for single-cell image-based profiling with CytoTable
   authors:
