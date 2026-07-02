@@ -12,7 +12,7 @@ aliases:
 links:
   email: julia.curd@cuanschutz.edu
   github: JaceyBronte
-group: active
+group: alum
 ---
 
 Jacey graduated with B.S. degrees in Computer Science and Biology from Duke University, where she worked in Dr. Raluca Gordan’s lab on CRISPR and MutS.
@@ -21,3 +21,4 @@ In her senior thesis, she focused on the DNA binding specificity of MutS, the pr
 Jacey joined the Way Lab in July 2024, and is passionate about pediatric oncology research, with a focus on computational methods. 
 
 Outside of the lab, Jacey enjoys ballet, salsa, and line dancing, and also helps mentor a FIRST robotics team.
+Jacey is now pursuing her PhD at St Jude.

@@ -15,7 +15,7 @@ links:
   email: erik.serrano@cuanschutz.com
   github: axiomcura
   twitter: axiomcura
-group: active
+group: alum
 ---
 
 Erik Serrano is a Computational Bioscience (CPBS) PhD student at the University of Colorado, Anschutz Medical Campus (CU-AMC).
@@ -30,3 +30,5 @@ In addition, he also developed computational methods using gene expression data 
 In his free time, Erik likes to learn different romance languages and its origins.
 He is fluent in Spanish and is currently learning Brazilian Portuguese, which will become his third language.
 Aside from learning different languages, Erik also enjoys tech, music, reading, hiking, camping, long boarding, running, weight lifting and dancing.
+
+Erik is now pursuing a Post doc in image-based profiling.
