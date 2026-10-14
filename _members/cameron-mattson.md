@@ -12,7 +12,7 @@ aliases:
 links:
   email: cameron.mattson@cuanschutz.edu
   github: https://github.com/MattsonCam
-group: active
+group: alum
 ---
 
 Cameron graduated with his B.S. in Bioengineering at the University of Colorado, where he implemented and developed physiological models.
